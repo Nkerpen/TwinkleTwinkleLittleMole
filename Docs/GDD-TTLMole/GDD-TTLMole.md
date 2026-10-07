@@ -67,15 +67,14 @@
 
 ##  6. Referências
 
-*   GAMEDESIGNERX. Game design document: template, examples, and GDD guide. Disponível em: https://gamedesignerx.com/blog/game-design-document. Acesso em: 17 ago. 2026.[cite: 2]
-*   GENERALIST PROGRAMMER. How to write a game design document (GDD) that you will actually use (2026). Disponível em: https://generalistprogrammer.com/tutorials/how-to-write-a-game-design-document. Acesso em: 17 ago. 2026.[cite: 2]
-*   LIBRANDE, Stone. One-page designs. Palestra, Game Developers Conference (GDC), 2010. Disponível em: https://www.gdcvault.com. Acesso em: 17 ago. 2026.[cite: 2]
-*   VALZ. How to write a game design document for your studio. Disponível em: https://valz.com/blog/game-design-document. Acesso em: 17 ago. 2026.[cite: 2]
-*   WHIMSY GAMES. Game design document guide: structure, templates, examples. Disponível em: https://whimsygames.co/blog/game-design-instructions-examples/. Acesso em: 17 ago. 2026.[cite: 2]
+*   GAMEDESIGNERX. Game design document: template, examples, and GDD guide. Disponível em: https://gamedesignerx.com/blog/game-design-document. Acesso em: 17 ago. 2026.
+*   GENERALIST PROGRAMMER. How to write a game design document (GDD) that you will actually use (2026). Disponível em: https://generalistprogrammer.com/tutorials/how-to-write-a-game-design-document. Acesso em: 17 ago. 2026.
+*   LIBRANDE, Stone. One-page designs. Palestra, Game Developers Conference (GDC), 2010. Disponível em: https://www.gdcvault.com. Acesso em: 17 ago. 2026.
+*   VALZ. How to write a game design document for your studio. Disponível em: https://valz.com/blog/game-design-document. Acesso em: 17 ago. 2026.
+*   WHIMSY GAMES. Game design document guide: structure, templates, examples. Disponível em: https://whimsygames.co/blog/game-design-instructions-examples/. Acesso em: 17 ago. 2026.
 
 ---
 
 ##  7. Links Úteis e ChangeLog
-*   Link para o Miro: `[Miro](url-aqui)`
-*   Link para o HacknPlan: `[HacknPlan](url-aqui)`
+*   Link para o Miro: [Miro](https://miro.com/app/board/uXjVH0oqiZM=/?share_link_id=276353536082)
 *   **Última atualização (Changelog):** [Data] - [O que mudou brevemente. Ex: Adicionado core loop e concept de arte].

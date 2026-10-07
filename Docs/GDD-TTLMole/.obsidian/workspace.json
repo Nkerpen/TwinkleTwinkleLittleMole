@@ -185,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 297.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,7 +199,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f55981f85c731417",
+  "active": "b275f21feb9c1a58",
   "lastOpenFiles": [
     "GuiaObsidian.md",
     "GDD-TTLMole.md",
