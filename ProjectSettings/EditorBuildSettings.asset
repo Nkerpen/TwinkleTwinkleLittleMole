@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/TempleScene.unity
+    guid: d8424247aa559864282e2f89125c980a
+  - enabled: 1
+    path: Assets/Scenes/F-AguaScene.unity
+    guid: 93f266f39a2cf80468915940c8ac7132
+  - enabled: 1
+    path: Assets/Scenes/F-FogoScene.unity
+    guid: 5759a531b7a0d2f4ea23d8a391d17da1
+  - enabled: 1
+    path: Assets/Scenes/F-TerraScene.unity
+    guid: 880a2ea0b11563341a5cb2ddf1f18e7e
+  - enabled: 1
+    path: Assets/Scenes/F-VentoScene.unity
+    guid: 4d19bec644ffcab429d33777503c9d46
+  - enabled: 1
     path: Assets/Scenes/DebugScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:
