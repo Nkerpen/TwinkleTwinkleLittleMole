@@ -6,7 +6,7 @@
 
 ##  1. Visão Geral e Propósito
 
-*   **O que é o jogo:** (Elevator Pitch: Uma frase que resume a proposta central do jogo).
+*   **O que é o jogo:** pipipipopopo pupupu
 *   **Para quem é (Público-alvo):** (Ex: Jogadores casuais de celular, fãs de estratégia hardcore, etc).
 *   **Gênero e Plataforma:** (Ex: Plataforma 2D para PC).
 
