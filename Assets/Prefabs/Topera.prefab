@@ -109,13 +109,13 @@ MonoBehaviour:
   moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   jumpAction: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   moveSpeed: 8
-  jumpForce: 8
-  maxFallSpeed: 20
-  fallGravityMultiplier: 3
+  jumpForce: 9
+  maxFallSpeed: 9
+  fallGravityMultiplier: 1
   apexVelocityThreshold: 2
-  apexGravityMultiplier: 0.5
+  apexGravityMultiplier: 2
   groundCheck: {fileID: 7702500425574447879}
-  groundCheckRadius: 0.3
+  groundCheckRadius: 0.25
   groundLayer:
     serializedVersion: 2
     m_Bits: 512
