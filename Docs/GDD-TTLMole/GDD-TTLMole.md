@@ -20,11 +20,11 @@
 ##  2. Core Loop
 *O que o jogador faz, repetidamente, que torna o jogo divertido.*
 
-![[Pasted image 20261013165317.png]]
+
 
 *   **Descrição do Loop:** (Ex: Explorar o mapa -> Coletar recursos -> Melhorar a base -> Repetir).
 *   **Justificativa:** (Como as mecânicas listadas abaixo servem a esse core loop).
-
+![[WhatsApp Image 2026-10-13 at 16.41.41.jpeg]]
 **![[Inserir_Diagrama_do_Core_Loop_Aqui.png]]** 
 *(Nota: Arraste para cá o diagrama ou fluxograma visual do core loop)*
 
