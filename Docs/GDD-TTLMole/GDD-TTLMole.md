@@ -66,12 +66,7 @@
 ---
 
 ##  6. Referências
-
-*   GAMEDESIGNERX. Game design document: template, examples, and GDD guide. Disponível em: https://gamedesignerx.com/blog/game-design-document. Acesso em: 17 ago. 2026.
-*   GENERALIST PROGRAMMER. How to write a game design document (GDD) that you will actually use (2026). Disponível em: https://generalistprogrammer.com/tutorials/how-to-write-a-game-design-document. Acesso em: 17 ago. 2026.
-*   LIBRANDE, Stone. One-page designs. Palestra, Game Developers Conference (GDC), 2010. Disponível em: https://www.gdcvault.com. Acesso em: 17 ago. 2026.
-*   VALZ. How to write a game design document for your studio. Disponível em: https://valz.com/blog/game-design-document. Acesso em: 17 ago. 2026.
-*   WHIMSY GAMES. Game design document guide: structure, templates, examples. Disponível em: https://whimsygames.co/blog/game-design-instructions-examples/. Acesso em: 17 ago. 2026.
+	* Aqui coloca as referências
 
 ---
 
