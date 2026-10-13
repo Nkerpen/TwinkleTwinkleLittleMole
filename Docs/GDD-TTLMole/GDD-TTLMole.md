@@ -6,32 +6,26 @@
 
 ##  1. Visão Geral e Propósito
 
-
-
-Nome : twinkle twinkle little mole
-
-  
+*Nome : twinkle twinkle little mole
 
 grupo: Nicolas Kerpen ,Beatriz Oliveira, Gabriel Gouveia 
 
-  
-
 Plataforma: pc
 
-  
-
-Gênero : plataforma 2D, aventura, collectathon
 
 
-
-*   **O que é o jogo:** (Elevator Pitch: Uma frase que resume a proposta central do jogo).
-*   **Para quem é (Público-alvo):** (Ex: Jogadores casuais de celular, fãs de estratégia hardcore, etc).
-*   **Gênero e Plataforma:** (Ex: Plataforma 2D para PC).
+*   **O que é o jogo:**   collectathon com fases não lineares que controla 2 personagens,
+ tudo começa quando uma  toupeira entra em um templo subterrâneo buscando por comida lá ela encontra um chapéu de mago falante que convence ela a acordar os grandes espíritos  graças ao chapel ela ganha a grande habilidade de afetar as pinturas
+ 
+*   **Para quem é (Público-alvo):** +12 até 24 anos
+*   **Gênero e Plataforma: Plataforma 2D para PC , aventura, collectathon
 
 ---
 
 ##  2. Core Loop
 *O que o jogador faz, repetidamente, que torna o jogo divertido.*
+
+![[Pasted image 20261013165317.png]]
 
 *   **Descrição do Loop:** (Ex: Explorar o mapa -> Coletar recursos -> Melhorar a base -> Repetir).
 *   **Justificativa:** (Como as mecânicas listadas abaixo servem a esse core loop).
