@@ -6,6 +6,24 @@
 
 ##  1. Visão Geral e Propósito
 
+
+
+Nome : twinkle twinkle little mole
+
+  
+
+grupo: Nicolas Kerpen ,Beatriz Oliveira, Gabriel Gouveia 
+
+  
+
+Plataforma: pc
+
+  
+
+Gênero : plataforma 2D, aventura, collectathon
+
+
+
 *   **O que é o jogo:** (Elevator Pitch: Uma frase que resume a proposta central do jogo).
 *   **Para quem é (Público-alvo):** (Ex: Jogadores casuais de celular, fãs de estratégia hardcore, etc).
 *   **Gênero e Plataforma:** (Ex: Plataforma 2D para PC).
