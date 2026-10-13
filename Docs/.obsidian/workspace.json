@@ -11,10 +11,14 @@
             "id": "f0bc3c93741f9f00",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "GDD-TTLMole/GDD-TTLMole.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "GDD-TTLMole"
             }
           }
         ]
@@ -95,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "GDD-TTLMole/GDD-TTLMole.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "GDD-TTLMole/GDD-TTLMole.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -155,6 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "GDD-TTLMole/GDD-TTLMole.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -181,6 +188,9 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "f0bc3c93741f9f00",
-  "lastOpenFiles": []
+  "active": "1ecbc147bfae2cab",
+  "lastOpenFiles": [
+    "GDD-TTLMole/Imagens/WhatsApp Image 2026-10-13 at 16.41.41.jpeg",
+    "GDD-TTLMole/GDD-TTLMole.md"
+  ]
 }
