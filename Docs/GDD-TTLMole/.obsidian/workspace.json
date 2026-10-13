@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d6dd5417f075bad0",
+        "id": "5f2e53b22a3e0c7e",
         "type": "tabs",
         "children": [
           {
-            "id": "e102ada3859b951d",
+            "id": "8ea41795a97249d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -213,10 +213,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e102ada3859b951d",
+  "active": "6f9d2f4ff779616c",
   "lastOpenFiles": [
-    "GuiaObsidian.md",
+    "Sem título",
+    "Imagens/Pasted image 20261013171454.png",
     "GDD-TTLMole.md",
+    "GuiaObsidian.md",
+    "Sem título.base",
     "Imagens",
     "Nova pasta"
   ]
