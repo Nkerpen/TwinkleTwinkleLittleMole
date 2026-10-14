@@ -94,7 +94,7 @@ A ornamentação dos templos também estará relacionada aos padrões geométric
 
 Com isso a proposta do jogo seria busca conectar os Grandes Espíritos aos ambientes em que estão inseridos. Tendo suas formas e os padrões de cada Grandes Espíritos aplicada no mundo ao seu redor reforçando a identidade visual do jogo.
 
-**Personagems:
+**Personagens:
 
 A criação dos personagens teve como inspiração a arte dos alebrijes, que transforma animais em criaturas fantásticas por meio de padrões, formas e ornamentações e 
 
@@ -117,7 +117,7 @@ Então para explicar melhor a construção podemos vela assim:
 Animal → Simplificação da silhueta com formas geométricas → Aplicação de padrões que representam sua identidade espiritual → Detalhamento final, com elementos que reforçam suas características ou a aplicação da pedra específica de cada espírito.
 
 
-Buscando desenvolver uma identidade visual própria, no  entanto o design dos personagens apresentará semelhanças estéticas com algumas representações artísticas mesoamericanas, principalmente das culturas maia e asteca, sem reproduzi-las diretamente.
+Buscando desenvolver uma identidade visual própria os personagens apresentam  semelhanças estéticas com algumas representações artísticas mesoamericanas, principalmente das culturas maia e asteca, embora elas não tenham sido utilizadas como referência direta para sua criação.
 
 
 
@@ -143,7 +143,7 @@ Habilidade de Fogo:
 ![[MokcupsFogo1 1.png]]
 
 ![[mokcups2Fogo.png]]
-soco poderoso pode quebra pedras assim se destruir algo na pintura pode ajudar a toupeira do mundo real
+soco poderoso pode quebra pedras assim se destruir algo na pintura pode ajudar a toupeira do mundo real ex : derruba um pilar
 
 Habilidade da terra:
 ![[MockupsTerra 1.png]]
@@ -151,11 +151,14 @@ Habilidade da terra:
 ###  Próximos Passos (Em Aberto)
 
 parte de arte:
-Criar tilemap das pedras que ficam no chão e em cima teriam 3 variações que são:
-14 entalhadas 14 simples sem entalhes de símbolos  mais uma variação sem detalhes de limo ou corrosão ou lava que seria 14 , dando todo 42 peças pro tilemap de cada fase Elemental.
-(chão e telhado serão os mesmos tiles pra todas as fases).
 
-Animação do player e mini topeira sendo .
+
+Montar o tilemap das pedras utilizadas no chão e no topo das estruturas, com três variações de 14 peças cada: pedras entalhadas com símbolos, pedras simples sem entalhes e pedras com detalhes de limo, corrosão ou lava, totalizando 42 peças para o tilemap de cada fase elemental.
+
+(Os tiles de chão e telhado serão compartilhados entre todas as fases. Para finalizar as peças, falta apenas aplicar as cores.)
+
+Animação do player e mini toupeira.
+
 1 coletável simples
 
 - [ ] Design final do inimigo principal.
