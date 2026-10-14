@@ -68,13 +68,14 @@
 
 ###  Estilo e Conceitos Decididos
 - [ ] Estilo visual principal.
+
 **Cenarios:
 Para a construção dos cenários do jogo foram escolhidos templos como inspiração para cada território. A escolha levou em conta as características de cada elemento e as necessidades de construção de cada fase. Como principal referência para a flora será utilizada a ilha de Yakushima. Ela possui árvores milenares de grande porte e uma vegetação que varia de subtropical a temperada conforme a altitude. Essa característica ajuda a construir uma lógica natural para a diversidade de ambientes do mundo do jogo.
 
 Um dos principais exemplos é o templo Ta Prohm, que parece estar sendo engolido pela natureza com suas arvores gigantes mescladas nas suas ruinas sem destruilo. Ele serve como referência para o território do elemento terra, sua intenção não é representar apenas a terra mas também sua vitalidade e a força da natureza.
 
 ![[TerraPuzlle(Simples0).png|475]]
-Mokup criado pela artista Beatriz
+mockup criado pela artista Beatriz
 
 **Hambientação:
 Para a ambientação dos templos será utilizada como referência a animação O Segredo de Kells. 
@@ -125,7 +126,7 @@ Buscando desenvolver uma identidade visual própria, no  entanto o design dos pe
 proporção de tela padrão HD 1920x1080
 
 ![[aguaPuzlle(Simples).png]]
-Mokup criado pela artista Beatriz
+mockup criado pela artista Beatriz
 
 
 ###  Próximos Passos (Em Aberto)
