@@ -11,12 +11,14 @@
             "id": "f0bc3c93741f9f00",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "GDD-TTLMole/Imagens/Pasted image 20261013171454.png"
+                "file": "GDD-TTLMole/GDD-TTLMole.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20261013171454"
+              "icon": "lucide-file",
+              "title": "GDD-TTLMole"
             }
           }
         ]
@@ -186,11 +188,18 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "1ecbc147bfae2cab",
+  "active": "f0bc3c93741f9f00",
   "lastOpenFiles": [
-    "GDD-TTLMole/Imagens/WhatsApp Image 2026-10-13 at 16.41.41.jpeg",
-    "GDD-TTLMole/Imagens/Pasted image 20261013171454.png",
+    "GDD-TTLMole/Imagens/TerraPuzlle(Simples0).png",
+    "GDD-TTLMole/Imagens/TerraPuzlle(Simples).png",
+    "GDD-TTLMole/Imagens/board2.png",
+    "GDD-TTLMole/Imagens/Sin título 1.png",
+    "GDD-TTLMole/Imagens/Sin título(1).png",
+    "GDD-TTLMole/Imagens/Sin título.png",
+    "GDD-TTLMole/Imagens/aguaPuzlle(Simples).png",
+    "GDD-TTLMole/GuiaObsidian.md",
     "GDD-TTLMole/GDD-TTLMole.md",
-    "GDD-TTLMole/GuiaObsidian.md"
+    "GDD-TTLMole/Imagens/Pasted image 20261013171454.png",
+    "GDD-TTLMole/Imagens/WhatsApp Image 2026-10-13 at 16.41.41.jpeg"
   ]
 }
