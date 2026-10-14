@@ -167,16 +167,17 @@ Animação do player e mini toupeira.
 ---
 
 ##  6. Referências
-	* Aqui coloca as referências
+
+*link de imagens retiradas para os moodbooard 1:
+ https://www.jacoboymariaangeles.com/en/hermanos-de-la-tierra
+link de imagens retiradas para os moodbooard  2:
+  https://www.behance.net/gallery/115062845/Vector-Animals
+ https://www.joscott.co.za/digital-art
 
 ---
 
 ##  7. Links Úteis e ChangeLog
 *   Link para o Miro: [Miro](https://miro.com/app/board/uXjVH0oqiZM=/?share_link_id=276353536082)
 *   **Última atualização (Changelog):** [Data] - [O que mudou brevemente. Ex: Adicionado core loop e concept de arte].
-* link de imagens retiradas para os moodbooard 1:
-* https://www.jacoboymariaangeles.com/en/hermanos-de-la-tierra
-* ink de imagens retiradas para os moodbooard  2:
-  https://www.behance.net/gallery/115062845/Vector-Animals
-* https://www.joscott.co.za/digital-art
+*
 
