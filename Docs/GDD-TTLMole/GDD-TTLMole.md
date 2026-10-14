@@ -129,6 +129,21 @@ proporção de tela padrão HD 1920x1080
 mockup criado pela artista Beatriz
 
 
+
+Habilidade água:![[MokupHabilidadeagua 1.png]]
+![[MokupHabilidadeagua2.png|344]]
+
+
+
+Habilidade de Fogo:
+![[MokcupsFogo1 1.png]]
+
+![[mokcups2Fogo.png]]
+soco poderoso pode quebra pedras assim se destruir algo na pintura pode ajudar a toupeira do mundo real
+
+Habilidade da terra:
+![[MockupsTerra 1.png]]
+
 ###  Próximos Passos (Em Aberto)
 - [ ] Design final do inimigo principal.
 - [ ] Interface (UI) in-game.
