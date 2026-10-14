@@ -74,6 +74,10 @@ Para a construção dos cenários do jogo foram escolhidos templos como inspira�
 
 Um dos principais exemplos é o templo Ta Prohm, que parece estar sendo engolido pela natureza com suas arvores gigantes mescladas nas suas ruinas sem destruilo. Ele serve como referência para o território do elemento terra, sua intenção não é representar apenas a terra mas também sua vitalidade e a força da natureza.
 
+![[moodbooartTerra.png|479]]
+moodbooad simples criado pela artista Beatriz
+
+
 ![[TerraPuzlle(Simples0).png|475]]
 mockup criado pela artista Beatriz
 
