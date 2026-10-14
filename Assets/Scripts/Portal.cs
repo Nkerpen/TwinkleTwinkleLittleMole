@@ -11,7 +11,6 @@ public class Portal : MonoBehaviour
     public InputActionReference interactAction;
 
     [Header("Configurações do Portal")]
-    [Tooltip("Nome exato da cena que este portal vai carregar")]
     public string sceneToLoad;
 
     [Header("Transição")]
@@ -25,7 +24,6 @@ public class Portal : MonoBehaviour
     {
         if (interactAction != null)
         {
-            // Ouve o evento de pressionar o botão
             interactAction.action.performed += OnInteractPerformed;
             interactAction.action.Enable();
         }
@@ -41,28 +39,38 @@ public class Portal : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Jogador entrou na área do portal
+        // 1º Ponto de checagem: Algo encostou no portal?
+        Debug.Log($"[PORTAL] Objeto encostou no portal: {collision.gameObject.name} | Tag dele: {collision.tag}");
+
         if (collision.CompareTag("Player"))
         {
             isPlayerInRange = true;
+            Debug.Log("[PORTAL] Jogador reconhecido! Pode apertar o botão de interação.");
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        // Jogador saiu da área do portal
         if (collision.CompareTag("Player"))
         {
             isPlayerInRange = false;
+            Debug.Log("[PORTAL] Jogador saiu do portal.");
         }
     }
 
     private void OnInteractPerformed(InputAction.CallbackContext context)
     {
-        // Se o jogador estiver na área e não estivermos no meio de um carregamento, inicia a transição
+        // 2º Ponto de checagem: O jogo detectou o aperto do botão?
+        Debug.Log("[PORTAL] O botão de Interagir foi pressionado no teclado/controle!");
+
         if (isPlayerInRange && !isTransitioning)
         {
+            Debug.Log("[PORTAL] Condições perfeitas! Iniciando transição de cena...");
             StartCoroutine(TransitionToScene());
+        }
+        else if (!isPlayerInRange)
+        {
+            Debug.Log("[PORTAL] Botão pressionado, mas o jogador NÃO está dentro do portal.");
         }
     }
 
@@ -70,7 +78,6 @@ public class Portal : MonoBehaviour
     {
         isTransitioning = true;
 
-        // 1. Cria um Canvas e uma Imagem preta dinamicamente para o Fade
         GameObject canvasObject = new GameObject("TransitionCanvas");
         Canvas canvas = canvasObject.AddComponent<Canvas>();
         canvas.renderMode = RenderMode.ScreenSpaceOverlay;
@@ -88,7 +95,6 @@ public class Portal : MonoBehaviour
 
         DontDestroyOnLoad(canvasObject);
 
-        // 2. Faz o Fade Out
         float timer = 0f;
         while (timer < fadeDuration)
         {
@@ -100,10 +106,8 @@ public class Portal : MonoBehaviour
 
         fadeImage.color = new Color(fadeColor.r, fadeColor.g, fadeColor.b, 1f);
 
-        // 3. Carrega a nova cena
         yield return SceneManager.LoadSceneAsync(sceneToLoad);
 
-        // 4. Faz o Fade In
         timer = 0f;
         while (timer < fadeDuration)
         {
@@ -113,7 +117,6 @@ public class Portal : MonoBehaviour
             yield return null;
         }
 
-        // 5. Destrói o Canvas
         Destroy(canvasObject);
     }
 }
