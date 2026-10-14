@@ -149,6 +149,15 @@ Habilidade da terra:
 ![[MockupsTerra 1.png]]
 
 ###  Próximos Passos (Em Aberto)
+
+parte de arte:
+Criar tilemap das pedras que ficam no chão e em cima teriam 3 variações que são:
+14 entalhadas 14 simples sem entalhes de símbolos  mais uma variação sem detalhes de limo ou corrosão ou lava que seria 14 , dando todo 42 peças pro tilemap de cada fase Elemental.
+(chão e telhado serão os mesmos tiles pra todas as fases).
+
+Animação do player e mini topeira sendo .
+1 coletável simples
+
 - [ ] Design final do inimigo principal.
 - [ ] Interface (UI) in-game.
 
