@@ -107,6 +107,16 @@ private void OnJumpPerformed(InputAction.CallbackContext context)
     private void ApplyMovement()
     {
         rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y);
+        
+        // Vira o personagem (e tudo dentro dele) para a direção do movimento
+        if (horizontalInput > 0)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+        else if (horizontalInput < 0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
     }
 
     private void ApplyJumpLogic()
