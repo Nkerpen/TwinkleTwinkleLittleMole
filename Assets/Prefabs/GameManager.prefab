@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   switchAction: {fileID: 5150038968376110192, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  playerForeground: {fileID: 0}
-  playerBackground: {fileID: 0}
-  vcamForeground: {fileID: 0}
-  vcamBackground: {fileID: 0}
+  playerForeground: {fileID: 6151781529446694356, guid: 24fb4268e47c1624194fe4422b8710b1, type: 3}
+  playerBackground: {fileID: 570491332327138259, guid: d1cf12b46b88a924bbadbffb66447beb, type: 3}
+  vcamForeground: {fileID: 8286165882330436811, guid: 43ebff373fbb61d46b8ae98018338ebc, type: 3}
+  vcamBackground: {fileID: 6371684101359415391, guid: 9d156784e7adfe246b5b54401b6ad7c1, type: 3}

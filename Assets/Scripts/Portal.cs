@@ -78,6 +78,17 @@ public class Portal : MonoBehaviour
     {
         isTransitioning = true;
 
+        // 1. Tira o portal de dentro de qualquer outro objeto (DontDestroyOnLoad exige isso)
+        transform.SetParent(null);
+        
+        // 2. Impede que o Portal morra ao mudar de cena
+        DontDestroyOnLoad(gameObject);
+
+        // 3. Desativa o visual e a colisão do portal para ele ficar invisível na nova fase
+        if (TryGetComponent<SpriteRenderer>(out SpriteRenderer sr)) sr.enabled = false;
+        if (TryGetComponent<Collider2D>(out Collider2D col)) col.enabled = false;
+        // -------------------------
+
         GameObject canvasObject = new GameObject("TransitionCanvas");
         Canvas canvas = canvasObject.AddComponent<Canvas>();
         canvas.renderMode = RenderMode.ScreenSpaceOverlay;
@@ -93,8 +104,10 @@ public class Portal : MonoBehaviour
         rectTransform.anchorMax = Vector2.one;
         rectTransform.sizeDelta = Vector2.zero;
 
-        DontDestroyOnLoad(canvasObject);
+        // Faz o Canvas ser "filho" do Portal. Assim, quando destruirmos o portal no final, o Canvas some junto.
+        canvasObject.transform.SetParent(transform);
 
+        // Faz o Fade Out (Escurece)
         float timer = 0f;
         while (timer < fadeDuration)
         {
@@ -106,8 +119,10 @@ public class Portal : MonoBehaviour
 
         fadeImage.color = new Color(fadeColor.r, fadeColor.g, fadeColor.b, 1f);
 
+        // Carrega a nova cena
         yield return SceneManager.LoadSceneAsync(sceneToLoad);
 
+        // Faz o Fade In (Clareia a nova cena)
         timer = 0f;
         while (timer < fadeDuration)
         {
@@ -117,6 +132,7 @@ public class Portal : MonoBehaviour
             yield return null;
         }
 
-        Destroy(canvasObject);
+        // Destrói o Portal (o que também destrói o Canvas preto perfeitamente)
+        Destroy(gameObject);
     }
 }
