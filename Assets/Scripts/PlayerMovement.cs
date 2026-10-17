@@ -104,21 +104,19 @@ private void OnJumpPerformed(InputAction.CallbackContext context)
         }
     }
 
-    private void ApplyMovement()
+   private void ApplyMovement()
     {
         rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y);
-        
-        // Vira o personagem (e tudo dentro dele) para a direção do movimento
-        if (horizontalInput > 0)
+
+        // Vira o personagem preservando a escala original dele (seja 1 ou 0.2)
+        if (horizontalInput != 0)
         {
-            transform.localScale = new Vector3(1, 1, 1);
-        }
-        else if (horizontalInput < 0)
-        {
-            transform.localScale = new Vector3(-1, 1, 1);
+            Vector3 currentScale = transform.localScale;
+            // Mathf.Abs pega o valor positivo da escala. Mathf.Sign pega a direção (1 ou -1).
+            currentScale.x = Mathf.Abs(currentScale.x) * Mathf.Sign(horizontalInput);
+            transform.localScale = currentScale;
         }
     }
-
     private void ApplyJumpLogic()
     {
         if (jumpRequested)
