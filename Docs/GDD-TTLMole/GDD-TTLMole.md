@@ -133,7 +133,9 @@ Exemplo simplificado da fase de agua (mockup criado pela artista Beatriz)
 
 
 Habilidade água:
+essa habilidade requer sabedoria ao utiliza pois ele possui em limite de carga, pode carregar essa habilidade em fontes de agua.
 
+![[mokcupToperinha carregando00.png|218]]
 1° caracteristica
 tiro com bolhas serve para destruir coisas a distancia.
 ![[MokupHabilidadeagua 1.png]]
@@ -145,12 +147,12 @@ tiro com bolhas serve para destruir coisas a distancia.
 2° caracteristica
 é possível também utilizar a habilidade de agua para apagar armadilhas das fase do elemento fogo.
 
-![[aguahabilidade1(Simples).png]]
-
-![[aguahabilidade2(Simples).png|462]]
 
 
+![[aguahabilidade1(Simples) 1.png|700]]
 
+
+![[aguahabilidade2(Simples).png|346]]
 Habilidade de Fogo:
 1° caracteristica
 ![[MokcupsFogo1 1.png]]
