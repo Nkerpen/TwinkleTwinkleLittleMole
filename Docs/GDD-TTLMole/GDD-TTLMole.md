@@ -64,10 +64,8 @@
 ##  5. Arte, UI e Assets
 
 
-*Apresente imagens, mockups e referências visuais onde o texto sozinho não for suficiente.*
-
 ###  Estilo e Conceitos Decididos
-- [ ] Estilo visual principal.
+
 
 **Cenarios:
 Para a construção dos cenários do jogo foram escolhidos templos como inspiração para cada território. A escolha levou em conta as características de cada elemento e as necessidades de construção de cada fase. Como principal referência para a flora será utilizada a ilha de Yakushima. Ela possui árvores milenares de grande porte e uma vegetação que varia de subtropical a temperada conforme a altitude. Essa característica ajuda a construir uma lógica natural para a diversidade de ambientes do mundo do jogo.
@@ -129,25 +127,49 @@ Buscando desenvolver uma identidade visual própria os personagens apresentam  s
 
 proporção de tela padrão HD 1920x1080
 
-![[aguaPuzlle(Simples).png]]
-mockup criado pela artista Beatriz
+![[aguaPuzlle(Simples) 1.png]]
+Exemplo simplificado da fase de agua (mockup criado pela artista Beatriz)
 
 
 
-Habilidade água:![[MokupHabilidadeagua 1.png]]
-![[MokupHabilidadeagua2.png|344]]
+Habilidade água:
+essa habilidade requer sabedoria ao utiliza pois ele possui em limite de carga, pode carregar essa habilidade em fontes de agua.
+
+![[mokcupToperinha carregando00.png|218]]
+1° caracteristica
+tiro com bolhas serve para destruir coisas a distancia.
+![[MokupHabilidadeagua 1.png]]
+
+
+![[aguaPuzlle2(Simples) 1.png|475]]
+
+
+2° caracteristica
+é possível também utilizar a habilidade de agua para apagar armadilhas das fase do elemento fogo.
 
 
 
+![[aguahabilidade1(Simples) 1.png|700]]
+
+
+![[aguahabilidade2(Simples).png|346]]
 Habilidade de Fogo:
+1° caracteristica
 ![[MokcupsFogo1 1.png]]
+Refletir golpes de  inimigos  ou armadilhas .
 
+2° caracteristica
 ![[mokcups2Fogo.png]]
 soco poderoso pode quebra pedras assim se destruir algo na pintura pode ajudar a toupeira do mundo real ex : derruba um pilar
 
 Habilidade da terra:
+1° caracteristica
 ![[MockupsTerra 1.png]]
 
+
+2° caracteristica
+
+![[Terrahabilidade2(Simples).png|360]]
 ###  Próximos Passos (Em Aberto)
 
 parte de arte:
