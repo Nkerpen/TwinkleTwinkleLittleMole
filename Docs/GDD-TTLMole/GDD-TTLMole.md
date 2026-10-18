@@ -14,20 +14,49 @@
 
 *   **Para quem é (Público-alvo):** +12 até 24 anos
 *   **Gênero e Plataforma:** Plataforma 2D para PC, aventura, collectathon
+*   **Escopo do Projeto:**
+	* **Quantidade de Fases:** 4 fases e um hub interativo
+	* **NPCs:**
+		* **Chapéu:** Um misterioso companheiro que está junto do jogador desde o início, é um chapéu mágico com grandes conhecimentos arcanos e segredos de igual tamanho. Ele é misterioso, zangado e sua personalidade entra em atrito com a inocência da toupeira.
+		* ![[Pasted image 20261018085336.png|169]]
+		* **Garça Labradorita (Espírito do Ar):** O Espírito do Ar é a Garça, com o humor volátil dos céus, seja tempestuoso ou ensolarado. Ela decora seu ninho com a pedra mágica Labradorita e tende a sofrer constantes transformações que alteram sua intuição e humor. Talvez a mais poderosa dos quatro, está acima de seus irmãos comandando os ares.
+		* ![[Pasted image 20261018085034.png|171]]
+		* **Polvo Perolado (Espírito da Água):** O Espírito da Água é o Polvo. Possui grande sabedoria, tem a habilidade de se esconder dentro de conchas e pode gerar através de seus anéis azuis pérolas mágicas que simbolizam a transformação da dor em beleza.
+		* ![[Pasted image 20261018084816.png|223]]
+		* **Serpente Rubi (Espírito do Fogo):** O Espírito do Fogo é a víbora. Com tamanha paixão ardente que queima até em seu olhar, ela possui grande vitalidade, escamas fortificadas e resistentes lapidadas com pedras mágicas rubi que evidenciam sua coragem e poder. 
+		  ![[Pasted image 20261018084636.png|218]]
+		* **Lince Bismuto (Espírito da Terra):** O Espírito da Terra é o Lince, que possui uma forte conexão com a pedra bismuto, responsável pela abundância da natureza local. Com o tempo, a energia do cristal se espalhou pelo seu corpo, tornando-o a própria ordem e conexão coletiva entre a terra, arvores e rios.
+		  ![[Pasted image 20261018084459.png|181]]
 
 ---
 
-##  2. Core Loop
+##  2. Gameplay, Mecânicas e Loop
 *O que o jogador faz, repetidamente, que torna o jogo divertido.*
 
 
+- **Coreloop do jogo:**
+	*   **Descrição do Loop:** (Ex: Explorar o mapa -> Coletar recursos -> Melhorar a base -> Repetir).
 
-*   **Descrição do Loop:** (Ex: Explorar o mapa -> Coletar recursos -> Melhorar a base -> Repetir).
-*   **Justificativa:** (Como as mecânicas listadas abaixo servem a esse core loop).
 ![[WhatsApp Image 2026-10-13 at 16.41.41.jpeg]]
- 
-*(Nota: Arraste para cá o diagrama ou fluxograma visual do core loop)*
 
+- **Progressão:** O player tem um caminho claro que é seguido ao decorrer do jogo. Ao iniciar no hub central, ele tem um pequeno tutorial e suas primeiras interações com o personagem chapéu. Ali ele entenderá que sua missão é acordar os quatro espíritos adormecidos sob aquele templo, partindo assim para uma escolha entre três fases: Água, Terra e Fogo. 
+
+	- **As fases:** Cada uma delas possui uma mecânica única que será introduzida e aprofundada ao decorrer. Após utilizar dessa mecânica e atravessar os desafios e obstáculos do ambiente, o player se encontrará com o respectivo espírito e poderá acordar ele. Após isso, ele conclui a fase e volta para o hub central, onde poderá escolher a próxima.
+	
+	- **A Última fase:** Talvez a mais desafiadora, a fase do Ar é a única que obrigatoriamente é deixada para o final e não pode ser escolhida antes. A missão do player ali é acordar o espírito da garça, o mais poderoso dos outros espíritos. 
+	
+	- **As Mecânicas:** Após acordar um espírito, a toupeira desbloqueia a mecânica especial usada naquela fase, permitindo que ela a use para atravessar alguns desafios no hub e em outros ambientes. As 4 mecânicas são:
+	
+		**- Grappling Hook (Fase da Terra)**
+		**- Disparos de Projéteis (Fase da Água)**
+		**- Ataque carregado (Fase do Fogo)**
+		**- Planar (Fase do Ar)**
+	
+	- **Combate:**
+
+- **Replays e Saves:** O Hub funciona como um checkpoint. Quando entra numa fase, a toupeira possui 3 vidas. Se perder todas elas, ela perde a fase e ou precisa recomeçar do zero ou voltar para o hub. Perder uma fase apenas volta o progresso dela mesma, não reiniciando fases que você já completou. 
+
+- **Easter Eggs:** Pretendemos colocar alguns desafios em determinados levels que só podem ser completados se você já tiver desbloqueado uma habilidade específica de outra fase, com recompensas ainda não definidas.
 ---
 
 ##  3. Escopo e "Não Escopo"
@@ -60,8 +89,15 @@
 - [ ] Como será feito o save do jogo? 
 
 ---
+##  5. Histórias e Narrativas
 
-##  5. Arte, UI e Assets
+
+- **História de Fundo:** O mundo vivia em harmonia sendo governado pelos quatro espíritos centrais até que em certo momento, um poderoso feiticeiro os desafiou. Ele ansiava pelo poder dos espíritos, queria ser grande como eles. O feiticeiro estudou uma magia capaz de roubar esse poder para si. Temendo o destino do mundo, os quatro se uniram para derrotar a ameaça. O magia no entanto os enfraqueceu e como última alternativa, usaram suas maiores forças para aprisiona-lo, adormecendo no processo. Eras se passaram e a prisão do mago ficou isolada em uma ilha protegida no meio do mar, até que certo dia, uma pequena criaturinha caiu dos céus e mudou tudo.
+- **Personagem Principal:**
+	- **Background:**
+	- **Personalidade:** Inocente, manipulável, tímida e curiosa.
+	- **Aparência:** Uma pequena toupeira com nariz de estrela de coloração azulada. 
+##  6. Arte, UI e Assets
 
 
 *Apresente imagens, mockups e referências visuais onde o texto sozinho não for suficiente.*
