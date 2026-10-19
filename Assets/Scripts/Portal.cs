@@ -24,28 +24,15 @@ public class Portal : MonoBehaviour
     {
         if (interactAction != null)
         {
-            interactAction.action.performed += OnInteractPerformed;
             interactAction.action.Enable();
-        }
-    }
-
-    private void OnDisable()
-    {
-        if (interactAction != null)
-        {
-            interactAction.action.performed -= OnInteractPerformed;
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // 1º Ponto de checagem: Algo encostou no portal?
-        Debug.Log($"[PORTAL] Objeto encostou no portal: {collision.gameObject.name} | Tag dele: {collision.tag}");
-
         if (collision.CompareTag("Player"))
         {
             isPlayerInRange = true;
-            Debug.Log("[PORTAL] Jogador reconhecido! Pode apertar o botão de interação.");
         }
     }
 
@@ -54,30 +41,31 @@ public class Portal : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             isPlayerInRange = false;
-            Debug.Log("[PORTAL] Jogador saiu do portal.");
         }
     }
 
-    private void OnInteractPerformed(InputAction.CallbackContext context)
+    private void Update()
     {
-        // 2º Ponto de checagem: O jogo detectou o aperto do botão?
-        Debug.Log("[PORTAL] O botão de Interagir foi pressionado no teclado/controle!");
+        // Se o jogador está na porta e a transição ainda não começou...
+        if (isPlayerInRange && !isTransitioning && interactAction != null)
+        {
+            // Lemos a força atual da ação. 
+            // Retorna 1 se o 'E' estiver apertado, ou > 0.5 se o analógico/d-pad estiver apontando para cima.
+            float interactValue = interactAction.action.ReadValue<float>();
 
-        if (isPlayerInRange && !isTransitioning)
-        {
-            Debug.Log("[PORTAL] Condições perfeitas! Iniciando transição de cena...");
-            StartCoroutine(TransitionToScene());
-        }
-        else if (!isPlayerInRange)
-        {
-            Debug.Log("[PORTAL] Botão pressionado, mas o jogador NÃO está dentro do portal.");
+            // Se a força passou da metade, ativamos o portal!
+            if (interactValue > 0.5f)
+            {
+                Debug.Log("[PORTAL] Interação detectada pelo Update (Teclado ou Controle)!");
+                StartCoroutine(TransitionToScene());
+            }
         }
     }
 
     private IEnumerator TransitionToScene()
     {
         isTransitioning = true;
-
+        
         // 1. Tira o portal de dentro de qualquer outro objeto (DontDestroyOnLoad exige isso)
         transform.SetParent(null);
         
@@ -87,12 +75,12 @@ public class Portal : MonoBehaviour
         // 3. Desativa o visual e a colisão do portal para ele ficar invisível na nova fase
         if (TryGetComponent<SpriteRenderer>(out SpriteRenderer sr)) sr.enabled = false;
         if (TryGetComponent<Collider2D>(out Collider2D col)) col.enabled = false;
-        // -------------------------
 
+        // -------------------------
         GameObject canvasObject = new GameObject("TransitionCanvas");
         Canvas canvas = canvasObject.AddComponent<Canvas>();
         canvas.renderMode = RenderMode.ScreenSpaceOverlay;
-        canvas.sortingOrder = 999; 
+        canvas.sortingOrder = 999;
         
         GameObject imageObject = new GameObject("FadeImage");
         imageObject.transform.SetParent(canvasObject.transform, false);
@@ -116,7 +104,6 @@ public class Portal : MonoBehaviour
             fadeImage.color = new Color(fadeColor.r, fadeColor.g, fadeColor.b, alpha);
             yield return null;
         }
-
         fadeImage.color = new Color(fadeColor.r, fadeColor.g, fadeColor.b, 1f);
 
         // Carrega a nova cena
@@ -132,7 +119,7 @@ public class Portal : MonoBehaviour
             yield return null;
         }
 
-        // Destrói o Portal (o que também destrói o Canvas preto perfeitamente)
+        // Destrói o Portal
         Destroy(gameObject);
     }
 }

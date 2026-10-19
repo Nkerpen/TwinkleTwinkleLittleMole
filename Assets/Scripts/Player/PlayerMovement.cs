@@ -14,16 +14,21 @@ public class PlayerMovement : MonoBehaviour
     [Header("Pulo & Gravidade")]
     [SerializeField] private float jumpForce = 15f;
     [SerializeField] private float maxFallSpeed = 20f;
+    [Tooltip("Multiplicador da força puxando para baixo ao cair")]
     [SerializeField] private float fallGravityMultiplier = 3f;
     
     [Header("Hang Time (Pico do Pulo)")]
     [SerializeField] private float apexVelocityThreshold = 2f;
+    [Tooltip("Multiplicador da gravidade no pico do pulo (ex: 0.5 = metade do peso)")]
     [SerializeField] private float apexGravityMultiplier = 0.5f;
 
     [Header("Detecção de Chão")]
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundCheckRadius = 0.2f;
     [SerializeField] private LayerMask groundLayer;
+
+    // --- VARIÁVEIS PÚBLICAS DE CONTROLE DE ESTADO ---
+    [HideInInspector] public bool canMove = true; 
 
     private Rigidbody2D rb;
     private float horizontalInput;
@@ -34,6 +39,19 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        
+        // --- CÁLCULO PROPORCIONAL AUTOMÁTICO (ESCALA DO FUNDO VS FRENTE) ---
+        float scaleMultiplier = Mathf.Abs(transform.localScale.x);
+
+        moveSpeed *= scaleMultiplier;
+        jumpForce *= scaleMultiplier;
+        maxFallSpeed *= scaleMultiplier;
+        apexVelocityThreshold *= scaleMultiplier;
+        
+        // A gravidade base do Rigidbody é reduzida proporcionalmente
+        rb.gravityScale *= scaleMultiplier;
+        
+        // Salvamos essa gravidade base para usar como âncora nos cálculos de força
         defaultGravity = rb.gravityScale;
     }
 
@@ -42,7 +60,6 @@ public class PlayerMovement : MonoBehaviour
         if (jumpAction != null)
         {
             jumpAction.action.performed += OnJumpPerformed;
-            // Habilita a ação para garantir que o input esteja funcionando
             jumpAction.action.Enable(); 
         }
         if (moveAction != null) moveAction.action.Enable();
@@ -52,8 +69,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (jumpAction != null)
         {
-            // Apenas desvincula o personagem atual do evento, 
-            // mas NÃO desativa o Input para não atrapalhar o outro personagem!
             jumpAction.action.performed -= OnJumpPerformed;
         }
     }
@@ -65,21 +80,8 @@ public class PlayerMovement : MonoBehaviour
             Vector2 inputVector = moveAction.action.ReadValue<Vector2>();
             horizontalInput = inputVector.x;
         }
-// --- INÍCIO DO CÓDIGO DE DIAGNÓSTICO ---
-        Collider2D hitInfo = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius);
-        
-        if (hitInfo != null)
-        {
-            Debug.Log($"[DEBUG] O raio detectou o objeto: {hitInfo.gameObject.name} | Layer dele: {LayerMask.LayerToName(hitInfo.gameObject.layer)}");
-        }
-        else
-        {
-            Debug.Log("[DEBUG] O raio não está encostando em NENHUM colisor.");
-        }
 
-        // Mantemos a verificação original rodando para não quebrar nada
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-        // --- FIM DO CÓDIGO DE DIAGNÓSTICO ---
     }
 
     private void FixedUpdate()
@@ -89,34 +91,30 @@ public class PlayerMovement : MonoBehaviour
         ApplyGravityModifiers();
     }
 
-private void OnJumpPerformed(InputAction.CallbackContext context)
+    private void OnJumpPerformed(InputAction.CallbackContext context)
     {
-        Debug.Log($"Botão de pulo apertado pelo {gameObject.name}!");
-
-        if (isGrounded)
+        if (isGrounded && canMove)
         {
-            Debug.Log($"{gameObject.name} está no chão. Pulando!");
             jumpRequested = true;
-        }
-        else
-        {
-            Debug.Log($"{gameObject.name} tentou pular, mas o isGrounded é FALSO.");
         }
     }
 
-   private void ApplyMovement()
+    private void ApplyMovement()
     {
+        // Se estiver no chicote ou paralisado, a toupeira não anda sozinha e preserva a inércia
+        if (!canMove) return;
+
         rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y);
 
-        // Vira o personagem preservando a escala original dele (seja 1 ou 0.2)
+        // Vira o personagem
         if (horizontalInput != 0)
         {
             Vector3 currentScale = transform.localScale;
-            // Mathf.Abs pega o valor positivo da escala. Mathf.Sign pega a direção (1 ou -1).
             currentScale.x = Mathf.Abs(currentScale.x) * Mathf.Sign(horizontalInput);
             transform.localScale = currentScale;
         }
     }
+
     private void ApplyJumpLogic()
     {
         if (jumpRequested)
@@ -129,10 +127,18 @@ private void OnJumpPerformed(InputAction.CallbackContext context)
 
     private void ApplyGravityModifiers()
     {
+        // PULO DO GATO: Se estiver no cipó (!canMove), não interferimos na física! 
+        // O motor da Unity resolve o pêndulo sozinho usando a defaultGravity base.
+        if (!canMove) return;
+
         if (rb.linearVelocity.y < 0)
         {
-            rb.gravityScale = defaultGravity * fallGravityMultiplier;
-            
+            // O Unity já puxa o boneco para baixo na força de "1x".
+            // Para chegar no fallGravityMultiplier (ex: 3x), adicionamos o que falta (2x).
+            float extraGravityForce = Mathf.Abs(Physics2D.gravity.y) * defaultGravity * (fallGravityMultiplier - 1f);
+            rb.AddForce(Vector2.down * extraGravityForce * rb.mass, ForceMode2D.Force);
+
+            // Trava de segurança para não ultrapassar a velocidade terminal caindo
             if (rb.linearVelocity.y < -maxFallSpeed)
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, -maxFallSpeed);
@@ -140,11 +146,9 @@ private void OnJumpPerformed(InputAction.CallbackContext context)
         }
         else if (rb.linearVelocity.y > 0 && rb.linearVelocity.y < apexVelocityThreshold)
         {
-            rb.gravityScale = defaultGravity * apexGravityMultiplier;
-        }
-        else
-        {
-            rb.gravityScale = defaultGravity;
+            // Hang Time: Se o apexGravityMultiplier for 0.5, anulamos 50% da gravidade empurrando o boneco para CIMA.
+            float floatForce = Mathf.Abs(Physics2D.gravity.y) * defaultGravity * (1f - apexGravityMultiplier);
+            rb.AddForce(Vector2.up * floatForce * rb.mass, ForceMode2D.Force);
         }
     }
 
