@@ -12,6 +12,8 @@ public class Collectible : MonoBehaviour
     public CollectibleType myType;
     public string hubSceneName = "TempleScene";
     
+    [HideInInspector] public PlanoDeJogo planoDesteColetavel; // O DefinidorDePlano preenche isso automaticamente!
+
     [Header("Transição de Vitória")]
     public float fadeDuration = 1.5f;
 
@@ -23,40 +25,46 @@ public class Collectible : MonoBehaviour
 
         if (collision.CompareTag("Player"))
         {
-            isCollected = true;
-            Debug.Log($"Coletou o artefato de {myType}!");
-
-            // Salva no Cérebro do jogo!
-            if (GameProgressManager.Instance != null)
+            // Checa se o plano do boneco bate com o do coletável!
+            if (collision.TryGetComponent<PlayerPunch>(out PlayerPunch punch))
             {
-                switch (myType)
-                {
-                    case CollectibleType.Fogo: GameProgressManager.Instance.hasFire = true; break;
-                    case CollectibleType.Agua: GameProgressManager.Instance.hasWater = true; break;
-                    case CollectibleType.Terra: GameProgressManager.Instance.hasEarth = true; break;
-                    case CollectibleType.Vento: GameProgressManager.Instance.hasWind = true; break;
-                    case CollectibleType.ArtefatoFinal: 
-                        GameProgressManager.Instance.hasFinalArtifact = true; 
-                        WinGame();
-                        return;
-                }
-            }
+                if (punch.planoDestePersonagem != planoDesteColetavel) return; // Toupeira de outro plano! Aborta.
 
-            StartCoroutine(ReturnToHub());
+                isCollected = true;
+                Debug.Log($"Coletou o artefato de {myType}!");
+
+                // Salva no Cérebro do jogo!
+                if (GameProgressManager.Instance != null)
+                {
+                    switch (myType)
+                    {
+                        case CollectibleType.Fogo: GameProgressManager.Instance.hasFire = true; break;
+                        case CollectibleType.Agua: GameProgressManager.Instance.hasWater = true; break;
+                        case CollectibleType.Terra: GameProgressManager.Instance.hasEarth = true; break;
+                        case CollectibleType.Vento: GameProgressManager.Instance.hasWind = true; break;
+                        case CollectibleType.ArtefatoFinal: 
+                            GameProgressManager.Instance.hasFinalArtifact = true; 
+                            WinGame();
+                            return;
+                    }
+                }
+
+                StartCoroutine(ReturnToHub());
+            }
         }
     }
 
     private IEnumerator ReturnToHub()
     {
-        // 1. Tira o coletável de qualquer grupo e o protege da destruição durante a mudança de cena
+        // Protege o Coletável de ser destruído no loading
         transform.SetParent(null);
         DontDestroyOnLoad(gameObject);
 
-        // 2. Esconde o coletável e desativa sua colisão para não virar um fantasma invisível no Hub
+        // Deixa ele invisível no Templo
         if (TryGetComponent<SpriteRenderer>(out SpriteRenderer sr)) sr.enabled = false;
         if (TryGetComponent<Collider2D>(out Collider2D col)) col.enabled = false;
 
-        // 3. Cria a tela de transição
+        // Cria o Canvas
         GameObject canvasObject = new GameObject("TransitionCanvas");
         Canvas canvas = canvasObject.AddComponent<Canvas>();
         canvas.renderMode = RenderMode.ScreenSpaceOverlay;
@@ -65,18 +73,17 @@ public class Collectible : MonoBehaviour
         GameObject imageObject = new GameObject("FadeImage");
         imageObject.transform.SetParent(canvasObject.transform, false);
         Image fadeImage = imageObject.AddComponent<Image>();
-        fadeImage.color = new Color(1f, 1f, 1f, 0f); // Fade branco!
+        fadeImage.color = new Color(1f, 1f, 1f, 0f);
 
-        // 4. Estica a imagem branca para cobrir 100% do monitor do jogador
+        // Estica o Fade Branco
         RectTransform rectTransform = fadeImage.GetComponent<RectTransform>();
         rectTransform.anchorMin = Vector2.zero;
         rectTransform.anchorMax = Vector2.one;
         rectTransform.sizeDelta = Vector2.zero;
 
-        // 5. O Canvas vira filho do Coletável sobrevivente
         canvasObject.transform.SetParent(transform);
 
-        // --- COMEÇA O FADE BRANCO ---
+        // Fade Out (Clareia pra Branco)
         float timer = 0f;
         while (timer < fadeDuration)
         {
@@ -85,10 +92,10 @@ public class Collectible : MonoBehaviour
             yield return null;
         }
 
-        // --- CARREGA O HUB (A antiga cena morre aqui, mas o coletável com a Corotina sobreviveu) ---
+        // Carrega Fase do Templo
         yield return SceneManager.LoadSceneAsync(hubSceneName);
 
-        // --- CLAREIA A TELA NOVAMENTE ---
+        // Fade In (Volta a enxergar)
         timer = 0f;
         while (timer < fadeDuration)
         {
@@ -97,7 +104,6 @@ public class Collectible : MonoBehaviour
             yield return null;
         }
 
-        // Ao se destruir, o Coletável leva o Canvas com a tela branca junto com ele!
         Destroy(gameObject);
     }
 

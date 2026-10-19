@@ -241,6 +241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocha (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -302,6 +306,10 @@ PrefabInstance:
     - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
       propertyPath: m_Name
       value: Rocha (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -365,6 +373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocha (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -426,6 +438,10 @@ PrefabInstance:
     - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
       propertyPath: m_Name
       value: Rocha (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -563,6 +579,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocha (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -625,6 +645,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocha (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -686,6 +710,10 @@ PrefabInstance:
     - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
       propertyPath: m_Name
       value: Rocha (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1100,6 +1128,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocha (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1210,6 +1242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocha (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1271,6 +1307,10 @@ PrefabInstance:
     - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
       propertyPath: m_Name
       value: Rocha (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1346,6 +1386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Estrelas
       objectReference: {fileID: 0}
+    - target: {fileID: 6315376221989806003, guid: 74897dd16507dab4b978aafc4d9a443b, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1404,9 +1448,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4819144019179305858, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
+      propertyPath: m_Color.b
+      value: 0.13207549
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819144019179305858, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
+      propertyPath: m_Color.g
+      value: 0.05046281
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819144019179305858, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
+      propertyPath: m_Color.r
+      value: 0.09745192
+      objectReference: {fileID: 0}
     - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
       propertyPath: m_Name
       value: Rocha (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1559,6 +1619,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocha (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1620,6 +1684,10 @@ PrefabInstance:
     - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
       propertyPath: m_Name
       value: Rocha (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1688,6 +1756,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocha (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1749,6 +1821,10 @@ PrefabInstance:
     - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
       propertyPath: m_Name
       value: Rocha
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057604211188881437, guid: a2f78254b48edf34d955ef4d970c53f8, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
