@@ -20,13 +20,10 @@
 ##  2. Core Loop
 *O que o jogador faz, repetidamente, que torna o jogo divertido.*
 
-
-
 *   **Descrição do Loop:** Seleciona a fase -> Ganha a habilidade da fase escolhida -> Utiliza a habilidade para pegar os coletáveis da fase -> utiliza os coletaveis pegos para progredir no jogo -> Volta para a seleção de fases. 
-*   **Justificativa:** (Como as mecânicas listadas abaixo servem a esse core loop).
-![[WhatsApp Image 2026-10-13 at 16.41.41.jpeg]]
+
+![[WhatsApp Image 2026-10-13 at 16.41.41.jpeg|681]]
  
-*(Nota: Arraste para cá o diagrama ou fluxograma visual do core loop)*
 
 ---
 
