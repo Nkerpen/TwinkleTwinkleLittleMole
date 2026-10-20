@@ -208,19 +208,12 @@ cria uma copia do chapéu do mago com ele você pode planar  ou ser carregado pe
 
 ###  Próximos Passos (Em Aberto)
 
-parte de arte:
 
-
-Montar o tilemap das pedras utilizadas no chão e no topo das estruturas, com três variações de 14 peças cada: pedras entalhadas com símbolos, pedras simples sem entalhes e pedras com detalhes de limo, corrosão ou lava, totalizando 42 peças para o tilemap de cada fase elemental.
-
-(Os tiles de chão e telhado serão compartilhados entre todas as fases. Para finalizar as peças, falta apenas aplicar as cores.)
-
-Animação do player e mini toupeira.
-
-1 coletável simples
-
-- [ ] Design final do inimigo principal.
-- [ ] Interface (UI) in-game.
+ 1. Montar o tilemap das pedras utilizadas no chão e no topo das estruturas, com três variações de 14 peças cada: pedras entalhadas com símbolos, pedras simples sem entalhes e pedras com detalhes de limo, corrosão ou lava, totalizando 42 peças para o tilemap de cada fase elemental. (Os tiles de chão e telhado serão compartilhados entre todas as fases. Para finalizar as peças, falta apenas aplicar as cores.)
+2. Animação do player e mini toupeira.
+3. 1 coletável simples
+4. Design final do inimigo principal.
+5. Interface (UI) in-game.
 
 ---
 
