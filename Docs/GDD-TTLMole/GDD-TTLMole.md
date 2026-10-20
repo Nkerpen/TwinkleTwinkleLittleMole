@@ -132,7 +132,7 @@ Exemplo simplificado da fase de agua (mockup criado pela artista Beatriz)
 
 
 
-Habilidade água:
+**Habilidade água:
 essa habilidade requer sabedoria ao utiliza pois ele possui em limite de carga, pode carregar essa habilidade em fontes de agua.
 
 ![[mokcupToperinha carregando00.png|218]]
@@ -147,13 +147,14 @@ tiro com bolhas serve para destruir coisas a distancia.
 2° caracteristica
 é possível também utilizar a habilidade de agua para apagar armadilhas das fase do elemento fogo.
 
-
-
 ![[aguahabilidade1(Simples) 1.png|700]]
 
 
-![[aguahabilidade2(Simples).png|346]]
-Habilidade de Fogo:
+![[aguahabilidade2(Simples).png|338]]
+
+
+
+**Habilidade de Fogo:
 1° caracteristica
 ![[MokcupsFogo1 1.png]]
 Refletir golpes de  inimigos  ou armadilhas .
@@ -170,6 +171,16 @@ Habilidade da terra:
 2° caracteristica
 
 ![[Terrahabilidade2(Simples).png|360]]
+
+Habilidade da Ar:
+
+cria uma copia do chapéu do mago com ele você pode planar  ou ser carregado pelo vento
+![[habilidade vento 1.png|237]]          ![[habilidade vento3.png|298]]
+
+
+![[Sin título(5).png]]
+
+
 ###  Próximos Passos (Em Aberto)
 
 parte de arte:
