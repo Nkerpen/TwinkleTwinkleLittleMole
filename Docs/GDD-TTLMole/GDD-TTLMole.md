@@ -22,7 +22,7 @@
 
 
 
-*   **Descrição do Loop:** (Ex: Explorar o mapa -> Coletar recursos -> Melhorar a base -> Repetir).
+*   **Descrição do Loop:** Seleciona a fase -> Ganha a habilidade da fase escolhida -> Utiliza a habilidade para pegar os coletáveis da fase -> utiliza os coletaveis pegos para progredir no jogo -> Volta para a seleção de fases. 
 *   **Justificativa:** (Como as mecânicas listadas abaixo servem a esse core loop).
 ![[WhatsApp Image 2026-10-13 at 16.41.41.jpeg]]
  
@@ -30,34 +30,62 @@
 
 ---
 
-##  3. Escopo e "Não Escopo"
-
-### O que o jogo VAI ter (Escopo)
-- [x] (Mecânica principal 1)
-- [x] (Mecânica principal 2)
-
+##  3. Escopo
+1.  **Sistema de Duplo Plano (Foreground/Background):** O jogador controla a Toupeira em dois planos de jogo distintos (Mundo Real e o Mundo Espiritual). O sistema garante isolamento físico total (através da Matrix de Colisão de Layers) para que as interações e físicas de um plano não interfiram acidentalmente no outro. 
+2. **Mecânicas Elementais e Coletáveis:** 
+	- **Água:** Habilidade com limite de carga (recarregável em fontes) que permite atirar bolhas para destruir alvos à distância e apagar armadilhas das fases de fogo. 
+	- **Fogo:** Habilidade com soco poderoso (`PlayerPunch`) capaz de quebrar rochas (`RochaQuebravel`). O que é destruído na pintura (fundo) afeta o mundo real (ex: derrubar um pilar). Reflete armadilhas ativas. 
+	- **Terra (Chicote):** Mecânica de gancho/balanço (Grappling). Utilizando âncoras (`WhipAnchor`) espalhadas pelo cenário, a toupeira usa o chicote de terra para se pendurar, ganhar momento e transpor buracos ou alcançar plataformas altas. 
+	- **Vento (Planar):** Mecânica de mobilidade aérea. Interage com correntes de ar (`WindGust`) e permite que o jogador diminua a velocidade de queda, planando longas distâncias para cruzar grandes vãos ou evitar armadilhas no chão.
+	
+3. **Transição Fluida de Fases:** Sistema de portais e conclusão por coletáveis que utilizam carregamento assíncrono de cenas (`SceneManager.LoadSceneAsync`) e proteção de objetos (`DontDestroyOnLoad`). Telas de carregamento são mascaradas por transições suaves de fade (preto ao entrar em fases, branco ao retornar ao Templo). 
+4.  **Controles Otimizados:** Uso do Novo Input System suportando leitura apenas de Controle Gamepads e Joysticks.
 ### O que NÃO vamos fazer nesta etapa (Não Escopo)
-*Pelo menos 3 itens definidos para evitar escopo excessivo.*
-1. [ ] Não terá multiplayer online.
-2. [ ] Não terá sistema de inventário complexo com peso.
-3. [ ] Não faremos cutscenes animadas, apenas texto.
-4. [ ] não terá inimigos
-5. [ ] não terá faze final e nem sub fases
-6. [ ] som
+*Pelo menos 3 itens definidos para evitar escopo excessivo.
+
+1. Não faremos cutscenes animadas, apenas texto.
+2. Não terá inimigos.
+3. Não terá fase final e nem sub fases.
+4. Não terá Sons e Trilha Sonora.
   
 ---
 
 ##  4. Programação e Engenharia
 *Seção enxuta em tópicos para lógicas e sistemas.*
-
 ###  Decisões Já Tomadas
 *O que já está aprovado e alinhado com o Planejamento de Projeto.*
-- [x] Motor gráfico e padrão de arquitetura.
-- [x] Sistema de movimentação base.
+
+- **Motor gráfico e Padrão de Arquitetura:** Unity Engine (2D) em C#. 
+-  **Máquina de Estado de Progresso Global:** Implementação do Singleton `GameProgressManager`. Ele não é destruído ao mudar de fase e guarda as variáveis booleanas que definem quais habilidades (Fogo, Água, Terra, Vento) o jogador já desbloqueou. 
+-  **Arquitetura de Isolamento de Planos:
+	- `DefinidorDePlano.cs` É o script mestre de organização. Anexado às pastas principais (`----ObjetosFrente----` e `----ObjetosFundo----`), ele roda no `Awake` e distribui automaticamente o Enum `PlanoDeJogo` (Frente ou Fundo) para todos os portais, rochas, botões e inimigos filhos. Ele também altera a Layer de colisão de tudo dentro da pasta para isolar a física. Sua última atualização incluiu o parâmetro `(true)` para garantir que objetos desativados (invisíveis) também recebam essa configuração.
+- **`GameProgressManager.cs`:**
+	- O Singleton do jogo. Ele carrega as variáveis booleanas (`hasFire`, `hasWater`, `hasEarth`, `hasWind`, `hasFinalArtifact`) e utiliza `DontDestroyOnLoad` para não ser destruído ao trocar de cena. É ele quem dita o progresso do "Collectathon".
+- **`TempleManager.cs`:**
+	- Fica ativo apenas na cena do Hub (Templo). Ele lê o `GameProgressManager` no `Start()` e, se o jogador tiver 4 ou mais cristais, desativa o `GameObject` da barreira final, liberando o fim do jogo.
+- **`CharacterSwitcher.cs`:** 
+	- Gerencia a troca de controle entre a toupeira do Mundo Real e a toupeira das Pinturas. Ele ativa/desativa os componentes `PlayerMovement` e alterna as Câmeras Virtuais (Cinemachine) de cada plano, além de zerar a inércia (`linearVelocity`) do personagem que foi desativado para que ele não continue deslizando sozinho.
+- Controle e Habilidades do Jogador: 
+	- Os scripts do jogador modularizam as mecânicas. Todos possuem um sistema de "trava de progresso" (`CanUseAbility()`) que libera a habilidade apenas se ela foi destravada no save global, se a opção `isUnlockedPermanently` estiver marcada (para testes), ou se for a fase nativa do elemento.
+		1. **`PlayerMovement.cs`:** 
+			- A base física da toupeira. Controla velocidade, inércia e pulo. Possui cálculos automáticos no `Awake()` que multiplicam a velocidade, força de pulo e escala de gravidade com base no tamanho do personagem (para que a minitoupeira do fundo não seja rápida ou pesada demais). Inclui um sistema de _Hang Time_ que reduz a gravidade no pico do pulo para saltos mais precisos.
+		2. **`PlayerPunch.cs` (Fogo):** 
+			- Cria um círculo de colisão invisível (`OverlapCircleAll`) na frente do jogador quando o botão é pressionado. Se acertar uma `RochaQuebravel` do mesmo plano, ela é destruída.
+		3. **`PlayerShoot.cs` & `Projectile.cs` (Água):**
+			- O `PlayerShoot` controla o limite de munição e instancia o `Projectile`. O `Projectile` herda o plano e a escala de quem atirou (para nascer pequeno no fundo) e voa horizontalmente. Ao colidir, ele checa o plano do objeto acertado e se destrói ao tocar no chão, ativando botões ou quebrando rochas específicas no caminho.
+		4. **`PlayerWhip.cs` (Terra):** 
+			- Cria um sistema de _Grappling Hook_. Ao apertar o botão, ele busca a `WhipAnchor` mais próxima do mesmo plano. Se encontrar, ele trava o `PlayerMovement` (para a gravidade base não interferir), cria um `DistanceJoint2D` dinâmico atrelado à âncora, desenha uma linha (`LineRenderer`) e permite o balanço (`swingForce`) usando inputs direcionais. Ao soltar o botão, o jogador é arremessado mantendo a inércia.
+		5. **`PlayerGlide.cs` (Vento):** 
+			- Usado ao segurar o botão de pulo no ar. Limita a velocidade máxima de queda (`glideFallSpeed`). Se o personagem entrar em um `WindGust`, este script ignora a gravidade padrão e suavemente arrasta a velocidade Y do Rigidbody para cima e para os lados, acompanhando a força do vento.
 
 ###  Próximos Passos (Em Aberto)
 *O que ainda precisa ser discutido, sem inventar decisões.*
-- [ ] Como será feito o save do jogo? 
+1. Como será feito o save do jogo persistente? (Uso de `PlayerPrefs`, `.JSON` gerado por serialização, ou salvamento de estado do Singleton em arquivo local?).
+2. Adicionar a "Morte" no jogo, e como ela vai impactar o jogador, talvez o colocando novamente na sala de seleção após perder todas as vidas?
+3. Implementar e otimizar os *Tilemaps* definitivos dos cenários em conjunto com a equipe de arte, garantindo que suas colisões conversem perfeitamente com os scripts de `DefinidorDePlano`.
+4. Adicionar feedback visual e sonoro para as habilidades do jogador.
+5. Consertar a física do Grappling na habilidade da Terra.
+6. Adicionar as funções secundárias de cada habilidade.
 
 ---
 
@@ -200,6 +228,6 @@ link de imagens retiradas para os moodbooard  2:
 
 ##  7. Links Úteis e ChangeLog
 *   Link para o Miro: [Miro](https://miro.com/app/board/uXjVH0oqiZM=/?share_link_id=276353536082)
-*   **Última atualização (Changelog):** [Data] - [O que mudou brevemente. Ex: Adicionado core loop e concept de arte].
-*
+*   **Última atualização (Changelog):** [19/10/26] - [Adicionado a seção de programação e engenharia.].
+
 

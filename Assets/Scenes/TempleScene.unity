@@ -444,6 +444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Portal
   interactAction: {fileID: 1781555164194001046, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   sceneToLoad: F-AguaScene
+  planoDestePortal: 0
   fadeDuration: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!61 &259764711
@@ -826,6 +827,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Portal
   interactAction: {fileID: 1781555164194001046, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   sceneToLoad: F-TerraScene
+  planoDestePortal: 0
   fadeDuration: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!61 &595129106
@@ -1046,6 +1048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Portal
   interactAction: {fileID: 1781555164194001046, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   sceneToLoad: F-FogoScene
+  planoDestePortal: 0
   fadeDuration: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!61 &987200247
@@ -1266,6 +1269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Portal
   interactAction: {fileID: 1781555164194001046, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   sceneToLoad: F-VentoScene
+  planoDestePortal: 0
   fadeDuration: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!61 &1214807441
@@ -1742,6 +1746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DefinidorDePlano
   planoDoGrupo: 0
+  nomeDaLayerFisica: ChaoFrente
 --- !u!1001 &1875844481
 PrefabInstance:
   m_ObjectHideFlags: 0

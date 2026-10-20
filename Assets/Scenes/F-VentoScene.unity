@@ -202,6 +202,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 279441339}
+  - component: {fileID: 279441340}
   m_Layer: 0
   m_Name: ----ObjetosFrente----
   m_TagString: Untagged
@@ -225,6 +226,20 @@ Transform:
   - {fileID: 601648785}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &279441340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279441338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cc0cb489efb8c94d8cbc4461303211e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DefinidorDePlano
+  planoDoGrupo: 0
+  nomeDaLayerFisica: ChaoFrente
 --- !u!1 &305759069
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,6 +736,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 629215687}
+  - component: {fileID: 629215688}
   m_Layer: 0
   m_Name: ----ObjetosFundo----
   m_TagString: Untagged
@@ -748,6 +764,20 @@ Transform:
   - {fileID: 1319450429}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &629215688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629215686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cc0cb489efb8c94d8cbc4461303211e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DefinidorDePlano
+  planoDoGrupo: 1
+  nomeDaLayerFisica: ChaoFundo
 --- !u!1001 &782598325
 PrefabInstance:
   m_ObjectHideFlags: 0
