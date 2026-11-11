@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 68a485dcbe84bc64ba7396cf5b18369d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4663130442178740460
+    second: tileNivicomfundo norm 1_0
+  - first:
+      213: 5292662940434338015
+    second: tileNivicomfundo norm 1_1
+  - first:
+      213: -1786893700245799438
+    second: tileNivicomfundo norm 1_2
+  - first:
+      213: -6438209310688814642
+    second: tileNivicomfundo norm 1_3
+  - first:
+      213: -8109443326488191664
+    second: tileNivicomfundo norm 1_4
+  - first:
+      213: 794940035820538587
+    second: tileNivicomfundo norm 1_5
+  - first:
+      213: 2755456668926448760
+    second: tileNivicomfundo norm 1_6
+  - first:
+      213: 151808776598984068
+    second: tileNivicomfundo norm 1_7
+  - first:
+      213: 6114148171447362476
+    second: tileNivicomfundo norm 1_8
+  - first:
+      213: 5577163725535407245
+    second: tileNivicomfundo norm 1_9
+  - first:
+      213: 3739679995224459134
+    second: tileNivicomfundo norm 1_10
+  - first:
+      213: -1834258825377523666
+    second: tileNivicomfundo norm 1_11
+  - first:
+      213: -8077771804392215235
+    second: tileNivicomfundo norm 1_12
+  - first:
+      213: 5873043086278313115
+    second: tileNivicomfundo norm 1_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tileNivicomfundo norm 1_0
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 2818
+        width: 2155
+        height: 2330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0cf5b4e64c6b040800000000000000
+      internalID: 4663130442178740460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileNivicomfundo norm 1_1
+      rect:
+        serializedVersion: 2
+        x: 4535
+        y: 1595
+        width: 732
+        height: 2648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0967017e0537940800000000000000
+      internalID: 5292662940434338015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileNivicomfundo norm 1_2
+      rect:
+        serializedVersion: 2
+        x: 5658
+        y: 1582
+        width: 732
+        height: 2648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd3771a5ada337e0800000000000000
+      internalID: -1786893700245799438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileNivicomfundo norm 1_3
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1656
+        width: 785
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9d7c63eb2e6a6a0800000000000000
+      internalID: -6438209310688814642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileNivicomfundo norm 1_4
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1658
+        width: 780
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d528e9248757f80800000000000000
+      internalID: -8109443326488191664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileNivicomfundo norm 1_5
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 1658
+        width: 781
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdac1d430c1380b00800000000000000
+      internalID: 794940035820538587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileNivicomfundo norm 1_6
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1156
+        width: 754
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8749759cd395d3620800000000000000
+      internalID: 2755456668926448760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileNivicomfundo norm 1_7
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 1169
+        width: 754
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48518fa27455b1200800000000000000
+      internalID: 151808776598984068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileNivicomfundo norm 1_8
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 1156
+        width: 750
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca369372e51d9d450800000000000000
+      internalID: 6114148171447362476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileNivicomfundo norm 1_9
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 1162
+        width: 749
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c6bbafbd0166d40800000000000000
+      internalID: 5577163725535407245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileNivicomfundo norm 1_10
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 674
+        width: 753
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e770df8542306e330800000000000000
+      internalID: 3739679995224459134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileNivicomfundo norm 1_11
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 687
+        width: 753
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e285f3f01576b86e0800000000000000
+      internalID: -1834258825377523666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileNivicomfundo norm 1_12
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 704
+        width: 754
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d298e775df5ef80800000000000000
+      internalID: -8077771804392215235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileNivicomfundo norm 1_13
+      rect:
+        serializedVersion: 2
+        x: 3111
+        y: 692
+        width: 749
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94ce2cf19d318150800000000000000
+      internalID: 5873043086278313115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tileNivicomfundo norm 1_0: 4663130442178740460
+      tileNivicomfundo norm 1_1: 5292662940434338015
+      tileNivicomfundo norm 1_10: 3739679995224459134
+      tileNivicomfundo norm 1_11: -1834258825377523666
+      tileNivicomfundo norm 1_12: -8077771804392215235
+      tileNivicomfundo norm 1_13: 5873043086278313115
+      tileNivicomfundo norm 1_2: -1786893700245799438
+      tileNivicomfundo norm 1_3: -6438209310688814642
+      tileNivicomfundo norm 1_4: -8109443326488191664
+      tileNivicomfundo norm 1_5: 794940035820538587
+      tileNivicomfundo norm 1_6: 2755456668926448760
+      tileNivicomfundo norm 1_7: 151808776598984068
+      tileNivicomfundo norm 1_8: 6114148171447362476
+      tileNivicomfundo norm 1_9: 5577163725535407245
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

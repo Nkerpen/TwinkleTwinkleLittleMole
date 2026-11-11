@@ -1,0 +1,4181 @@
+fileFormatVersion: 2
+guid: c5e54d10537fd584ca5dc648f08e7afb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9144283618503582643
+    second: tilefente norm 2_0
+  - first:
+      213: -3650411763751325583
+    second: tilefente norm 2_1
+  - first:
+      213: 459906781950559919
+    second: tilefente norm 2_2
+  - first:
+      213: 7093194480710426227
+    second: tilefente norm 2_3
+  - first:
+      213: -1941650917519504382
+    second: tilefente norm 2_4
+  - first:
+      213: 1862528874503799527
+    second: tilefente norm 2_5
+  - first:
+      213: -5294123199865243900
+    second: tilefente norm 2_6
+  - first:
+      213: 1626178701661326686
+    second: tilefente norm 2_7
+  - first:
+      213: -8775484027904197499
+    second: tilefente norm 2_8
+  - first:
+      213: -355936492456824292
+    second: tilefente norm 2_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 720
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tilefente norm 2_0
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 4470
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b36456a08507ee70800000000000000
+      internalID: 9144283618503582643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_1
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 4470
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170f1b177d1275dc0800000000000000
+      internalID: -3650411763751325583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_2
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 4470
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6c4ff08cae16600800000000000000
+      internalID: 459906781950559919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_3
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 4470
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e91818cc6107260800000000000000
+      internalID: 7093194480710426227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_4
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4470
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c407f17cedd05e0800000000000000
+      internalID: -1941650917519504382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_5
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4470
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e205bca42809d910800000000000000
+      internalID: 1862528874503799527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_6
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 4470
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407b0eacffe7786b0800000000000000
+      internalID: -5294123199865243900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_7
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4470
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d44ddc9e8519610800000000000000
+      internalID: 1626178701661326686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_8
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4470
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cf7a865c7373680800000000000000
+      internalID: -8775484027904197499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_9
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4470
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12338c55a57f0bf0800000000000000
+      internalID: -355936492456824292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_10
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 4470
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd193e47154a51644a0cbcffedf49621
+      internalID: -1815895180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_11
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4470
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2625801b8976b7848b1b36a24758b20a
+      internalID: -857010386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_12
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 4470
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9adfe6100fb563f4da6ce787f875a83f
+      internalID: -1401806445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_13
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 4470
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6b5e651a1f5ae468b4b2ca9f494973
+      internalID: 965407848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_14
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 4470
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006b570912bf4474f8356aaf13e1f018
+      internalID: 1440622603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_15
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 4110
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1515a69ec98f4be42b063b9bd96d51e8
+      internalID: -1416456658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_16
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 4110
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044ffd111cc2fc2419c195e96bad7c9b
+      internalID: 550402650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_17
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 4110
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7614634d1c75f34cbfbef0f7dc6803e
+      internalID: -250786023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_18
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 4110
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fa03bd47faed84c8c76d4eaa30dede
+      internalID: -1793882933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_19
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4110
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0ae57fb6f88b0479abb235ef862117
+      internalID: 1692762922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_20
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4110
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380d4e8284a7ef64abaaa6887641c5a5
+      internalID: -2001645534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_21
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 4110
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d25b948e2f7e148a433c34035e7c57
+      internalID: -1086843377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_22
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4110
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2ce7a70562e4246bd9976a603fe32d
+      internalID: 574125346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_23
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4110
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b973ee0d935f04089f19345ac14f81
+      internalID: -36792994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_24
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4110
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89db7e49c01eac3439a7a1365d11eab0
+      internalID: -1703779298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_25
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 4110
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b243c9a8cbfb4041a10f43313047585
+      internalID: -570333300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_26
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4110
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b318eea088f594fb164f2d00f883a7
+      internalID: -178122829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_27
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 4110
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67becf72a584394e87740e6c40b8b32
+      internalID: -760226709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_28
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 4110
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae6603ea97a97d45b065f1707d746e6
+      internalID: 487717740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_29
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3750
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4e2c064cce61b4ab182509cdda0250
+      internalID: -545994945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_30
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3750
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759ea62c455ede445a31aaba66c696ee
+      internalID: 786124280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_31
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3750
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d210e6d73fda3234ea1aad466bf59524
+      internalID: -1512159206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_32
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3750
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fec547ef2d8fb448a408615154583fa
+      internalID: 1504008989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_33
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3750
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f81d50546f1bc34ca51939a065bbd77
+      internalID: -256332416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_34
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3750
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd25765812355a499ef00d704b94378
+      internalID: 1096899885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_35
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 3750
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6bca25b8c90f4418ec2ebe3e68fae2
+      internalID: -1711006754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_36
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3750
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bdb73ce57b94a49a276ed18c463652
+      internalID: 1626747887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_37
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3750
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9ed9a6e1c0dcc46a6d0350ebf46b02
+      internalID: -1141040215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_38
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3750
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b23bba8d28c6c149ba42fd31d2ce950
+      internalID: -770063074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_39
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 3750
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e15fc73ea0ba6e4180965e77f1634cc
+      internalID: -867965792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_40
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3750
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da683c224b5520149b7c051c0584a32f
+      internalID: 1142964016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_41
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 3750
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f956f32b0bcaf1045b6501fe1121162e
+      internalID: -1481216933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_42
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 3750
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1129ed27eb00ab449dfcfa594d40a10
+      internalID: -1524715101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3390
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d372b5250a532e24ab87ec6bdde55231
+      internalID: -40121586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_44
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3390
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4b57a972f1c654985758244b89be54
+      internalID: -174620613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_45
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3390
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a667be53ddc8be42a7941970656cb9d
+      internalID: -1794419352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_46
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3390
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5138382df6f73aa42b828371d5381b59
+      internalID: 753611801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_47
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3390
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3072f916d880446a8ac06fc805377a
+      internalID: 1351099039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_48
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3390
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9ec605158c43247a671d604d4c2b0d
+      internalID: 323918821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_49
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3390
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1568efbf1071c1a4d8a8a03dcfad9ffc
+      internalID: -396715119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_50
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 3390
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fba28c7b79e77458af77c126440ff6
+      internalID: 1996325614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_51
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3390
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdb090e79a151542b5642858beb912b
+      internalID: -574854789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_52
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3390
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dc4c2eb17869043b9ff07cbb979d53
+      internalID: 2127936369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_56
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 3390
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f3882880bd05d428fecc8345cae1b1
+      internalID: 433039005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_57
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 3390
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2078205cfec9d0d4aaea6ed877257fe3
+      internalID: -1199530392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3030
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50e04f81966e06498ecc0c8158b1896
+      internalID: 485224422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_59
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3030
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0e656c8d80f2c448e979de6ebc9f21
+      internalID: -1574753654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_60
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3030
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202f7109c55f90b4a9fa2d2b9083e84d
+      internalID: 446838285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_61
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 3030
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0902f787e561ad5419f6ea6a60dd6093
+      internalID: -1513381763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_62
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3030
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe67e2e2f317ea43877e46f445955c0
+      internalID: -336540351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_63
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3030
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27aded0321b0e04e91efd86eeb18217
+      internalID: 870604877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_64
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3030
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b242c2b23ff6a4897bcd00a907e175
+      internalID: 707019974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_66
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 3030
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14327ee2c9aaa140b2c7f1bb2c7cb1b
+      internalID: -1317887134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_67
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 3030
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8eac0442f55724ca65b8727908423d
+      internalID: 653549542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2670
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133f2eaf09ec6834f8c5a670fee6ca05
+      internalID: 94345761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_69
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2670
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d987272c78fa9e4392d79c4f26bf9ea
+      internalID: -770694211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_70
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2670
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69db525fa6fe16b458ae096632332d63
+      internalID: -2021868082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_71
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2670
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62608d472c324bd49bffbe2f9a2dba8c
+      internalID: -270714648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_72
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2670
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a38e45b0d208b42a2cfa747cc13a84
+      internalID: -297187045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_73
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2670
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ce82a513f4efc4d812ef950d182357
+      internalID: -1945914328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_74
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2670
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9193d41578e6b1f44a5976076f30a95b
+      internalID: -2086834160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_75
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2670
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccc675dafcd6684fb5d43c457e3c1d3
+      internalID: 315623652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_76
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2670
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b7cc68146b52a4fbdc544c51344342
+      internalID: 400623879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_77
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2670
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc611e8986cfb548b11f00ae11636e6
+      internalID: -171193647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_78
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2670
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd664fe1b3953b4428b6763f610c84b7
+      internalID: -398345682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_80
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 2670
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40825875c6320fe4e96556e327c9831c
+      internalID: -743398436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_81
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2670
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d92e4e6fcd1624b839dca27c7ae40f
+      internalID: 809930431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2310
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce11bde6b1582dd47be7b891f85386b9
+      internalID: -134532717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_83
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2310
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3318c63f51bba90439484c1a6eea61fa
+      internalID: 1149233299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_84
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2310
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe3259e36bd7f945bf7e012223eb5d2
+      internalID: 1297502453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_85
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2310
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c932c354575094b951a93a844143cf
+      internalID: 160884297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_86
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2310
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc72029e21b54540b851018cc3cd02c
+      internalID: 637891433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_87
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2310
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01a4efa48132b74393c96cee73ac07a
+      internalID: 1852555963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_88
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2310
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9008a8723d1514094472e9e005861f
+      internalID: -98285535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_89
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2310
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19e4d1f61c352340a718447af121bc8
+      internalID: -851503926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_90
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2310
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241e902eec38de244abb8f9b7a361908
+      internalID: 719635463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_91
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2310
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac970a4fa4e13749a9cf44c11c2989c
+      internalID: 699589207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_92
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2310
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7987a00fcd7b54a9ea5b1394955748
+      internalID: 216540279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_95
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 2310
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0796aa9140bcfa43b99cdd498ba4f6d
+      internalID: -18418099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_96
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2310
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7483eae5e63f1b8439c077ccff130ae1
+      internalID: 919597445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1950
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d1fa610b8fd0e4c917a92cfb1222f9
+      internalID: 1134373146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_98
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1950
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d51c4d4b6271b0489918f9e90a69d99
+      internalID: -1546500757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_99
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1950
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f51bd6d99570134cae87425511fcf0b
+      internalID: -837530867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_100
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1950
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccb96419a29cc34fad16e598f224ffc
+      internalID: -153271620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_101
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1950
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83cb45efaec13a42b29bb03b9ad0e96
+      internalID: 370107642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_102
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1950
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280bd5c42c181e645887685460fd6bce
+      internalID: -1248845985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_103
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1950
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4feb2472a8f9ace419c6d5f482a525cd
+      internalID: -1124031629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_104
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1950
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2382860426c984c91afd8c9a0cae05
+      internalID: -1034872377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_105
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1950
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975080e37e585f04fb5c59f488d707c0
+      internalID: 1873290409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_106
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1950
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f726299fb203aa14d97d5d34e4e11ac0
+      internalID: -1160753681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_107
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1950
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d64ea4c8ab0fc458bc05b75e37d552
+      internalID: -1042935296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_110
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 1950
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992cd10aee704e44ea8351ccb4c22959
+      internalID: -230577850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_111
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 1950
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ad47faf57751f418760102afa1753d
+      internalID: 911709986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1590
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd648048f195ae49bc030ee547e5fc3
+      internalID: -839042148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_113
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1590
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f031c6e6b365904ab401d803e8c4f8d
+      internalID: 1002302286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_114
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1590
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6e9e5760f277d4fb81c7b1f42d860e
+      internalID: 1395685388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_115
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1590
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396884472ebb534409f9f7a50fef6657
+      internalID: 1902077053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_116
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1590
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6716e5ba7c1b00645815e9f93e5a63c5
+      internalID: 2047932291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_117
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1590
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8151997bd1886347a4a2d8b1f1b2c7b
+      internalID: -1931904266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_118
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1590
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3a005bf8ec31742a8cfc90adf6fd62
+      internalID: -1361304419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_119
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1590
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ba33662588d994b8fc260f48b8308f
+      internalID: -1504218729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_120
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1590
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf48c6e83f9e89f4e8090d75fabbc540
+      internalID: 1198803461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_121
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1590
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e44e0b032419646894d0acdaa70273
+      internalID: -203906008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_122
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1590
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deeb2ab89af877442a956d858f92485e
+      internalID: 879607010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_125
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 1590
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254f9d38a57736641a76a33e84312e09
+      internalID: 934243093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_126
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 1590
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0716cbd7c243b47a2b906251fb2713
+      internalID: 526780754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_127
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1230
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad63875e2414d0d499327e09583fbfc4
+      internalID: -1429981712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_128
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1230
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81cfb32b3b488c48a659fa9b47546ff
+      internalID: -1151396026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_129
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1230
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca6b041b3ce7434b848b8fc4d2bc2cd
+      internalID: 1074266789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_130
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1230
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2287a8bcb34e5994a86b955e3e6ced5d
+      internalID: 1628617144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_131
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1230
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b4305405f9cc54e85588ecc4b63b80
+      internalID: 915688665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_132
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1230
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4818b6e40f2cc5840867e28b092bbc41
+      internalID: 283579124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_133
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1230
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d758868e7b6d3d42bb5ca6dfde2f1f8
+      internalID: -412065726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_134
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1230
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339b18b9f771e8d47a3380c5d44dcba6
+      internalID: 298960366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_135
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1230
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9811ec3ab9d99e4996ffc87d77c5de8
+      internalID: -1200842004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_136
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1230
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4833386b34e4840b19794bcf1decf5
+      internalID: 2027165236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_137
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1230
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241f0fbfed58aaf4cb5eec648c631fee
+      internalID: 1872292256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_140
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 1230
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2018163793d57ed48b472a385ccf8663
+      internalID: 888932022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_141
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 1230
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2bd17e5f400ed4e84d88088780af17
+      internalID: -584973840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_142
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1230
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559e6097ee9c5d54094c026430d65bd2
+      internalID: 1892943172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_143
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1230
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba7d1f0193ff104ebe37078d2647cec
+      internalID: -1775600274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_144
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 1230
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1f3be276382664fba152285cc9463b
+      internalID: 701594768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_145
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1230
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b375a558c998b944d888ee785a32db39
+      internalID: 894068391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_146
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 1230
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cf1a2245503c6459dda312cc4a451f
+      internalID: 2063855691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 870
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be44f7a4f8cdf414eaf8be4c119fdbea
+      internalID: -1165099417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_148
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 870
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed363021e1039448820732e19be405b
+      internalID: 1378602043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_149
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 870
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c0f23dffad95048a21f70f7420813e
+      internalID: -1877982033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_150
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 870
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e17b79b24856043a6c7d233398b996
+      internalID: 1479892648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_151
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 870
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd1b35844bba6842ac4d315a2bab112
+      internalID: 1091282300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_152
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 870
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62562a14fd12b544ea5f3d4b62be3a8c
+      internalID: -1344535663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_153
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 870
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33430c5398e95eb47b9a4e53f77c8815
+      internalID: 962935298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_154
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 870
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee98821681498574a9a4279350314e43
+      internalID: -1746254279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_155
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 870
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1214e299c3106540a67c95c6bccad74
+      internalID: 1479399206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_156
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 870
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b463b344d0de8364a8966aefd6136070
+      internalID: 530998269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_157
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 870
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa3088603c37d74eadfd764fc130beb
+      internalID: 56923224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_160
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 870
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8085fe0a4f6b4f848a21c3926f515ff8
+      internalID: 845753218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_161
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 870
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ee95ecc34c0ff4ea17da9cab236580
+      internalID: 2076422322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_162
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 870
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6b67c618b79eb49b924e45e53a253c
+      internalID: -562100865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_163
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 870
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39930af422fb0b4994c6731e4faf32d
+      internalID: -716064171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_164
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 870
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11846f99eea697547aca2162c2bd76ae
+      internalID: 1103928412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_165
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 870
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d5db374e9c4b94ea0c8fc97440a97a
+      internalID: -325093904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_166
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 870
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985be9762bebd6a42824595d52ac6780
+      internalID: 1887054304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_167
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af10e908f92776947b90cf3a7f4a1ef1
+      internalID: 1444881809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_168
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 510
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb131eebfa30eef4fb1645a79d85d896
+      internalID: -1453025765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_169
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 510
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a23902833fffea4fa1ffd43529c2cc2
+      internalID: -1083959755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_170
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 510
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9d40236c1ec8348acf4837201e5385
+      internalID: -1284342588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_171
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 510
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ae1378ebf8a21409aca03a21ab4606
+      internalID: 466102441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_172
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 510
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058f71bfe929fba40b31cb56a1a81f26
+      internalID: 1882144468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_173
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 510
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b56ca6273287934ea6cd4c5b9d991dd
+      internalID: -1546396366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_174
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 510
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c49d0fa54bc0bc4a962b8d37e82272a
+      internalID: -995302709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_175
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 510
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb50e59bd7fbec44aac81aed3b4c568
+      internalID: 1347583062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_176
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 510
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7df2ff926cb6a4d9f359c710087f25
+      internalID: 850581620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_177
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 510
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde2440ee7ffa714cb8b83f8d11c2012
+      internalID: -1346546048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_179
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 510
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b222a3c374924f948ac799741716537b
+      internalID: -1986401903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_180
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 510
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd8844d30d6c61449420c9d292c3518
+      internalID: -1688819531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_181
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 510
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe033967b6d95a4a996bf5028ff082d
+      internalID: 221067102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_182
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 510
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f4c028074f59743a9a8dd07e17736e
+      internalID: 690113209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_183
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 510
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c58528a3bb64ed458b10b0cb966a7b7
+      internalID: -381710965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_184
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 510
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a659e28b8b92f0446b7214fba26a3210
+      internalID: -1760533122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_185
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 510
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbf5130ac1292044a2af791a5229152
+      internalID: -1495121992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_186
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 150
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694572b1fe7ba7f4dbcc1c0e444003bb
+      internalID: -495868732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_187
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 150
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fe17bafb2685f4fbd8a346bebcaec4
+      internalID: 642564867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_188
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 150
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81911d86fa6b2047905de80111b7d58
+      internalID: -1942403078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilefente norm 2_190
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 150
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba549d7b0a2bd984fb4f665fb9109e61
+      internalID: 1058082007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 47c43ecc496bc7444b33f074398969cd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":360.0,"y":360.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      tilefente norm 2_0: 9144283618503582643
+      tilefente norm 2_1: -3650411763751325583
+      tilefente norm 2_10: -1815895180
+      tilefente norm 2_100: -153271620
+      tilefente norm 2_101: 370107642
+      tilefente norm 2_102: -1248845985
+      tilefente norm 2_103: -1124031629
+      tilefente norm 2_104: -1034872377
+      tilefente norm 2_105: 1873290409
+      tilefente norm 2_106: -1160753681
+      tilefente norm 2_107: -1042935296
+      tilefente norm 2_108: -1049300546
+      tilefente norm 2_109: -1333410058
+      tilefente norm 2_11: -857010386
+      tilefente norm 2_110: -230577850
+      tilefente norm 2_111: 911709986
+      tilefente norm 2_112: -839042148
+      tilefente norm 2_113: 1002302286
+      tilefente norm 2_114: 1395685388
+      tilefente norm 2_115: 1902077053
+      tilefente norm 2_116: 2047932291
+      tilefente norm 2_117: -1931904266
+      tilefente norm 2_118: -1361304419
+      tilefente norm 2_119: -1504218729
+      tilefente norm 2_12: -1401806445
+      tilefente norm 2_120: 1198803461
+      tilefente norm 2_121: -203906008
+      tilefente norm 2_122: 879607010
+      tilefente norm 2_123: 321408003
+      tilefente norm 2_124: -1237888028
+      tilefente norm 2_125: 934243093
+      tilefente norm 2_126: 526780754
+      tilefente norm 2_127: -1429981712
+      tilefente norm 2_128: -1151396026
+      tilefente norm 2_129: 1074266789
+      tilefente norm 2_13: 965407848
+      tilefente norm 2_130: 1628617144
+      tilefente norm 2_131: 915688665
+      tilefente norm 2_132: 283579124
+      tilefente norm 2_133: -412065726
+      tilefente norm 2_134: 298960366
+      tilefente norm 2_135: -1200842004
+      tilefente norm 2_136: 2027165236
+      tilefente norm 2_137: 1872292256
+      tilefente norm 2_138: 915759584
+      tilefente norm 2_139: -810280353
+      tilefente norm 2_14: 1440622603
+      tilefente norm 2_140: 888932022
+      tilefente norm 2_141: -584973840
+      tilefente norm 2_142: 1892943172
+      tilefente norm 2_143: -1775600274
+      tilefente norm 2_144: 701594768
+      tilefente norm 2_145: 894068391
+      tilefente norm 2_146: 2063855691
+      tilefente norm 2_147: -1165099417
+      tilefente norm 2_148: 1378602043
+      tilefente norm 2_149: -1877982033
+      tilefente norm 2_15: -1416456658
+      tilefente norm 2_150: 1479892648
+      tilefente norm 2_151: 1091282300
+      tilefente norm 2_152: -1344535663
+      tilefente norm 2_153: 962935298
+      tilefente norm 2_154: -1746254279
+      tilefente norm 2_155: 1479399206
+      tilefente norm 2_156: 530998269
+      tilefente norm 2_157: 56923224
+      tilefente norm 2_158: -1723977552
+      tilefente norm 2_159: -1866743902
+      tilefente norm 2_16: 550402650
+      tilefente norm 2_160: 845753218
+      tilefente norm 2_161: 2076422322
+      tilefente norm 2_162: -562100865
+      tilefente norm 2_163: -716064171
+      tilefente norm 2_164: 1103928412
+      tilefente norm 2_165: -325093904
+      tilefente norm 2_166: 1887054304
+      tilefente norm 2_167: 1444881809
+      tilefente norm 2_168: -1453025765
+      tilefente norm 2_169: -1083959755
+      tilefente norm 2_17: -250786023
+      tilefente norm 2_170: -1284342588
+      tilefente norm 2_171: 466102441
+      tilefente norm 2_172: 1882144468
+      tilefente norm 2_173: -1546396366
+      tilefente norm 2_174: -995302709
+      tilefente norm 2_175: 1347583062
+      tilefente norm 2_176: 850581620
+      tilefente norm 2_177: -1346546048
+      tilefente norm 2_178: 1472873430
+      tilefente norm 2_179: -1986401903
+      tilefente norm 2_18: -1793882933
+      tilefente norm 2_180: -1688819531
+      tilefente norm 2_181: 221067102
+      tilefente norm 2_182: 690113209
+      tilefente norm 2_183: -381710965
+      tilefente norm 2_184: -1760533122
+      tilefente norm 2_185: -1495121992
+      tilefente norm 2_186: -495868732
+      tilefente norm 2_187: 642564867
+      tilefente norm 2_188: -1942403078
+      tilefente norm 2_189: 1884701546
+      tilefente norm 2_19: 1692762922
+      tilefente norm 2_190: 1058082007
+      tilefente norm 2_2: 459906781950559919
+      tilefente norm 2_20: -2001645534
+      tilefente norm 2_21: -1086843377
+      tilefente norm 2_22: 574125346
+      tilefente norm 2_23: -36792994
+      tilefente norm 2_24: -1703779298
+      tilefente norm 2_25: -570333300
+      tilefente norm 2_26: -178122829
+      tilefente norm 2_27: -760226709
+      tilefente norm 2_28: 487717740
+      tilefente norm 2_29: -545994945
+      tilefente norm 2_3: 7093194480710426227
+      tilefente norm 2_30: 786124280
+      tilefente norm 2_31: -1512159206
+      tilefente norm 2_32: 1504008989
+      tilefente norm 2_33: -256332416
+      tilefente norm 2_34: 1096899885
+      tilefente norm 2_35: -1711006754
+      tilefente norm 2_36: 1626747887
+      tilefente norm 2_37: -1141040215
+      tilefente norm 2_38: -770063074
+      tilefente norm 2_39: -867965792
+      tilefente norm 2_4: -1941650917519504382
+      tilefente norm 2_40: 1142964016
+      tilefente norm 2_41: -1481216933
+      tilefente norm 2_42: -1524715101
+      tilefente norm 2_43: -40121586
+      tilefente norm 2_44: -174620613
+      tilefente norm 2_45: -1794419352
+      tilefente norm 2_46: 753611801
+      tilefente norm 2_47: 1351099039
+      tilefente norm 2_48: 323918821
+      tilefente norm 2_49: -396715119
+      tilefente norm 2_5: 1862528874503799527
+      tilefente norm 2_50: 1996325614
+      tilefente norm 2_51: -574854789
+      tilefente norm 2_52: 2127936369
+      tilefente norm 2_53: -1766779234
+      tilefente norm 2_54: 997864844
+      tilefente norm 2_55: 1747173398
+      tilefente norm 2_56: 433039005
+      tilefente norm 2_57: -1199530392
+      tilefente norm 2_58: 485224422
+      tilefente norm 2_59: -1574753654
+      tilefente norm 2_6: -5294123199865243900
+      tilefente norm 2_60: 446838285
+      tilefente norm 2_61: -1513381763
+      tilefente norm 2_62: -336540351
+      tilefente norm 2_63: 870604877
+      tilefente norm 2_64: 707019974
+      tilefente norm 2_65: -486186485
+      tilefente norm 2_66: -1317887134
+      tilefente norm 2_67: 653549542
+      tilefente norm 2_68: 94345761
+      tilefente norm 2_69: -770694211
+      tilefente norm 2_7: 1626178701661326686
+      tilefente norm 2_70: -2021868082
+      tilefente norm 2_71: -270714648
+      tilefente norm 2_72: -297187045
+      tilefente norm 2_73: -1945914328
+      tilefente norm 2_74: -2086834160
+      tilefente norm 2_75: 315623652
+      tilefente norm 2_76: 400623879
+      tilefente norm 2_77: -171193647
+      tilefente norm 2_78: -398345682
+      tilefente norm 2_79: 1755339448
+      tilefente norm 2_8: -8775484027904197499
+      tilefente norm 2_80: -743398436
+      tilefente norm 2_81: 809930431
+      tilefente norm 2_82: -134532717
+      tilefente norm 2_83: 1149233299
+      tilefente norm 2_84: 1297502453
+      tilefente norm 2_85: 160884297
+      tilefente norm 2_86: 637891433
+      tilefente norm 2_87: 1852555963
+      tilefente norm 2_88: -98285535
+      tilefente norm 2_89: -851503926
+      tilefente norm 2_9: -355936492456824292
+      tilefente norm 2_90: 719635463
+      tilefente norm 2_91: 699589207
+      tilefente norm 2_92: 216540279
+      tilefente norm 2_93: 2026474764
+      tilefente norm 2_94: -1368996794
+      tilefente norm 2_95: -18418099
+      tilefente norm 2_96: 919597445
+      tilefente norm 2_97: 1134373146
+      tilefente norm 2_98: -1546500757
+      tilefente norm 2_99: -837530867
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
