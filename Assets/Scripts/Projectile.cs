@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class Projectile : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class Projectile : MonoBehaviour
     private PlanoDeJogo planoDesteProjetil;
     private Rigidbody2D rb;
 
-    // Essa função é chamada pela Toupeira no momento do tiro
+    // Essa função é chamada pela Toupeira (PlayerShoot.cs) no momento do tiro
     public void Setup(float directionX, float playerScale, PlanoDeJogo plano)
     {
         rb = GetComponent<Rigidbody2D>();
@@ -18,10 +19,24 @@ public class Projectile : MonoBehaviour
         // 1. O tiro nasce com o tamanho proporcional ao boneco que atirou (0.2 se for no fundo!)
         transform.localScale *= playerScale;
 
-        // 2. A velocidade também é ajustada para não cruzar a tela do fundo em 1 frame
+        // 2. Ajusta o raio da Point Light 2D acoplada ao projétil proporcionalmente à escala
+        Light2D waterLight = GetComponentInChildren<Light2D>(true);
+        if (waterLight != null)
+        {
+            waterLight.pointLightOuterRadius *= playerScale;
+            waterLight.pointLightInnerRadius *= playerScale;
+        }
+
+        // 3. Garante que o projétil desenhe na frente do cenário para aplicar a refração
+        if (TryGetComponent<SpriteRenderer>(out SpriteRenderer sr))
+        {
+            sr.sortingOrder = (plano == PlanoDeJogo.Fundo) ? 0 : 2;
+        }
+
+        // 4. A velocidade também é ajustada para não cruzar a tela do fundo em 1 frame
         float actualSpeed = baseSpeed * playerScale;
 
-        // 3. Aplica o movimento
+        // 5. Aplica o movimento
         rb.linearVelocity = new Vector2(directionX * actualSpeed, 0f);
         
         // Destrói automaticamente se não bater em nada
@@ -37,7 +52,7 @@ public class Projectile : MonoBehaviour
             {
                 rock.Break();
                 Destroy(gameObject); // O tiro some ao bater
-                return; // Para a verificação aqui
+                return;
             }
         }
 
