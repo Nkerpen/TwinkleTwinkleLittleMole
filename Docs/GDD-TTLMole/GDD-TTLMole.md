@@ -14,96 +14,83 @@
 
 *   **Para quem é (Público-alvo):** +12 até 24 anos
 *   **Gênero e Plataforma:** Plataforma 2D para PC, aventura, collectathon
-*   **Escopo do Projeto:**
-	* **Quantidade de Fases:** 4 fases e um hub interativo
-	* **NPCs:**
-		* **Chapéu:** Um misterioso companheiro que está junto do jogador desde o início, é um chapéu mágico com grandes conhecimentos arcanos e segredos de igual tamanho. Ele é misterioso, zangado e sua personalidade entra em atrito com a inocência da toupeira.
-		* ![[Pasted image 20261018085336.png|169]]
-		* **Garça Labradorita (Espírito do Ar):** O Espírito do Ar é a Garça, com o humor volátil dos céus, seja tempestuoso ou ensolarado. Ela decora seu ninho com a pedra mágica Labradorita e tende a sofrer constantes transformações que alteram sua intuição e humor. Talvez a mais poderosa dos quatro, está acima de seus irmãos comandando os ares.
-		* ![[Pasted image 20261018085034.png|171]]
-		* **Polvo Perolado (Espírito da Água):** O Espírito da Água é o Polvo. Possui grande sabedoria, tem a habilidade de se esconder dentro de conchas e pode gerar através de seus anéis azuis pérolas mágicas que simbolizam a transformação da dor em beleza.
-		* ![[Pasted image 20261018084816.png|223]]
-		* **Serpente Rubi (Espírito do Fogo):** O Espírito do Fogo é a víbora. Com tamanha paixão ardente que queima até em seu olhar, ela possui grande vitalidade, escamas fortificadas e resistentes lapidadas com pedras mágicas rubi que evidenciam sua coragem e poder. 
-		  ![[Pasted image 20261018084636.png|218]]
-		* **Lince Bismuto (Espírito da Terra):** O Espírito da Terra é o Lince, que possui uma forte conexão com a pedra bismuto, responsável pela abundância da natureza local. Com o tempo, a energia do cristal se espalhou pelo seu corpo, tornando-o a própria ordem e conexão coletiva entre a terra, arvores e rios.
-		  ![[Pasted image 20261018084459.png|181]]
 
 ---
 
-##  2. Gameplay, Mecânicas e Loop
+##  2. Core Loop
 *O que o jogador faz, repetidamente, que torna o jogo divertido.*
 
+*   **Descrição do Loop:** Seleciona a fase -> Ganha a habilidade da fase escolhida -> Utiliza a habilidade para pegar os coletáveis da fase -> utiliza os coletaveis pegos para progredir no jogo -> Volta para a seleção de fases. 
 
-- **Coreloop do jogo:**
-	*   **Descrição do Loop:** (Ex: Explorar o mapa -> Coletar recursos -> Melhorar a base -> Repetir).
+![[WhatsApp Image 2026-10-13 at 16.41.41.jpeg|681]]
+ 
 
-![[WhatsApp Image 2026-10-13 at 16.41.41.jpeg]]
-
-- **Progressão:** O player tem um caminho claro que é seguido ao decorrer do jogo. Ao iniciar no hub central, ele tem um pequeno tutorial e suas primeiras interações com o personagem chapéu. Ali ele entenderá que sua missão é acordar os quatro espíritos adormecidos sob aquele templo, partindo assim para uma escolha entre três fases: Água, Terra e Fogo. 
-
-	- **As fases:** Cada uma delas possui uma mecânica única que será introduzida e aprofundada ao decorrer. Após utilizar dessa mecânica e atravessar os desafios e obstáculos do ambiente, o player se encontrará com o respectivo espírito e poderá acordar ele. Após isso, ele conclui a fase e volta para o hub central, onde poderá escolher a próxima.
-	
-	- **A Última fase:** Talvez a mais desafiadora, a fase do Ar é a única que obrigatoriamente é deixada para o final e não pode ser escolhida antes. A missão do player ali é acordar o espírito da garça, o mais poderoso dos outros espíritos. 
-	
-	- **As Mecânicas:** Após acordar um espírito, a toupeira desbloqueia a mecânica especial usada naquela fase, permitindo que ela a use para atravessar alguns desafios no hub e em outros ambientes. As 4 mecânicas são:
-	
-		**- Grappling Hook (Fase da Terra)**
-		**- Disparos de Projéteis (Fase da Água)**
-		**- Ataque carregado (Fase do Fogo)**
-		**- Planar (Fase do Ar)**
-	
-	- **Combate:**
-
-- **Replays e Saves:** O Hub funciona como um checkpoint. Quando entra numa fase, a toupeira possui 3 vidas. Se perder todas elas, ela perde a fase e ou precisa recomeçar do zero ou voltar para o hub. Perder uma fase apenas volta o progresso dela mesma, não reiniciando fases que você já completou. 
-
-- **Easter Eggs:** Pretendemos colocar alguns desafios em determinados levels que só podem ser completados se você já tiver desbloqueado uma habilidade específica de outra fase, com recompensas ainda não definidas.
 ---
 
-##  3. Escopo e "Não Escopo"
-
-### O que o jogo VAI ter (Escopo)
-- [x] (Mecânica principal 1)
-- [x] (Mecânica principal 2)
-
+##  3. Escopo
+1.  **Sistema de Duplo Plano (Foreground/Background):** O jogador controla a Toupeira em dois planos de jogo distintos (Mundo Real e o Mundo Espiritual). O sistema garante isolamento físico total (através da Matrix de Colisão de Layers) para que as interações e físicas de um plano não interfiram acidentalmente no outro. 
+2. **Mecânicas Elementais e Coletáveis:** 
+	- **Água:** Habilidade com limite de carga (recarregável em fontes) que permite atirar bolhas para destruir alvos à distância e apagar armadilhas das fases de fogo. 
+	- **Fogo:** Habilidade com soco poderoso (`PlayerPunch`) capaz de quebrar rochas (`RochaQuebravel`). O que é destruído na pintura (fundo) afeta o mundo real (ex: derrubar um pilar). Reflete armadilhas ativas. 
+	- **Terra (Chicote):** Mecânica de gancho/balanço (Grappling). Utilizando âncoras (`WhipAnchor`) espalhadas pelo cenário, a toupeira usa o chicote de terra para se pendurar, ganhar momento e transpor buracos ou alcançar plataformas altas. 
+	- **Vento (Planar):** Mecânica de mobilidade aérea. Interage com correntes de ar (`WindGust`) e permite que o jogador diminua a velocidade de queda, planando longas distâncias para cruzar grandes vãos ou evitar armadilhas no chão.
+	
+3. **Transição Fluida de Fases:** Sistema de portais e conclusão por coletáveis que utilizam carregamento assíncrono de cenas (`SceneManager.LoadSceneAsync`) e proteção de objetos (`DontDestroyOnLoad`). Telas de carregamento são mascaradas por transições suaves de fade (preto ao entrar em fases, branco ao retornar ao Templo). 
+4.  **Controles Otimizados:** Uso do Novo Input System suportando leitura apenas de Controle Gamepads e Joysticks.
 ### O que NÃO vamos fazer nesta etapa (Não Escopo)
-*Pelo menos 3 itens definidos para evitar escopo excessivo.*
-1. [ ] Não terá multiplayer online.
-2. [ ] Não terá sistema de inventário complexo com peso.
-3. [ ] Não faremos cutscenes animadas, apenas texto.
-4. [ ] não terá inimigos
-5. [ ] não terá faze final e nem sub fases
-6. [ ] som
+*Pelo menos 3 itens definidos para evitar escopo excessivo.
+
+1. Não faremos cutscenes animadas, apenas texto.
+2. Não terá inimigos.
+3. Não terá fase final e nem sub fases.
+4. Não terá Sons e Trilha Sonora.
   
 ---
 
 ##  4. Programação e Engenharia
 *Seção enxuta em tópicos para lógicas e sistemas.*
-
 ###  Decisões Já Tomadas
 *O que já está aprovado e alinhado com o Planejamento de Projeto.*
-- [x] Motor gráfico e padrão de arquitetura.
-- [x] Sistema de movimentação base.
+
+- **Motor gráfico e Padrão de Arquitetura:** Unity Engine (2D) em C#. 
+-  **Máquina de Estado de Progresso Global:** Implementação do Singleton `GameProgressManager`. Ele não é destruído ao mudar de fase e guarda as variáveis booleanas que definem quais habilidades (Fogo, Água, Terra, Vento) o jogador já desbloqueou. 
+-  **Arquitetura de Isolamento de Planos:
+	- `DefinidorDePlano.cs` É o script mestre de organização. Anexado às pastas principais (`----ObjetosFrente----` e `----ObjetosFundo----`), ele roda no `Awake` e distribui automaticamente o Enum `PlanoDeJogo` (Frente ou Fundo) para todos os portais, rochas, botões e inimigos filhos. Ele também altera a Layer de colisão de tudo dentro da pasta para isolar a física. Sua última atualização incluiu o parâmetro `(true)` para garantir que objetos desativados (invisíveis) também recebam essa configuração.
+- **`GameProgressManager.cs`:**
+	- O Singleton do jogo. Ele carrega as variáveis booleanas (`hasFire`, `hasWater`, `hasEarth`, `hasWind`, `hasFinalArtifact`) e utiliza `DontDestroyOnLoad` para não ser destruído ao trocar de cena. É ele quem dita o progresso do "Collectathon".
+- **`TempleManager.cs`:**
+	- Fica ativo apenas na cena do Hub (Templo). Ele lê o `GameProgressManager` no `Start()` e, se o jogador tiver 4 ou mais cristais, desativa o `GameObject` da barreira final, liberando o fim do jogo.
+- **`CharacterSwitcher.cs`:** 
+	- Gerencia a troca de controle entre a toupeira do Mundo Real e a toupeira das Pinturas. Ele ativa/desativa os componentes `PlayerMovement` e alterna as Câmeras Virtuais (Cinemachine) de cada plano, além de zerar a inércia (`linearVelocity`) do personagem que foi desativado para que ele não continue deslizando sozinho.
+- Controle e Habilidades do Jogador: 
+	- Os scripts do jogador modularizam as mecânicas. Todos possuem um sistema de "trava de progresso" (`CanUseAbility()`) que libera a habilidade apenas se ela foi destravada no save global, se a opção `isUnlockedPermanently` estiver marcada (para testes), ou se for a fase nativa do elemento.
+		1. **`PlayerMovement.cs`:** 
+			- A base física da toupeira. Controla velocidade, inércia e pulo. Possui cálculos automáticos no `Awake()` que multiplicam a velocidade, força de pulo e escala de gravidade com base no tamanho do personagem (para que a minitoupeira do fundo não seja rápida ou pesada demais). Inclui um sistema de _Hang Time_ que reduz a gravidade no pico do pulo para saltos mais precisos.
+		2. **`PlayerPunch.cs` (Fogo):** 
+			- Cria um círculo de colisão invisível (`OverlapCircleAll`) na frente do jogador quando o botão é pressionado. Se acertar uma `RochaQuebravel` do mesmo plano, ela é destruída.
+		3. **`PlayerShoot.cs` & `Projectile.cs` (Água):**
+			- O `PlayerShoot` controla o limite de munição e instancia o `Projectile`. O `Projectile` herda o plano e a escala de quem atirou (para nascer pequeno no fundo) e voa horizontalmente. Ao colidir, ele checa o plano do objeto acertado e se destrói ao tocar no chão, ativando botões ou quebrando rochas específicas no caminho.
+		4. **`PlayerWhip.cs` (Terra):** 
+			- Cria um sistema de _Grappling Hook_. Ao apertar o botão, ele busca a `WhipAnchor` mais próxima do mesmo plano. Se encontrar, ele trava o `PlayerMovement` (para a gravidade base não interferir), cria um `DistanceJoint2D` dinâmico atrelado à âncora, desenha uma linha (`LineRenderer`) e permite o balanço (`swingForce`) usando inputs direcionais. Ao soltar o botão, o jogador é arremessado mantendo a inércia.
+		5. **`PlayerGlide.cs` (Vento):** 
+			- Usado ao segurar o botão de pulo no ar. Limita a velocidade máxima de queda (`glideFallSpeed`). Se o personagem entrar em um `WindGust`, este script ignora a gravidade padrão e suavemente arrasta a velocidade Y do Rigidbody para cima e para os lados, acompanhando a força do vento.
 
 ###  Próximos Passos (Em Aberto)
 *O que ainda precisa ser discutido, sem inventar decisões.*
-- [ ] Como será feito o save do jogo? 
+1. Como será feito o save do jogo persistente? (Uso de `PlayerPrefs`, `.JSON` gerado por serialização, ou salvamento de estado do Singleton em arquivo local?).
+2. Adicionar a "Morte" no jogo, e como ela vai impactar o jogador, talvez o colocando novamente na sala de seleção após perder todas as vidas?
+3. Implementar e otimizar os *Tilemaps* definitivos dos cenários em conjunto com a equipe de arte, garantindo que suas colisões conversem perfeitamente com os scripts de `DefinidorDePlano`.
+4. Adicionar feedback visual e sonoro para as habilidades do jogador.
+5. Consertar a física do Grappling na habilidade da Terra.
+6. Adicionar as funções secundárias de cada habilidade.
 
 ---
-##  5. Histórias e Narrativas
 
+##  5. Arte, UI e Assets
 
-- **História de Fundo:** O mundo vivia em harmonia sendo governado pelos quatro espíritos centrais até que em certo momento, um poderoso feiticeiro os desafiou. Ele ansiava pelo poder dos espíritos, queria ser grande como eles. O feiticeiro estudou uma magia capaz de roubar esse poder para si. Temendo o destino do mundo, os quatro se uniram para derrotar a ameaça. O magia no entanto os enfraqueceu e como última alternativa, usaram suas maiores forças para aprisiona-lo, adormecendo no processo. Eras se passaram e a prisão do mago ficou isolada em uma ilha protegida no meio do mar, até que certo dia, uma pequena criaturinha caiu dos céus e mudou tudo.
-- **Personagem Principal:**
-	- **Background:**
-	- **Personalidade:** Inocente, manipulável, tímida e curiosa.
-	- **Aparência:** Uma pequena toupeira com nariz de estrela de coloração azulada. 
-##  6. Arte, UI e Assets
-
-
-*Apresente imagens, mockups e referências visuais onde o texto sozinho não for suficiente.*
 
 ###  Estilo e Conceitos Decididos
-- [ ] Estilo visual principal.
+
 
 **Cenarios:
 Para a construção dos cenários do jogo foram escolhidos templos como inspiração para cada território. A escolha levou em conta as características de cada elemento e as necessidades de construção de cada fase. Como principal referência para a flora será utilizada a ilha de Yakushima. Ela possui árvores milenares de grande porte e uma vegetação que varia de subtropical a temperada conforme a altitude. Essa característica ajuda a construir uma lógica natural para a diversidade de ambientes do mundo do jogo.
@@ -165,40 +152,68 @@ Buscando desenvolver uma identidade visual própria os personagens apresentam  s
 
 proporção de tela padrão HD 1920x1080
 
-![[aguaPuzlle(Simples).png]]
-mockup criado pela artista Beatriz
+![[aguaPuzlle(Simples) 1.png]]
+Exemplo simplificado da fase de agua (mockup criado pela artista Beatriz)
 
 
 
-Habilidade água:![[MokupHabilidadeagua 1.png]]
-![[MokupHabilidadeagua2.png|344]]
+**Habilidade água:
+essa habilidade requer sabedoria ao utiliza pois ele possui em limite de carga, pode carregar essa habilidade em fontes de agua.
+
+![[mokcupToperinha carregando00.png|218]]
+1° caracteristica
+tiro com bolhas serve para destruir coisas a distancia.
+![[MokupHabilidadeagua 1.png]]
+
+
+![[aguaPuzlle2(Simples) 1.png|475]]
+
+
+2° caracteristica
+é possível também utilizar a habilidade de agua para apagar armadilhas das fase do elemento fogo.
+
+![[aguahabilidade1(Simples) 1.png|700]]
+
+
+![[aguahabilidade2(Simples).png|338]]
 
 
 
-Habilidade de Fogo:
+**Habilidade de Fogo:
+1° caracteristica
 ![[MokcupsFogo1 1.png]]
+Refletir golpes de  inimigos  ou armadilhas .
 
+2° caracteristica
 ![[mokcups2Fogo.png]]
 soco poderoso pode quebra pedras assim se destruir algo na pintura pode ajudar a toupeira do mundo real ex : derruba um pilar
 
 Habilidade da terra:
+1° caracteristica
 ![[MockupsTerra 1.png]]
+
+
+2° caracteristica
+
+![[Terrahabilidade2(Simples).png|360]]
+
+Habilidade da Ar:
+
+cria uma copia do chapéu do mago com ele você pode planar  ou ser carregado pelo vento
+![[habilidade vento 1.png|237]]          ![[habilidade vento3.png|298]]
+
+
+![[Sin título(5).png]]
+
 
 ###  Próximos Passos (Em Aberto)
 
-parte de arte:
 
-
-Montar o tilemap das pedras utilizadas no chão e no topo das estruturas, com três variações de 14 peças cada: pedras entalhadas com símbolos, pedras simples sem entalhes e pedras com detalhes de limo, corrosão ou lava, totalizando 42 peças para o tilemap de cada fase elemental.
-
-(Os tiles de chão e telhado serão compartilhados entre todas as fases. Para finalizar as peças, falta apenas aplicar as cores.)
-
-Animação do player e mini toupeira.
-
-1 coletável simples
-
-- [ ] Design final do inimigo principal.
-- [ ] Interface (UI) in-game.
+ 1. Montar o tilemap das pedras utilizadas no chão e no topo das estruturas, com três variações de 14 peças cada: pedras entalhadas com símbolos, pedras simples sem entalhes e pedras com detalhes de limo, corrosão ou lava, totalizando 42 peças para o tilemap de cada fase elemental. (Os tiles de chão e telhado serão compartilhados entre todas as fases. Para finalizar as peças, falta apenas aplicar as cores.)
+2. Animação do player e mini toupeira.
+3. 1 coletável simples
+4. Design final do inimigo principal.
+5. Interface (UI) in-game.
 
 ---
 
@@ -214,6 +229,6 @@ link de imagens retiradas para os moodbooard  2:
 
 ##  7. Links Úteis e ChangeLog
 *   Link para o Miro: [Miro](https://miro.com/app/board/uXjVH0oqiZM=/?share_link_id=276353536082)
-*   **Última atualização (Changelog):** [Data] - [O que mudou brevemente. Ex: Adicionado core loop e concept de arte].
-*
+*   **Última atualização (Changelog):** [19/10/26] - [Adicionado a seção de programação e engenharia.].
+
 

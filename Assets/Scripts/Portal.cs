@@ -12,6 +12,8 @@ public class Portal : MonoBehaviour
 
     [Header("Configurações do Portal")]
     public string sceneToLoad;
+    
+    [HideInInspector] public PlanoDeJogo planoDestePortal; // O DefinidorDePlano preenche isso automaticamente!
 
     [Header("Transição")]
     public float fadeDuration = 1f;
@@ -24,28 +26,23 @@ public class Portal : MonoBehaviour
     {
         if (interactAction != null)
         {
-            interactAction.action.performed += OnInteractPerformed;
             interactAction.action.Enable();
-        }
-    }
-
-    private void OnDisable()
-    {
-        if (interactAction != null)
-        {
-            interactAction.action.performed -= OnInteractPerformed;
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // 1º Ponto de checagem: Algo encostou no portal?
-        Debug.Log($"[PORTAL] Objeto encostou no portal: {collision.gameObject.name} | Tag dele: {collision.tag}");
-
         if (collision.CompareTag("Player"))
         {
-            isPlayerInRange = true;
-            Debug.Log("[PORTAL] Jogador reconhecido! Pode apertar o botão de interação.");
+            // Pede o "crachá" da Toupeira (usamos o script de Soco pois as duas têm ele)
+            if (collision.TryGetComponent<PlayerPunch>(out PlayerPunch punch))
+            {
+                if (punch.planoDestePersonagem == planoDestePortal)
+                {
+                    isPlayerInRange = true;
+                    Debug.Log("[PORTAL] Jogador DO PLANO CORRETO reconhecido!");
+                }
+            }
         }
     }
 
@@ -53,61 +50,62 @@ public class Portal : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            isPlayerInRange = false;
-            Debug.Log("[PORTAL] Jogador saiu do portal.");
+            if (collision.TryGetComponent<PlayerPunch>(out PlayerPunch punch))
+            {
+                if (punch.planoDestePersonagem == planoDestePortal)
+                {
+                    isPlayerInRange = false;
+                }
+            }
         }
     }
 
-    private void OnInteractPerformed(InputAction.CallbackContext context)
+    private void Update()
     {
-        // 2º Ponto de checagem: O jogo detectou o aperto do botão?
-        Debug.Log("[PORTAL] O botão de Interagir foi pressionado no teclado/controle!");
+        // Interação contínua que resolve o bug do analógico/d-pad!
+        if (isPlayerInRange && !isTransitioning && interactAction != null)
+        {
+            float interactValue = interactAction.action.ReadValue<float>();
 
-        if (isPlayerInRange && !isTransitioning)
-        {
-            Debug.Log("[PORTAL] Condições perfeitas! Iniciando transição de cena...");
-            StartCoroutine(TransitionToScene());
-        }
-        else if (!isPlayerInRange)
-        {
-            Debug.Log("[PORTAL] Botão pressionado, mas o jogador NÃO está dentro do portal.");
+            if (interactValue > 0.5f)
+            {
+                StartCoroutine(TransitionToScene());
+            }
         }
     }
 
     private IEnumerator TransitionToScene()
     {
         isTransitioning = true;
-
-        // 1. Tira o portal de dentro de qualquer outro objeto (DontDestroyOnLoad exige isso)
-        transform.SetParent(null);
         
-        // 2. Impede que o Portal morra ao mudar de cena
+        // Protege o Portal de ser destruído no loading
+        transform.SetParent(null);
         DontDestroyOnLoad(gameObject);
 
-        // 3. Desativa o visual e a colisão do portal para ele ficar invisível na nova fase
+        // Deixa ele invisível/intocável na nova fase
         if (TryGetComponent<SpriteRenderer>(out SpriteRenderer sr)) sr.enabled = false;
         if (TryGetComponent<Collider2D>(out Collider2D col)) col.enabled = false;
-        // -------------------------
 
+        // Cria o Canvas
         GameObject canvasObject = new GameObject("TransitionCanvas");
         Canvas canvas = canvasObject.AddComponent<Canvas>();
         canvas.renderMode = RenderMode.ScreenSpaceOverlay;
-        canvas.sortingOrder = 999; 
+        canvas.sortingOrder = 999;
         
         GameObject imageObject = new GameObject("FadeImage");
         imageObject.transform.SetParent(canvasObject.transform, false);
         Image fadeImage = imageObject.AddComponent<Image>();
         fadeImage.color = new Color(fadeColor.r, fadeColor.g, fadeColor.b, 0f);
         
+        // Estica o Fade Preto
         RectTransform rectTransform = fadeImage.GetComponent<RectTransform>();
         rectTransform.anchorMin = Vector2.zero;
         rectTransform.anchorMax = Vector2.one;
         rectTransform.sizeDelta = Vector2.zero;
 
-        // Faz o Canvas ser "filho" do Portal. Assim, quando destruirmos o portal no final, o Canvas some junto.
         canvasObject.transform.SetParent(transform);
 
-        // Faz o Fade Out (Escurece)
+        // Fade Out
         float timer = 0f;
         while (timer < fadeDuration)
         {
@@ -116,13 +114,12 @@ public class Portal : MonoBehaviour
             fadeImage.color = new Color(fadeColor.r, fadeColor.g, fadeColor.b, alpha);
             yield return null;
         }
-
         fadeImage.color = new Color(fadeColor.r, fadeColor.g, fadeColor.b, 1f);
 
-        // Carrega a nova cena
+        // Carrega Fase
         yield return SceneManager.LoadSceneAsync(sceneToLoad);
 
-        // Faz o Fade In (Clareia a nova cena)
+        // Fade In
         timer = 0f;
         while (timer < fadeDuration)
         {
@@ -132,7 +129,6 @@ public class Portal : MonoBehaviour
             yield return null;
         }
 
-        // Destrói o Portal (o que também destrói o Canvas preto perfeitamente)
         Destroy(gameObject);
     }
 }

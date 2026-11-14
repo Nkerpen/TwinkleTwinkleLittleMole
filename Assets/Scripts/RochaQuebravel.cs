@@ -4,11 +4,8 @@ using UnityEngine;
 public enum PlanoDeJogo 
 
 { 
-
     Frente, 
-
     Fundo 
-
 }
 
 
