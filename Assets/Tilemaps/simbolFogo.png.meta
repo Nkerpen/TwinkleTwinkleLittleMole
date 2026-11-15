@@ -1,0 +1,730 @@
+fileFormatVersion: 2
+guid: d55af54b5b2c94d449b0ed48e22a6630
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3609325546998073358
+    second: simbolFogo_0
+  - first:
+      213: -7208284943728154319
+    second: simbolFogo_1
+  - first:
+      213: -6510083701733072233
+    second: simbolFogo_2
+  - first:
+      213: 6593246423224457166
+    second: simbolFogo_3
+  - first:
+      213: 1132902465452792151
+    second: simbolFogo_4
+  - first:
+      213: 8131784533275998699
+    second: simbolFogo_5
+  - first:
+      213: -29188504849525866
+    second: simbolFogo_6
+  - first:
+      213: 6511328948821434646
+    second: simbolFogo_7
+  - first:
+      213: 6748897051643094566
+    second: simbolFogo_8
+  - first:
+      213: 4326975942579280294
+    second: simbolFogo_9
+  - first:
+      213: 5394078997852459618
+    second: simbolFogo_10
+  - first:
+      213: 5255573198444976701
+    second: simbolFogo_11
+  - first:
+      213: -7295758435285239280
+    second: simbolFogo_12
+  - first:
+      213: 8387370021236037937
+    second: simbolFogo_13
+  - first:
+      213: 914271412451942580
+    second: simbolFogo_14
+  - first:
+      213: 761015663684827205
+    second: simbolFogo_15
+  - first:
+      213: 7751948236869366702
+    second: simbolFogo_16
+  - first:
+      213: -4418360311695737484
+    second: simbolFogo_17
+  - first:
+      213: 7743003761576544188
+    second: simbolFogo_18
+  - first:
+      213: 9157961014067084576
+    second: simbolFogo_19
+  - first:
+      213: 5360275535796431035
+    second: simbolFogo_20
+  - first:
+      213: -372613818666110508
+    second: simbolFogo_21
+  - first:
+      213: 5402922793855104306
+    second: simbolFogo_22
+  - first:
+      213: 5829679141415007685
+    second: simbolFogo_23
+  - first:
+      213: -2357745928933559244
+    second: simbolFogo_24
+  - first:
+      213: 2322704697893275189
+    second: simbolFogo_25
+  - first:
+      213: 7031874695559105117
+    second: simbolFogo_26
+  - first:
+      213: -8365140538809323984
+    second: simbolFogo_27
+  - first:
+      213: -1053321443571590752
+    second: simbolFogo_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: simbolFogo_0
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 2543
+        width: 703
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0800934676e61230800000000000000
+      internalID: 3609325546998073358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_4
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 2541
+        width: 405
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7595a7a3ac0e8bf00800000000000000
+      internalID: 1132902465452792151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_9
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 2258
+        width: 592
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a95919c1b18c0c30800000000000000
+      internalID: 4326975942579280294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_10
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 2182
+        width: 77
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262146df44e9bda40800000000000000
+      internalID: 5394078997852459618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_11
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 2156
+        width: 108
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a50609afb8fe840800000000000000
+      internalID: 5255573198444976701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_12
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 2231
+        width: 318
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a73c19b5240ca90800000000000000
+      internalID: -7295758435285239280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_13
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 1858
+        width: 506
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139d88b989ce56470800000000000000
+      internalID: 8387370021236037937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_14
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1811
+        width: 804
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b02e7f610520bc00800000000000000
+      internalID: 914271412451942580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_15
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1918
+        width: 324
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548317ec6bbaf8a00800000000000000
+      internalID: 761015663684827205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_16
+      rect:
+        serializedVersion: 2
+        x: 3346
+        y: 1511
+        width: 365
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea370df89d3749b60800000000000000
+      internalID: 7751948236869366702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_17
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 1430
+        width: 480
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47df0bbb4b4dea2c0800000000000000
+      internalID: -4418360311695737484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_18
+      rect:
+        serializedVersion: 2
+        x: 3978
+        y: 1500
+        width: 415
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7884f95eca47b60800000000000000
+      internalID: 7743003761576544188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_19
+      rect:
+        serializedVersion: 2
+        x: 4570
+        y: 1492
+        width: 436
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d3856750d971f70800000000000000
+      internalID: 9157961014067084576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_20
+      rect:
+        serializedVersion: 2
+        x: 2825
+        y: 1143
+        width: 284
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8ec592336836a40800000000000000
+      internalID: 5360275535796431035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_21
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 1195
+        width: 435
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d13104c4b534daf0800000000000000
+      internalID: -372613818666110508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_22
+      rect:
+        serializedVersion: 2
+        x: 4020
+        y: 1159
+        width: 444
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2353894b7a90bfa40800000000000000
+      internalID: 5402922793855104306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_23
+      rect:
+        serializedVersion: 2
+        x: 4572
+        y: 1063
+        width: 404
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5bb8aca4e27e050800000000000000
+      internalID: 5829679141415007685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_24
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 1038
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434ba4bc19a974fd0800000000000000
+      internalID: -2357745928933559244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_25
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 628
+        width: 373
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5364f04dd97eb3020800000000000000
+      internalID: 2322704697893275189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_26
+      rect:
+        serializedVersion: 2
+        x: 3322
+        y: 630
+        width: 482
+        height: 477
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5acbd577cc369160800000000000000
+      internalID: 7031874695559105117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_27
+      rect:
+        serializedVersion: 2
+        x: 4057
+        y: 634
+        width: 415
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03eec08100d09eb80800000000000000
+      internalID: -8365140538809323984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simbolFogo_28
+      rect:
+        serializedVersion: 2
+        x: 4572
+        y: 756
+        width: 465
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a91d915ab9d161f0800000000000000
+      internalID: -1053321443571590752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f46fe952a61d47444bba7741bcb6f33e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      simbolFogo_0: 3609325546998073358
+      simbolFogo_1: -7208284943728154319
+      simbolFogo_10: 5394078997852459618
+      simbolFogo_11: 5255573198444976701
+      simbolFogo_12: -7295758435285239280
+      simbolFogo_13: 8387370021236037937
+      simbolFogo_14: 914271412451942580
+      simbolFogo_15: 761015663684827205
+      simbolFogo_16: 7751948236869366702
+      simbolFogo_17: -4418360311695737484
+      simbolFogo_18: 7743003761576544188
+      simbolFogo_19: 9157961014067084576
+      simbolFogo_2: -6510083701733072233
+      simbolFogo_20: 5360275535796431035
+      simbolFogo_21: -372613818666110508
+      simbolFogo_22: 5402922793855104306
+      simbolFogo_23: 5829679141415007685
+      simbolFogo_24: -2357745928933559244
+      simbolFogo_25: 2322704697893275189
+      simbolFogo_26: 7031874695559105117
+      simbolFogo_27: -8365140538809323984
+      simbolFogo_28: -1053321443571590752
+      simbolFogo_3: 6593246423224457166
+      simbolFogo_4: 1132902465452792151
+      simbolFogo_5: 8131784533275998699
+      simbolFogo_6: -29188504849525866
+      simbolFogo_7: 6511328948821434646
+      simbolFogo_8: 6748897051643094566
+      simbolFogo_9: 4326975942579280294
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

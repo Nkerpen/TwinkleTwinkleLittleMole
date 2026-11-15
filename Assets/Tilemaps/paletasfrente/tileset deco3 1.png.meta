@@ -1,0 +1,7824 @@
+fileFormatVersion: 2
+guid: 89a9ee3232a7c5c48a7aa4cc24978371
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2263569950657022507
+    second: tileset deco3 1_0
+  - first:
+      213: -6555484310144606671
+    second: tileset deco3 1_1
+  - first:
+      213: -85374729711623480
+    second: tileset deco3 1_2
+  - first:
+      213: 4551794483009408669
+    second: tileset deco3 1_3
+  - first:
+      213: -6088713365061560267
+    second: tileset deco3 1_4
+  - first:
+      213: 7399432020335732854
+    second: tileset deco3 1_5
+  - first:
+      213: 3073065970861815848
+    second: tileset deco3 1_6
+  - first:
+      213: 5616586375082777722
+    second: tileset deco3 1_7
+  - first:
+      213: 2813262782065792399
+    second: tileset deco3 1_8
+  - first:
+      213: -2191511385936129340
+    second: tileset deco3 1_9
+  - first:
+      213: -5529155067993167883
+    second: tileset deco3 1_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 360
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tileset deco3 1_0
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 6743
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a092190e0d96f10800000000000000
+      internalID: 2263569950657022507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_1
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 6743
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e1f2b90cd3605a0800000000000000
+      internalID: -6555484310144606671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_2
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 6743
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c26ebab220b0def0800000000000000
+      internalID: -85374729711623480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_3
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 6743
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ecb5247f83b2f30800000000000000
+      internalID: 4551794483009408669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_4
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 6743
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5381550347b808ba0800000000000000
+      internalID: -6088713365061560267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_5
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 6743
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67823c7f73010b660800000000000000
+      internalID: 7399432020335732854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_6
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 6743
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8283f8cf739b5aa20800000000000000
+      internalID: 3073065970861815848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_7
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 6743
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c9b19dc8f12fd40800000000000000
+      internalID: 5616586375082777722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_8
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 6743
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85dbd05897ba0720800000000000000
+      internalID: 2813262782065792399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_9
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 6743
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c29d0071003691e0800000000000000
+      internalID: -2191511385936129340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_10
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 6743
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f76738a2ce7443b0800000000000000
+      internalID: -5529155067993167883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_11
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 6383
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6382f56fb9f14284d9773f26edcb36aa
+      internalID: 483075090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_12
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 6383
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6685cd96fcebf4aae450054dd91e8d
+      internalID: -593420914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_13
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 6383
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7bb424f9b12cf34dba5b628457e81cd
+      internalID: 1330658435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_14
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 6383
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461c3f8ff1b6c5c498ecc0205596e4ae
+      internalID: 1824072859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_15
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 6383
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc4800bd5c283041b9adf11c12724d2
+      internalID: -1764922268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_16
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 6383
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3823f296dc8000b4285b726b530d450b
+      internalID: -2057084203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_17
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 6383
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca85e6ec0cb29474d96fb624943a6361
+      internalID: -2092160940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_18
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 6383
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbbce3dc9ca7b949bacaad2f37bc205
+      internalID: -290971792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_19
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 6383
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b447bfc6a8bf24da0871b4eff59487
+      internalID: -921458574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_20
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 6383
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f423d4fde63ab9140950b2dd8f9e6018
+      internalID: -1700945859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_21
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 6383
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53e44626e74be149b0e39ae966afee8
+      internalID: 495223376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_22
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 6383
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4423d7a7d4cc0ba47ad2426997d3d98a
+      internalID: 1435314083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_23
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 6383
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff7757b7cdf9f2448d4c4d3a1974707
+      internalID: 1179997711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_24
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 6383
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4932964e4f6194da95df460ad1965e
+      internalID: 1316277443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_25
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 6023
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e793e158afdd648be9cf9f792c7f69
+      internalID: -56705035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_26
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 6023
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3721b54f198c154aa66919611d527ec
+      internalID: 1012724054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_27
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 6023
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606551725c462e64a81c47973094c54a
+      internalID: -1149406270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_28
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 6023
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9591273ea3dc87a49984827d6b48b8b5
+      internalID: 330849428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_29
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 6023
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081472fb7a468e04bb582ea17dca2971
+      internalID: -42094825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_30
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 6023
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664481b651de2114db9d656bbe49f427
+      internalID: 1688355633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_31
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 6023
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9716f0cf979da9f4ebd1f82a667c6e31
+      internalID: -485039604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_32
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 6023
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c446e6abf59cd7c4ca35e41cddc65932
+      internalID: -475389102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_33
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 6023
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1aa1b28e84c284e8c1a2297812fd33
+      internalID: -2001477801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_34
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 6023
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d2b60c3b137c74ea89176e83bef4e5
+      internalID: -162815258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_35
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 6023
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7183acc048861a84eb3cd2003b5ee128
+      internalID: -997869174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_36
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 6023
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70036f81b244fb4c817edc13a2c0aa9
+      internalID: -987337903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_37
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 6023
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df68015e350c8b441afe1dbae25cdfd5
+      internalID: -212904599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_38
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 6023
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce5b46f981598b479ebc134b8b71cef
+      internalID: 2095701117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_39
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 5663
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9b3ca84aafed040bb406871ec95484
+      internalID: -958994863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_40
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 5663
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4edd544fb388b34ca515fbea7689574
+      internalID: 1581632406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_41
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 5663
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfb396e0833dbf4ba13148ca8875bc7
+      internalID: 967209480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_42
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 5663
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931c9876f49ba064c90589975475bfae
+      internalID: -1683937053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_43
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 5663
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc9ba7ec696f0c4cbecd5d592379be6
+      internalID: -39944060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_44
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 5663
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2130a11df48c9404f872ec2dbd1ce889
+      internalID: 788912461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_45
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 5663
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fe7d5eec803c842b333220969ec343
+      internalID: -1441496675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_46
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 5663
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4326c1774497730409f326377ee34a10
+      internalID: -1667374121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_47
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 5663
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c8ad603d775df41ace0742d2da4ad7
+      internalID: -363569915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_48
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 5663
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2297e0616fa6ff24fb46b4765ed46afd
+      internalID: 1222290530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_49
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 5663
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2b5df4c74d7634b98dc07bc67a4cdd
+      internalID: -1559562621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_50
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 5663
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e02847d4ebcf0445874818aac54edd4
+      internalID: -2003255855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_51
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 5663
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40192c2bcaafbe46a8483bd73a40e5f
+      internalID: 1594294302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_52
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 5663
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e723f77c00502438552f48e24ccab4
+      internalID: -1127966785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_53
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 5303
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedc91d775646ab4f836d8168b1f842e
+      internalID: -1654084269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_54
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 5303
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a010a117eaa09384bbb9279a8c84dc60
+      internalID: -195477869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_55
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 5303
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dc3917af5cb4f4c8c208775ba08167
+      internalID: -145866148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_56
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 5303
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8e01b40d101d5458b22c1113426172
+      internalID: 374492771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_57
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 5303
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8c2bf365928d945966d423bbe43e40
+      internalID: 1858360808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_58
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 5303
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a300ab858c94842a5d480b73ce7fc2
+      internalID: -307947981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_59
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 5303
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf2427d1f388f0438d02e422f868443
+      internalID: -1482497940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_60
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 5303
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f56f4e93c24664419381404456255a3
+      internalID: -632122447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_61
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 5303
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f78bd9799e0bd4da8e8c72c63e4111
+      internalID: -1656543603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5787c7eb50007ee4aa68e77a4cafdfd5
+      internalID: -1711001550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_63
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0bdbdcf0ebdf34088dea400dd10161
+      internalID: 2007886269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_64
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8719c044cc41f6f46a02aa3f26b1a88d
+      internalID: 778895768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_65
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac605182ebf9b3419adf75936a64935
+      internalID: 991239304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_66
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a1dc5af76b7194c9e452a75b2b383b
+      internalID: 1255227658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_67
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fcbd00819030146ad9a4f2617f7038
+      internalID: -736349809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_68
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77aa226d33d9f34bbee3dfd7e9c3a63
+      internalID: 12830478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_69
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e69bfdc96cb5c4ba81b2b5717d7e40
+      internalID: -495454735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_70
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444d63409b54c174fb134445ec71c1af
+      internalID: 1820638864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_71
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989e1121ce97fd04a948feff7879e2c8
+      internalID: -1628083884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_72
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cda57fd35348943b2fb93d288f375d
+      internalID: -22656069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_73
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810af54b26ffb15449e624f86d2325e6
+      internalID: -654560616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_74
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d865c82b946a50e41bf5039a5cdd097e
+      internalID: -1421953064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_75
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354c1817517ddb64a81c6a0fcd8b0509
+      internalID: -822866132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_76
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b1d5fda6909d349b268f15c40cb5eb
+      internalID: -327559700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_77
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ffe7bffcc85c84ea042aa5503cd460
+      internalID: 643482215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_78
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0990deca51583dd4bac6bc3df6ac9731
+      internalID: -562507315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_79
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07d0f7846a9f664182d41326f861ce3
+      internalID: 2066145120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_80
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 4943
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e745ab1d1e03bb247a3f7ac2d105cb83
+      internalID: -1788905007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20fb11a32d857a48a4b611e03ab1e99
+      internalID: 1511789844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_82
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2be62d42d41bc24f8b0bd1e1b92a1a8
+      internalID: 965247476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_83
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c079cc3407e7bf4ba2119dfad8a4e25
+      internalID: 2006448625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_84
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c98a01be49921c4eb586d09ebe20f3e
+      internalID: 439583832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_85
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ba7d9ee29ce43448033c53c27641b4
+      internalID: 809932350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_86
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe418f2f1054b843ad604d851adbacc
+      internalID: 378108572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_87
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3782a5a088c402a43ae51bcceaddf423
+      internalID: -290980066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_88
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9850716dad715ea42a442e1fa00e91c0
+      internalID: 44782663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_89
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88d0d1282c552f4b91f38f3bdaafde2
+      internalID: 1368417128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_90
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7913948222d1f4940b22f3871e66806f
+      internalID: -1442217248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_91
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd98bb7907f5de94c9a574a1b4c83ca1
+      internalID: 607822046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_92
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d906606408f8b984cb9ba85cdb78a2ff
+      internalID: 579837944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_93
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb038db5ce7937249aa0ce81c8bd51c5
+      internalID: -1313005878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_94
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5aa98d9d1e221f4fbf16fc3d1d17e9f
+      internalID: -472907183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_95
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2dad41a9f10364f8d139e870419d4a
+      internalID: 1022882992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_96
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574a134478ad68a478b9fd6c854e9c88
+      internalID: -958234243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_97
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d73cd3186986744c858a347c2fb65f5
+      internalID: 503483629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_98
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f521fd92172c22049b2b1e174732f31f
+      internalID: 2017818323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_99
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c72a0d639c5414eaa7ca985cd5c08c
+      internalID: 1781937776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_100
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0980a1fe2291e0648810310e7b840290
+      internalID: -236668435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_101
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5d1b4b065ba3940aa9b934377c95d2
+      internalID: -1466425789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_102
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 4583
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbe8656a12fa3c4f87b0cd4b0b17f8a
+      internalID: -561224701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fefe0cfb871d34ea0f966bc1cc8a05
+      internalID: -537226580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_104
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81eb671b5929644ca2eb66dc4eaaa61
+      internalID: -1780367187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_105
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b30355ae7236a48978e05e84bfab5e
+      internalID: 1358626708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_106
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1030bbb3dbff3647bff2fabe25e3cf9
+      internalID: -1394281124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_107
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62cff291011c7bb478e2104419b812fe
+      internalID: -620260356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_108
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f1882f94ae5a542b963a402d46af03
+      internalID: -2036632166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_109
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c2b1c098ff9bf4d9b4bd5c6e92714f
+      internalID: 1969832379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_110
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e11851246cc893469ef77d7e3abcc1e
+      internalID: 285533980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_111
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c65dc999927b94ea784d4b6af60459
+      internalID: 2012099866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_112
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ce2b6b0dbd9604b9269d37bd491f3e
+      internalID: -418943635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_113
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf583f443314fe4f8fa4d3a7eca19e0
+      internalID: -239532404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_114
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c6db458781988449ef9c4cde048c88
+      internalID: 911999449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_115
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41ea572d952c81469c4539397c6abe7
+      internalID: -1637630756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_116
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b542b8af4eb9ec8488df3a73e56df7c4
+      internalID: 213945237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_117
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c0c620dcf0f6140808c557d6edb829
+      internalID: 270588057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_118
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d079ebc6e1d65c4aadedf6d657fd711
+      internalID: -1376314979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_119
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310f185b802103342a7766a1b01996ec
+      internalID: 2101988502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_120
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c3370d8a934c5438f089086006c930
+      internalID: 1861561351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_121
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bf3c7fec75641499c67cf11f22ac81
+      internalID: 1006064881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_122
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fecf0e059c41dc46830fe25e01ef66d
+      internalID: 1984730225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_123
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3decd74fff4a444b35816b464bf4d1
+      internalID: -1371038736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_124
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 4223
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8034e3c14677b6c47a2ca38992f49b34
+      internalID: 2147467350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d07b1654f66794cbfaa4c073d6b764
+      internalID: -2108179643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_126
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1bb42989a30cb419cc99e12bd1e6a8
+      internalID: -737263192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_127
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c48eb8f71837b4f9dc8a54a645f39a
+      internalID: -1878583272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_128
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e013f7e16aa3514b81e82757d9b0f91
+      internalID: 1184785718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_129
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbf0b75fd4021048bfd805073024f49
+      internalID: -3048886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_130
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794baa0497bd7bd42b48282e278ab0c0
+      internalID: 374048714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_131
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139473682eeac424d878e824679d76de
+      internalID: -1539286160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_132
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680409d1b71c9d9418bbe481e7ae141a
+      internalID: 1064079630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_133
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd346920f9f26147865ce0ccf517add
+      internalID: -742917976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_134
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a461b0a54f00f1041a934f09392258dc
+      internalID: 850993280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_135
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcec4ba11a518bd4686415ec70ee702c
+      internalID: 224367755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_136
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1141bfd5b159bcb4c8c1325e025b56a4
+      internalID: -1622111430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_137
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552d30a55def1d8479cc097938d65124
+      internalID: -540486588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_138
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ec5aec3a3a81c499b6f0de3ee6f926
+      internalID: 43239279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_139
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4443c4168fa0604d8dec78c68a5ed73
+      internalID: -1821211741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_140
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6a5957962a3dc429b06662c151b59c
+      internalID: -834044976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_141
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9be65f83e2941418cb8402120ff705
+      internalID: -939042701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_142
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0bab0761da4e248a2ca8eb217c2384
+      internalID: 218649984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_143
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a89c4a83ad9e046b18880c47ec606b
+      internalID: 1585265798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_144
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b258d6e50bbb96409ead6f83e8880ae
+      internalID: -985433267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_145
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 3863
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341e99a054bdde04189b2a439b5443b8
+      internalID: -1975076538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c45ba80a6f4da438fa6bd674df6e7e
+      internalID: -1514641676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_147
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f4a31e92f42104e90ef97f04f0b702
+      internalID: -397477643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_148
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6f3506015e99845915b94e73286cd3
+      internalID: -2278644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_149
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab65754d55acab46a771d602dba6d65
+      internalID: -1297749215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_150
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886f792cdbf799446a0e9d5cb877dd74
+      internalID: -1200754432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_151
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ee69ea755a52340a37cf8a7200bb9c
+      internalID: 1053017290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_152
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0ebf0fc4d711d49b9d8b9d7cfd42b1
+      internalID: 638033838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_153
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d50d73109f5dcb46978ee88a27a9318
+      internalID: 1498851200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_154
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e661670ea12f5934389952acc3f792d1
+      internalID: 1879007151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_155
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ace9047429b4c4aabcd0b731d1a0fd
+      internalID: -1533818838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_156
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccf6da7bb5190f43a7e71a9e73991c8
+      internalID: -322823103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_157
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb67a0361d1c5d14fbcd09ea4f2d311a
+      internalID: -1199713119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_158
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c3219bbcdd82d4fad48a576c79c427
+      internalID: -1534147173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_159
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4f44e1dd3450a459a6d725c1b3e425
+      internalID: 508484200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_160
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd81fb82198c9584eab4ed2256ffa102
+      internalID: 648993710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_161
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebfe4050bf27d348a545c88603f2521
+      internalID: 881944542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_162
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c235ac56088e04fbadf3fe98baa759
+      internalID: -1188435885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_163
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fda414b5c8eaa243b510a11db3a2f92
+      internalID: 1257556152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_164
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c011902f9c23be4293efaab7ab29e32
+      internalID: -976539568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_165
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484b8e723c3d2f64cbca5cea0dd2bfff
+      internalID: -1115151973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_166
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d02527e869bc084d94f539b0bbc8a7b
+      internalID: 1014318022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_167
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2ffa14ba47be9498da19cea3d3809c
+      internalID: 873995331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_168
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35526237151a8d744b3380c5fec5fb74
+      internalID: -1660809283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_169
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835defbdb2bec424582fb5f909de59f4
+      internalID: 1479278778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_170
+      rect:
+        serializedVersion: 2
+        x: 10440
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d3a5a1a882cd140a96a843700c9db7
+      internalID: 1621670628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_171
+      rect:
+        serializedVersion: 2
+        x: 10800
+        y: 3503
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9fdaf7f57917d40b56cfe7b27fd49a
+      internalID: -1023724133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9011bb02530d3b488f4ede12c70af17
+      internalID: -786736214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_173
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3506ff42c744b324098d55e6505220f2
+      internalID: -351316906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_174
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba6294a9c6ef2c4a9e3021ac278e2a0
+      internalID: -1130435127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_175
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43139bb6eb30bd644a43f241f4b8c943
+      internalID: -1145433039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_176
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b38e74d88f5ba04e86dd6b81df33cc8
+      internalID: -1783249573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_177
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18f9daba7dc0614796d613f0e10171d
+      internalID: -1622701163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_178
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a350bc3e92a2ec34291b67f702f2f622
+      internalID: -424546039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_179
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e218d8fa0a859c42a0ec36087dfb7c6
+      internalID: 2084029740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_180
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f482a4c7eb20645478994367f12855e2
+      internalID: 1142672281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_181
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda3ce79664923b408db3b3e5405759f
+      internalID: 1151076594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_182
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb78f0b59d16e34fa61927e7d0b5c1c
+      internalID: -1233437421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_183
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cdcfce91a1bf34dae6aaac41c29b0d
+      internalID: -1745020560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_184
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe3d2b7078a1f94081fe16dcb6608ab
+      internalID: -103160288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_185
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5701946ae0266e49a5f1bd9882ea876
+      internalID: 946249358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_186
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0295eb8967f8894290184c36756850b
+      internalID: -2035157201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_187
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5655229d6d6938449b8b5b198651ce7a
+      internalID: 465946082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_188
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3048a474b42c3654a9098ae0a1c32d1a
+      internalID: -831988428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_189
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dc68fdad2608143a9a4f79e87c4c7f
+      internalID: -1883083754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_190
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0ce5719646d214db9cfea51dd6bb28
+      internalID: 1986161216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_191
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f968a8fbde51d14ebfd2b0fe099756c
+      internalID: 1860940681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_192
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c643889a34bc94eb57e885b02c2082
+      internalID: -571900142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_193
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5af1a1a3316c7045a9fc29a2cc6295d
+      internalID: 1683818876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_194
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cfcc787acf29a498fd113ae4f1820e
+      internalID: 801564292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_195
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f9bc37334ef8d429b0c0a793b357e3
+      internalID: 14587605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_196
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac66cd1f8758f034ea5762c3a2f1da19
+      internalID: 1867047814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_197
+      rect:
+        serializedVersion: 2
+        x: 10440
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c29b278899cc9540adebd21a06cbff3
+      internalID: 1528439078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_198
+      rect:
+        serializedVersion: 2
+        x: 10800
+        y: 3143
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f83d05dddfa8c479e694aee74db2ba
+      internalID: 747635510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_199
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ab505a305a7cf4aa17a728cee5486d
+      internalID: -1316793777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_200
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6763e023da21e4189c1581e76c2bbb
+      internalID: 1178881005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_201
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c47606066a4194b878718be8d9bb21
+      internalID: 686650410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_202
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6f9cf5816939649946d869c37955d8
+      internalID: -1412158539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_203
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ecb0b3c66c48d4c865851da9474977
+      internalID: -140145946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_204
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ae0063c2d96a9459a0d7f009a44835
+      internalID: 1065520606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_205
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9926ddb1b92d843bb87fda4a9374d3
+      internalID: -1461550827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_206
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54979ee55437124184ff43f3a6ef1e4
+      internalID: -1756277513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_207
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb26b4828bf77349bb0da3832e3e254
+      internalID: -1013161331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_208
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb7cd5ce4e098c4189848b38f503912
+      internalID: 1132252985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_209
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad1027bea769494a9b3ac95e1391f72
+      internalID: 120620479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_210
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7171237753f4ffe4882424c76cda4fc3
+      internalID: 1125495280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_211
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499452020d470ee4fbf3480fbbb7cb38
+      internalID: -311395452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_212
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60152899c18e5f543a9cee7e041ad946
+      internalID: -1384070859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_213
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2814e892d0d77f6409408bd021dcc989
+      internalID: -55404563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_214
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4994a6cf598aeb54a9e2ea58e540e1f1
+      internalID: 420917957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_215
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffb51cb019782d48b1449eab180602b
+      internalID: 2009679031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_216
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742edefa203156a49ae84d20759ab1df
+      internalID: -618152149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_217
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ee0f6b343eb614caab5660ff661fe1
+      internalID: 421330740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_218
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026658ca1c9dc4343ba361683e8ed369
+      internalID: -1047660891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_219
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0767653aab9b045a2f93478a2bc748
+      internalID: 1883472983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_220
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac6aebc13326314f9f02a76ac37935c
+      internalID: 489417110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_221
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070fe21f1796c364687beccc2a8708a5
+      internalID: -998659475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_222
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5112b23b0e08e1c44873b9a346b10146
+      internalID: -855795071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_223
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a6362e474df94438253531ad4f2885
+      internalID: -1143198672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_224
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04776e737ec590d448ce28a3b34a86d9
+      internalID: -1331265336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_225
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cadbd444b30e53c46addb348d27aac28
+      internalID: -201585036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_226
+      rect:
+        serializedVersion: 2
+        x: 10440
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1028b6b73a0aa584c8cb70392c761b46
+      internalID: 249160656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_227
+      rect:
+        serializedVersion: 2
+        x: 10800
+        y: 2783
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c990fff887c3c3469e2ccf29c987698
+      internalID: -1191037449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_228
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab837fe03b1eaa458cfd83f815e2e7a
+      internalID: -235018848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_229
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310bf604794ec9944b8d1dd3b183e211
+      internalID: 1539811551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_230
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6af92e79665ec84c8183b25b8452234
+      internalID: -889565268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_231
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb2b42e5e3e4254597118b7ddee359c
+      internalID: 2005868188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_232
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad5b5ce5cfd89240b1f5c5091023c79
+      internalID: 718614879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_233
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53253d0568e8ca64b86794f0dd24e583
+      internalID: 2015008925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_234
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b469f7b147b834384733ef35fe0ad1
+      internalID: -2004922780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_235
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bc653f21f5e2e4cbbf0dfd6bfb5120
+      internalID: -1782559431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_236
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181b1187eb2208341899eee6cf03d6f2
+      internalID: 234514402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_237
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53108e1ac2ea57d45ae8f24ec2488263
+      internalID: 1061309824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_238
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0b433fc2863ad4cb054134b54a47f8
+      internalID: 2059212371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_239
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5366b3991f692c4b99d861b7c5c8532
+      internalID: -1995099709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_240
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfb43024c312ad4abefe58e90f9c1bb
+      internalID: 123644815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_241
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae1f40da66c2eb40bfbc43880cb5286
+      internalID: -92253509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_242
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b818498239825a4eaf5f22ce0818963
+      internalID: 529776257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_243
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1300aee05f9ad8e43b3134c40a89406a
+      internalID: -691602369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_244
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a545902aa2d0b4f9542d5f685db9f3
+      internalID: 685871064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_245
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c768fdb0d6cf04ba750f9052064b6c
+      internalID: 1723412021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_246
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2cd2c32ad1410488044c692d4fa0e8
+      internalID: -1111659921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_247
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abe3ea464f5ee0459bbb3682b0664b6
+      internalID: 505495733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_248
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da43d17a34d48742937de9d82fd00d8
+      internalID: 776210673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_249
+      rect:
+        serializedVersion: 2
+        x: 10800
+        y: 2423
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5a2e4de36f8ec408c0dc502bfa247b
+      internalID: -963676326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_250
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0ec7582d840c74e8a037ed3c9f670d
+      internalID: 1785948007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_251
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfe5c9515636d04e8eae4d64bb8dfde
+      internalID: -1425867016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_252
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5d4eaafd6117e439c902fbaa1cda81
+      internalID: -2127383183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_253
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167ec229cd96aa64f8c186681cb20c8f
+      internalID: -49389941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_254
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13489a03d0a06c4488cbf362a1b8f7fa
+      internalID: -1919735486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_255
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c949ef125cafd9d41b20ff69ff8c340b
+      internalID: -1963458773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_256
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ae065fad23e0b44b09373abffaef80
+      internalID: 204223793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_257
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd47e75eefa42e44972c1f772336fbd
+      internalID: -882336731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_258
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7017ad7a4feb949aebc158b09ff604
+      internalID: 210561422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_259
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1daed1e4bc4cc224383ab39db65c55dc
+      internalID: 2018802514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_260
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ebe4cf97c47b445afbfe025a112100
+      internalID: 175876358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_261
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee7022018633834ea403850983d0f8c
+      internalID: 1085017479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_262
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5cf93f42ff91c4b913093af574872b
+      internalID: -238143340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_263
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11b426c648e2bb4f812445de648e781
+      internalID: -827563038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_264
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba1d323c6e40c747b6d39465587db98
+      internalID: -656910659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_265
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a47fb84867ba3f4ca43a178cdfec316
+      internalID: 362383336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_266
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3475414cf35b7419f8497daeece731
+      internalID: -1609987850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_267
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c2d5ce4f1337943821605dbd222142
+      internalID: -387238419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_268
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0573d0e12e4231049aa1601047a8ae66
+      internalID: -1477247373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_269
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ffe8f2b0ca811458c9edceb28630de
+      internalID: 1962855648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_270
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c8c277a7cd8d5458a8a72bb0080992
+      internalID: -46860669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_271
+      rect:
+        serializedVersion: 2
+        x: 10800
+        y: 2063
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effc4c84f5076da45ab9505a1c925d56
+      internalID: -1191409279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_272
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a21422137602bd48a03a0547f2f85b9
+      internalID: 107826282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_273
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251cc344bdac5ac4b877ed3d2c3c15bb
+      internalID: 1021883516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_274
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f204a64fbeaf4d14ebcafec5d52b7598
+      internalID: 1919930243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_275
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bdf266f101f9243b68b92ca15e84cf
+      internalID: 625392326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_276
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dad556698d7754e9d7083dd86e7a3d
+      internalID: -396280785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_277
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f978521c62385d4f910886500d140a5
+      internalID: -1029486368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_278
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a735866d3d8c84da6356d3682f1e6c
+      internalID: -1609612916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_279
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb93106a7aa869143a756b0b646193be
+      internalID: 1209195024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_280
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3428947f30d20a04cad1408b5156fa9d
+      internalID: -1273121843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_281
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09af2d7672cb0e74bab5bb8d6969c504
+      internalID: -2072914634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_282
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da64c80bfeb6f443a4d75bb154f23de
+      internalID: 1167155585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_283
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb0f843e726cbe44b59998d94b12747
+      internalID: -412160061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_284
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc03b81b953c0d4d97c5d357558d4b4
+      internalID: -1529152429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_285
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619aa864bd4ff394bb1406c4a9c1ab44
+      internalID: 723042920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_286
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9f4ffa9961f6841959f425c9958fda
+      internalID: 2117554808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_287
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9161f69f80a52de49b96dedc506e0fe0
+      internalID: 35911701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_288
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cc386331aef644d94ce4c2ae530a30
+      internalID: -1164743271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_289
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d65da9451e9384cb474fd4dec0ca3e
+      internalID: -1069785616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_290
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75527799700169d449a01e75d63f0afd
+      internalID: 799053861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_291
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc6f836d9e37454684662e40e4fa311
+      internalID: -2142233168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_292
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 1703
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6aef4691d65e6a4bb9a2915b45b2b47
+      internalID: 337466743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_293
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd2288e6fba55741a08e0d6fcf3eb25
+      internalID: 1115344657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_294
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839adc2623c5f85408a188a881644081
+      internalID: -1548632862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_295
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbaabbf35e082441a021740c94a1996
+      internalID: 802931431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_296
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b8987ad98e9e54dae71ce0d21abc3e
+      internalID: -273242883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_297
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fbce231bfb5d1408c85ff06aa55ce2
+      internalID: 1603019760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_298
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0178d3bd9353a64a9741a735bef5541
+      internalID: -210584802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_299
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bdb284b40136445a95e52202525387
+      internalID: 22502494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_300
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d373885e95aab2e43893f5cfba6555ec
+      internalID: -941561268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_301
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a02c183ad0afa64b930cdd0cb8cc4f4
+      internalID: 1148207656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_302
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681fef7ec648432499b22116c1179611
+      internalID: 65197531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_303
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af04e929800c51479239c00d613f580
+      internalID: 984254036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_304
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb743ba3455c0a44852d80e65b08f84
+      internalID: 1125156770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_305
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89402afba9ec224bb68bf5551e20fb8
+      internalID: 511735235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_306
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc6d2f188cce264c8608b28886bca0e
+      internalID: -565471723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_307
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffeee860d8455b94ea749a22ac9e4b21
+      internalID: -830021278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_308
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c95520a3d6845c4c965f664e6ca6694
+      internalID: 279419477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_309
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbe1c7ab7b544d45afd36fae5eb4153
+      internalID: 1050387073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_310
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7dafe1ac78c554cbef2533ad933a7f
+      internalID: -1474615077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_311
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f997b13f7674c4089a96736a7655c8
+      internalID: -1324705605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_312
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1343
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7165bfea35cc27f40876da6ac22031fe
+      internalID: 1839749396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_313
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 983
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd196c2535758bd4797d3ff981526797
+      internalID: -1759215604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_314
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 983
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9289f64579a8e43a6ae46062040f5e
+      internalID: -1132466560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_315
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 983
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2db4625b4bb5e645aafe8d1d16a32dc
+      internalID: -2010501711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_316
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 983
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafce0fdaaf71f4449b7970aa7c78f59
+      internalID: -437137833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_317
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 983
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b17530a690b254899f8af88d5fa155
+      internalID: -1817089547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_318
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 983
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc078a8f30c6634bb18fd8d3ea08ea8
+      internalID: -1334026999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_319
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 983
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c24be8934196f45ab3f13d436c0d47
+      internalID: 41714973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_320
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 983
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adceac9761fe0147a5be0272b942ea6
+      internalID: -530763596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_321
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 983
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e463dc688859014f977489f0086cd8d
+      internalID: 277713646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_322
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 983
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8978299719903fb4bb6c67fa18752bd4
+      internalID: -1582879529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_323
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 623
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4920519baf772469e85e1b51440b32
+      internalID: 1945314745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_324
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 623
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ed133e1533b47418c94dc74f8d2229
+      internalID: 1400595484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_325
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 623
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc330e8093a17904397d14ce88f121a3
+      internalID: -2119584283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_326
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 623
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8675b1d2990c40c46a370e98a0b4583d
+      internalID: -388262923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_327
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 623
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36292c2636f16945a9991f5d6be4cbc
+      internalID: 909087549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_328
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 623
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b011536c38c4dc4689be5eb34434090
+      internalID: -1908367535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_329
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 623
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10dc090965fe294ebf4641a16a0ec72
+      internalID: -1710510036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_330
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 623
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606f368b0dbd7dc43960b80e681d698f
+      internalID: -1292225641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_331
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 623
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082780af70e7e2c49a5175f6db69c41f
+      internalID: 917198839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset deco3 1_332
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 623
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b5caa8be1742e47bb193e298052706
+      internalID: -2055125390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 49409a071d575534a8e495f15707aeb5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":360.0,"y":360.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      tileset deco3 1_0: 2263569950657022507
+      tileset deco3 1_1: -6555484310144606671
+      tileset deco3 1_10: -5529155067993167883
+      tileset deco3 1_100: -236668435
+      tileset deco3 1_101: -1466425789
+      tileset deco3 1_102: -561224701
+      tileset deco3 1_103: -537226580
+      tileset deco3 1_104: -1780367187
+      tileset deco3 1_105: 1358626708
+      tileset deco3 1_106: -1394281124
+      tileset deco3 1_107: -620260356
+      tileset deco3 1_108: -2036632166
+      tileset deco3 1_109: 1969832379
+      tileset deco3 1_11: 483075090
+      tileset deco3 1_110: 285533980
+      tileset deco3 1_111: 2012099866
+      tileset deco3 1_112: -418943635
+      tileset deco3 1_113: -239532404
+      tileset deco3 1_114: 911999449
+      tileset deco3 1_115: -1637630756
+      tileset deco3 1_116: 213945237
+      tileset deco3 1_117: 270588057
+      tileset deco3 1_118: -1376314979
+      tileset deco3 1_119: 2101988502
+      tileset deco3 1_12: -593420914
+      tileset deco3 1_120: 1861561351
+      tileset deco3 1_121: 1006064881
+      tileset deco3 1_122: 1984730225
+      tileset deco3 1_123: -1371038736
+      tileset deco3 1_124: 2147467350
+      tileset deco3 1_125: -2108179643
+      tileset deco3 1_126: -737263192
+      tileset deco3 1_127: -1878583272
+      tileset deco3 1_128: 1184785718
+      tileset deco3 1_129: -3048886
+      tileset deco3 1_13: 1330658435
+      tileset deco3 1_130: 374048714
+      tileset deco3 1_131: -1539286160
+      tileset deco3 1_132: 1064079630
+      tileset deco3 1_133: -742917976
+      tileset deco3 1_134: 850993280
+      tileset deco3 1_135: 224367755
+      tileset deco3 1_136: -1622111430
+      tileset deco3 1_137: -540486588
+      tileset deco3 1_138: 43239279
+      tileset deco3 1_139: -1821211741
+      tileset deco3 1_14: 1824072859
+      tileset deco3 1_140: -834044976
+      tileset deco3 1_141: -939042701
+      tileset deco3 1_142: 218649984
+      tileset deco3 1_143: 1585265798
+      tileset deco3 1_144: -985433267
+      tileset deco3 1_145: -1975076538
+      tileset deco3 1_146: -1514641676
+      tileset deco3 1_147: -397477643
+      tileset deco3 1_148: -2278644
+      tileset deco3 1_149: -1297749215
+      tileset deco3 1_15: -1764922268
+      tileset deco3 1_150: -1200754432
+      tileset deco3 1_151: 1053017290
+      tileset deco3 1_152: 638033838
+      tileset deco3 1_153: 1498851200
+      tileset deco3 1_154: 1879007151
+      tileset deco3 1_155: -1533818838
+      tileset deco3 1_156: -322823103
+      tileset deco3 1_157: -1199713119
+      tileset deco3 1_158: -1534147173
+      tileset deco3 1_159: 508484200
+      tileset deco3 1_16: -2057084203
+      tileset deco3 1_160: 648993710
+      tileset deco3 1_161: 881944542
+      tileset deco3 1_162: -1188435885
+      tileset deco3 1_163: 1257556152
+      tileset deco3 1_164: -976539568
+      tileset deco3 1_165: -1115151973
+      tileset deco3 1_166: 1014318022
+      tileset deco3 1_167: 873995331
+      tileset deco3 1_168: -1660809283
+      tileset deco3 1_169: 1479278778
+      tileset deco3 1_17: -2092160940
+      tileset deco3 1_170: 1621670628
+      tileset deco3 1_171: -1023724133
+      tileset deco3 1_172: -786736214
+      tileset deco3 1_173: -351316906
+      tileset deco3 1_174: -1130435127
+      tileset deco3 1_175: -1145433039
+      tileset deco3 1_176: -1783249573
+      tileset deco3 1_177: -1622701163
+      tileset deco3 1_178: -424546039
+      tileset deco3 1_179: 2084029740
+      tileset deco3 1_18: -290971792
+      tileset deco3 1_180: 1142672281
+      tileset deco3 1_181: 1151076594
+      tileset deco3 1_182: -1233437421
+      tileset deco3 1_183: -1745020560
+      tileset deco3 1_184: -103160288
+      tileset deco3 1_185: 946249358
+      tileset deco3 1_186: -2035157201
+      tileset deco3 1_187: 465946082
+      tileset deco3 1_188: -831988428
+      tileset deco3 1_189: -1883083754
+      tileset deco3 1_19: -921458574
+      tileset deco3 1_190: 1986161216
+      tileset deco3 1_191: 1860940681
+      tileset deco3 1_192: -571900142
+      tileset deco3 1_193: 1683818876
+      tileset deco3 1_194: 801564292
+      tileset deco3 1_195: 14587605
+      tileset deco3 1_196: 1867047814
+      tileset deco3 1_197: 1528439078
+      tileset deco3 1_198: 747635510
+      tileset deco3 1_199: -1316793777
+      tileset deco3 1_2: -85374729711623480
+      tileset deco3 1_20: -1700945859
+      tileset deco3 1_200: 1178881005
+      tileset deco3 1_201: 686650410
+      tileset deco3 1_202: -1412158539
+      tileset deco3 1_203: -140145946
+      tileset deco3 1_204: 1065520606
+      tileset deco3 1_205: -1461550827
+      tileset deco3 1_206: -1756277513
+      tileset deco3 1_207: -1013161331
+      tileset deco3 1_208: 1132252985
+      tileset deco3 1_209: 120620479
+      tileset deco3 1_21: 495223376
+      tileset deco3 1_210: 1125495280
+      tileset deco3 1_211: -311395452
+      tileset deco3 1_212: -1384070859
+      tileset deco3 1_213: -55404563
+      tileset deco3 1_214: 420917957
+      tileset deco3 1_215: 2009679031
+      tileset deco3 1_216: -618152149
+      tileset deco3 1_217: 421330740
+      tileset deco3 1_218: -1047660891
+      tileset deco3 1_219: 1883472983
+      tileset deco3 1_22: 1435314083
+      tileset deco3 1_220: 489417110
+      tileset deco3 1_221: -998659475
+      tileset deco3 1_222: -855795071
+      tileset deco3 1_223: -1143198672
+      tileset deco3 1_224: -1331265336
+      tileset deco3 1_225: -201585036
+      tileset deco3 1_226: 249160656
+      tileset deco3 1_227: -1191037449
+      tileset deco3 1_228: -235018848
+      tileset deco3 1_229: 1539811551
+      tileset deco3 1_23: 1179997711
+      tileset deco3 1_230: -889565268
+      tileset deco3 1_231: 2005868188
+      tileset deco3 1_232: 718614879
+      tileset deco3 1_233: 2015008925
+      tileset deco3 1_234: -2004922780
+      tileset deco3 1_235: -1782559431
+      tileset deco3 1_236: 234514402
+      tileset deco3 1_237: 1061309824
+      tileset deco3 1_238: 2059212371
+      tileset deco3 1_239: -1995099709
+      tileset deco3 1_24: 1316277443
+      tileset deco3 1_240: 123644815
+      tileset deco3 1_241: -92253509
+      tileset deco3 1_242: 529776257
+      tileset deco3 1_243: -691602369
+      tileset deco3 1_244: 685871064
+      tileset deco3 1_245: 1723412021
+      tileset deco3 1_246: -1111659921
+      tileset deco3 1_247: 505495733
+      tileset deco3 1_248: 776210673
+      tileset deco3 1_249: -963676326
+      tileset deco3 1_25: -56705035
+      tileset deco3 1_250: 1785948007
+      tileset deco3 1_251: -1425867016
+      tileset deco3 1_252: -2127383183
+      tileset deco3 1_253: -49389941
+      tileset deco3 1_254: -1919735486
+      tileset deco3 1_255: -1963458773
+      tileset deco3 1_256: 204223793
+      tileset deco3 1_257: -882336731
+      tileset deco3 1_258: 210561422
+      tileset deco3 1_259: 2018802514
+      tileset deco3 1_26: 1012724054
+      tileset deco3 1_260: 175876358
+      tileset deco3 1_261: 1085017479
+      tileset deco3 1_262: -238143340
+      tileset deco3 1_263: -827563038
+      tileset deco3 1_264: -656910659
+      tileset deco3 1_265: 362383336
+      tileset deco3 1_266: -1609987850
+      tileset deco3 1_267: -387238419
+      tileset deco3 1_268: -1477247373
+      tileset deco3 1_269: 1962855648
+      tileset deco3 1_27: -1149406270
+      tileset deco3 1_270: -46860669
+      tileset deco3 1_271: -1191409279
+      tileset deco3 1_272: 107826282
+      tileset deco3 1_273: 1021883516
+      tileset deco3 1_274: 1919930243
+      tileset deco3 1_275: 625392326
+      tileset deco3 1_276: -396280785
+      tileset deco3 1_277: -1029486368
+      tileset deco3 1_278: -1609612916
+      tileset deco3 1_279: 1209195024
+      tileset deco3 1_28: 330849428
+      tileset deco3 1_280: -1273121843
+      tileset deco3 1_281: -2072914634
+      tileset deco3 1_282: 1167155585
+      tileset deco3 1_283: -412160061
+      tileset deco3 1_284: -1529152429
+      tileset deco3 1_285: 723042920
+      tileset deco3 1_286: 2117554808
+      tileset deco3 1_287: 35911701
+      tileset deco3 1_288: -1164743271
+      tileset deco3 1_289: -1069785616
+      tileset deco3 1_29: -42094825
+      tileset deco3 1_290: 799053861
+      tileset deco3 1_291: -2142233168
+      tileset deco3 1_292: 337466743
+      tileset deco3 1_293: 1115344657
+      tileset deco3 1_294: -1548632862
+      tileset deco3 1_295: 802931431
+      tileset deco3 1_296: -273242883
+      tileset deco3 1_297: 1603019760
+      tileset deco3 1_298: -210584802
+      tileset deco3 1_299: 22502494
+      tileset deco3 1_3: 4551794483009408669
+      tileset deco3 1_30: 1688355633
+      tileset deco3 1_300: -941561268
+      tileset deco3 1_301: 1148207656
+      tileset deco3 1_302: 65197531
+      tileset deco3 1_303: 984254036
+      tileset deco3 1_304: 1125156770
+      tileset deco3 1_305: 511735235
+      tileset deco3 1_306: -565471723
+      tileset deco3 1_307: -830021278
+      tileset deco3 1_308: 279419477
+      tileset deco3 1_309: 1050387073
+      tileset deco3 1_31: -485039604
+      tileset deco3 1_310: -1474615077
+      tileset deco3 1_311: -1324705605
+      tileset deco3 1_312: 1839749396
+      tileset deco3 1_313: -1759215604
+      tileset deco3 1_314: -1132466560
+      tileset deco3 1_315: -2010501711
+      tileset deco3 1_316: -437137833
+      tileset deco3 1_317: -1817089547
+      tileset deco3 1_318: -1334026999
+      tileset deco3 1_319: 41714973
+      tileset deco3 1_32: -475389102
+      tileset deco3 1_320: -530763596
+      tileset deco3 1_321: 277713646
+      tileset deco3 1_322: -1582879529
+      tileset deco3 1_323: 1945314745
+      tileset deco3 1_324: 1400595484
+      tileset deco3 1_325: -2119584283
+      tileset deco3 1_326: -388262923
+      tileset deco3 1_327: 909087549
+      tileset deco3 1_328: -1908367535
+      tileset deco3 1_329: -1710510036
+      tileset deco3 1_33: -2001477801
+      tileset deco3 1_330: -1292225641
+      tileset deco3 1_331: 917198839
+      tileset deco3 1_332: -2055125390
+      tileset deco3 1_34: -162815258
+      tileset deco3 1_35: -997869174
+      tileset deco3 1_36: -987337903
+      tileset deco3 1_37: -212904599
+      tileset deco3 1_38: 2095701117
+      tileset deco3 1_39: -958994863
+      tileset deco3 1_4: -6088713365061560267
+      tileset deco3 1_40: 1581632406
+      tileset deco3 1_41: 967209480
+      tileset deco3 1_42: -1683937053
+      tileset deco3 1_43: -39944060
+      tileset deco3 1_44: 788912461
+      tileset deco3 1_45: -1441496675
+      tileset deco3 1_46: -1667374121
+      tileset deco3 1_47: -363569915
+      tileset deco3 1_48: 1222290530
+      tileset deco3 1_49: -1559562621
+      tileset deco3 1_5: 7399432020335732854
+      tileset deco3 1_50: -2003255855
+      tileset deco3 1_51: 1594294302
+      tileset deco3 1_52: -1127966785
+      tileset deco3 1_53: -1654084269
+      tileset deco3 1_54: -195477869
+      tileset deco3 1_55: -145866148
+      tileset deco3 1_56: 374492771
+      tileset deco3 1_57: 1858360808
+      tileset deco3 1_58: -307947981
+      tileset deco3 1_59: -1482497940
+      tileset deco3 1_6: 3073065970861815848
+      tileset deco3 1_60: -632122447
+      tileset deco3 1_61: -1656543603
+      tileset deco3 1_62: -1711001550
+      tileset deco3 1_63: 2007886269
+      tileset deco3 1_64: 778895768
+      tileset deco3 1_65: 991239304
+      tileset deco3 1_66: 1255227658
+      tileset deco3 1_67: -736349809
+      tileset deco3 1_68: 12830478
+      tileset deco3 1_69: -495454735
+      tileset deco3 1_7: 5616586375082777722
+      tileset deco3 1_70: 1820638864
+      tileset deco3 1_71: -1628083884
+      tileset deco3 1_72: -22656069
+      tileset deco3 1_73: -654560616
+      tileset deco3 1_74: -1421953064
+      tileset deco3 1_75: -822866132
+      tileset deco3 1_76: -327559700
+      tileset deco3 1_77: 643482215
+      tileset deco3 1_78: -562507315
+      tileset deco3 1_79: 2066145120
+      tileset deco3 1_8: 2813262782065792399
+      tileset deco3 1_80: -1788905007
+      tileset deco3 1_81: 1511789844
+      tileset deco3 1_82: 965247476
+      tileset deco3 1_83: 2006448625
+      tileset deco3 1_84: 439583832
+      tileset deco3 1_85: 809932350
+      tileset deco3 1_86: 378108572
+      tileset deco3 1_87: -290980066
+      tileset deco3 1_88: 44782663
+      tileset deco3 1_89: 1368417128
+      tileset deco3 1_9: -2191511385936129340
+      tileset deco3 1_90: -1442217248
+      tileset deco3 1_91: 607822046
+      tileset deco3 1_92: 579837944
+      tileset deco3 1_93: -1313005878
+      tileset deco3 1_94: -472907183
+      tileset deco3 1_95: 1022882992
+      tileset deco3 1_96: -958234243
+      tileset deco3 1_97: 503483629
+      tileset deco3 1_98: 2017818323
+      tileset deco3 1_99: 1781937776
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
