@@ -11,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - Frente
-  - Fundo
+  - Background
+  - Foreground
   - PlayerFrente
   - ChaoFrente
   - PlayerFundo

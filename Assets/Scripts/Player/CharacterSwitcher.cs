@@ -1,11 +1,8 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class CharacterSwitcher : MonoBehaviour
 {
-    private static readonly int PlanoAtivoID = Shader.PropertyToID("_PlanoAtivo");
-
     [Header("Input System")]
     [SerializeField, Tooltip("Referência para a ação de trocar de personagem")]
     private InputActionReference switchAction;
@@ -18,12 +15,7 @@ public class CharacterSwitcher : MonoBehaviour
     [SerializeField] private GameObject vcamForeground;
     [SerializeField] private GameObject vcamBackground;
 
-    [Header("Shader Cinematográfico Dimensional")]
-    [SerializeField] private float shaderTransitionDuration = 0.35f;
-
     private bool isForegroundActive = true;
-    private float currentPlanoAtivoValue = 0f;
-    private Coroutine shaderTransitionRoutine;
 
     private void OnEnable()
     {
@@ -45,13 +37,13 @@ public class CharacterSwitcher : MonoBehaviour
 
     private void Start()
     {
-        currentPlanoAtivoValue = isForegroundActive ? 0f : 1f;
-        Shader.SetGlobalFloat(PlanoAtivoID, currentPlanoAtivoValue);
         UpdateCharacterStates();
     }
 
     private void OnSwitchPerformed(InputAction.CallbackContext context)
     {
+        // Se o personagem do background não foi atribuído no Inspector (como na cena de seleção),
+        // aborta a função e impede o jogador de tentar trocar de mundo.
         if (playerBackground == null) return;
 
         isForegroundActive = !isForegroundActive;
@@ -76,31 +68,8 @@ public class CharacterSwitcher : MonoBehaviour
                 playerForeground.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
         }
 
-        // 3. Alterna as câmeras do Cinemachine
+        // 3. Alterna as câmeras do Cinemachine (já tinha validação parcial, agora está completo)
         if (vcamForeground != null) vcamForeground.SetActive(isForegroundActive);
         if (vcamBackground != null) vcamBackground.SetActive(!isForegroundActive);
-
-        // 4. Atualiza globalmente _PlanoAtivo no Shader (0 = Frente em foco, 1 = Fundo em foco)
-        float targetValue = isForegroundActive ? 0f : 1f;
-        if (shaderTransitionRoutine != null) StopCoroutine(shaderTransitionRoutine);
-        shaderTransitionRoutine = StartCoroutine(AnimatePlanoAtivoShader(targetValue));
-    }
-
-    private IEnumerator AnimatePlanoAtivoShader(float target)
-    {
-        float start = currentPlanoAtivoValue;
-        float elapsed = 0f;
-
-        while (elapsed < shaderTransitionDuration)
-        {
-            elapsed += Time.deltaTime;
-            float t = Mathf.SmoothStep(0f, 1f, elapsed / shaderTransitionDuration);
-            currentPlanoAtivoValue = Mathf.Lerp(start, target, t);
-            Shader.SetGlobalFloat(PlanoAtivoID, currentPlanoAtivoValue);
-            yield return null;
-        }
-
-        currentPlanoAtivoValue = target;
-        Shader.SetGlobalFloat(PlanoAtivoID, currentPlanoAtivoValue);
     }
 }

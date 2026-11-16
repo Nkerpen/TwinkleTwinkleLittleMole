@@ -1,15 +1,13 @@
-using UnityEngine;
+    using UnityEngine;
 
-public class DefinidorDePlano : MonoBehaviour
-{
-    private static readonly int IndicePlanoID = Shader.PropertyToID("_IndiceDestePlano");
+    public class DefinidorDePlano : MonoBehaviour
+    {
+        [Header("Configuração do Grupo")]
+        [Tooltip("Qual crachá todos os objetos dentro deste grupo devem receber?")]
+        public PlanoDeJogo planoDoGrupo;
 
-    [Header("Configuração do Grupo")]
-    [Tooltip("Qual crachá todos os objetos dentro deste grupo devem receber?")]
-    public PlanoDeJogo planoDoGrupo;
-
-    [Tooltip("Escreva o exato nome da Layer Física (ex: ChaoFrente ou ChaoFundo). O script mudará tudo para ela!")]
-    public string nomeDaLayerFisica;
+        [Tooltip("Escreva o exato nome da Layer Física (ex: ChaoFrente ou ChaoFundo). O script mudará tudo para ela!")]
+        public string nomeDaLayerFisica;
 
     private void Awake()
     {
@@ -22,7 +20,7 @@ public class DefinidorDePlano : MonoBehaviour
         foreach (var col in GetComponentsInChildren<Collectible>(true)) col.planoDesteColetavel = planoDoGrupo;
         foreach (var baseM in GetComponentsInChildren<AmmoStation>(true)) baseM.planoDestaBase = planoDoGrupo;
 
-        // 2. Muda a Layer de colisão de TODOS os filhos automaticamente (exceto sistemas de partículas)
+        // 2. Muda a Layer de colisão de TODOS os filhos automaticamente[cite: 17]
         if (!string.IsNullOrEmpty(nomeDaLayerFisica))
         {
             int layerID = LayerMask.NameToLayer(nomeDaLayerFisica);
@@ -30,10 +28,7 @@ public class DefinidorDePlano : MonoBehaviour
             {
                 foreach (Transform filho in GetComponentsInChildren<Transform>(true))
                 {
-                    if (filho.GetComponent<ParticleSystem>() == null)
-                    {
-                        filho.gameObject.layer = layerID;
-                    }
+                    filho.gameObject.layer = layerID;
                 }
             }
             else
@@ -41,16 +36,5 @@ public class DefinidorDePlano : MonoBehaviour
                 Debug.LogWarning($"A Layer '{nomeDaLayerFisica}' não existe! Crie ela nas tags da Unity.");
             }
         }
-
-        // 3. Injeta automaticamente _IndiceDestePlano (0 = Frente, 1 = Fundo) nos materiais de todos os sprites filhos
-        float indicePlano = (planoDoGrupo == PlanoDeJogo.Frente) ? 0f : 1f;
-        MaterialPropertyBlock propBlock = new MaterialPropertyBlock();
-
-        foreach (SpriteRenderer sr in GetComponentsInChildren<SpriteRenderer>(true))
-        {
-            sr.GetPropertyBlock(propBlock);
-            propBlock.SetFloat(IndicePlanoID, indicePlano);
-            sr.SetPropertyBlock(propBlock);
-        }
     }
-}
+    }
