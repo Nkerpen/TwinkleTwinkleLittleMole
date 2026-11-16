@@ -1,0 +1,34 @@
+Twinkle Twinkle Little Mole - Arquivos do menu preparados para Unity
+
+CONTEUDO
+- TTLMMenu/Sprites/TTLMLogo.png
+- TTLMMenu/Sprites/NovoJogoAP.png, NovoJogoES.png
+- TTLMMenu/Sprites/ContinuarAP.png, ContinuarES.png
+- TTLMMenu/Sprites/SairAP.png, SairES.png
+- TTLMMenu/Scripts/MenuButtonVisual.cs
+- TTLMMenu/Scripts/MenuInitialFocus.cs
+
+Os sprites foram recortados para remover as grandes margens transparentes;
+todos os seis botoes possuem o mesmo recorte. AP = cinza, ES = vermelho.
+Nenhuma arte foi redesenhada. A conversao manteve os pixels originais.
+
+INSTALACAO
+1. Extraia a pasta TTLMMenu diretamente dentro de Assets do projeto Unity.
+2. Em cada PNG: Texture Type = Sprite (2D and UI); Sprite Mode = Single; Apply.
+3. Crie uma cena nova e um Canvas (Screen Space - Overlay).
+4. Canvas Scaler: Scale With Screen Size, 1920 x 1080, Match = 0.5.
+5. Coloque TTLMLogo.png em UI > Image.
+6. Crie tres UI > Button com Image AP e remova o texto filho do Button.
+7. Para cada botao: Transition = None, Image Type = Simple, Navigation = Explicit.
+8. Adicione MenuButtonVisual.cs a cada botao e atribua AP e ES.
+9. Configure Navigation Up/Down entre os tres botoes.
+10. Adicione MenuInitialFocus ao Canvas e atribua o botao Novo Jogo.
+11. Verifique EventSystem com Input System UI Input Module para teclado e mouse.
+
+SUGESTAO DE POSICOES (ANCHOR NO CENTRO EM 1920x1080)
+Logo: largura 620, altura 386, Pos Y = 300
+Botoes: largura 420, altura 165 (proporcao correta do recorte)
+Novo Jogo: Y = -15; Continuar: Y = -190; Sair: Y = -365
+
+Os scripts controlam apenas AP/ES e escala. A logica de clique (abrir cena,
+continuar jogo, sair) deve ser ligada ao evento OnClick de cada Button.
