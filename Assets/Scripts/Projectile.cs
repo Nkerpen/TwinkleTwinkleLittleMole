@@ -37,29 +37,42 @@ public class Projectile : MonoBehaviour
             {
                 rock.Break();
                 Destroy(gameObject); // O tiro some ao bater
-                return; // Para a verificação aqui
+                return;
             }
         }
 
-        // 2. Verifica se bateu em um Botão
+        // 2. Verifica se bateu em um Botão ou Alavanca
         if (collision.TryGetComponent<ShootableButton>(out ShootableButton btn))
         {
             if (btn.planoDesteBotao == planoDesteProjetil)
             {
                 btn.Activate();
-                Destroy(gameObject); // O tiro some ao bater no botão
+                Destroy(gameObject);
                 return; 
             }
         }
 
-        // 3. Se bater no chão/parede da sua respectiva Layer, o tiro também some
-        if (collision.gameObject.layer == LayerMask.NameToLayer("ChaoFrente") && planoDesteProjetil == PlanoDeJogo.Frente)
+        // 3. Verifica se bateu em uma Armadilha de Fogo (GDD 4.6)
+        FireTrap trap = collision.GetComponent<FireTrap>();
+        if (trap == null) trap = collision.GetComponentInParent<FireTrap>();
+        if (trap != null && trap.planoDestaArmadilha == planoDesteProjetil)
         {
+            trap.DeactivateTrap();
             Destroy(gameObject);
+            return;
         }
-        else if (collision.gameObject.layer == LayerMask.NameToLayer("ChaoFundo") && planoDesteProjetil == PlanoDeJogo.Fundo)
+
+        // 4. Se bater no chão/parede da sua respectiva Layer, o tiro também some
+        if (!collision.isTrigger)
         {
-            Destroy(gameObject);
+            if (collision.gameObject.layer == LayerMask.NameToLayer("ChaoFrente") && planoDesteProjetil == PlanoDeJogo.Frente)
+            {
+                Destroy(gameObject);
+            }
+            else if (collision.gameObject.layer == LayerMask.NameToLayer("ChaoFundo") && planoDesteProjetil == PlanoDeJogo.Fundo)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }
