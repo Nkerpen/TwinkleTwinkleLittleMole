@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7317098455185788811}
   - component: {fileID: 9092488028329035428}
+  - component: {fileID: 5566876676742088378}
+  - component: {fileID: 9035146487772008783}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -45,7 +47,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   switchAction: {fileID: 5150038968376110192, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  playerForeground: {fileID: 6151781529446694356, guid: 24fb4268e47c1624194fe4422b8710b1, type: 3}
-  playerBackground: {fileID: 570491332327138259, guid: d1cf12b46b88a924bbadbffb66447beb, type: 3}
-  vcamForeground: {fileID: 8286165882330436811, guid: 43ebff373fbb61d46b8ae98018338ebc, type: 3}
-  vcamBackground: {fileID: 6371684101359415391, guid: 9d156784e7adfe246b5b54401b6ad7c1, type: 3}
+  playerForeground: {fileID: 0}
+  playerBackground: {fileID: 0}
+  vcamForeground: {fileID: 0}
+  vcamBackground: {fileID: 0}
+--- !u!114 &5566876676742088378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6285582046365319006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b2c3d4e5f6478990123456789abc01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  maxHealth: 3
+  currentHealth: 3
+  hudVida: {fileID: 0}
+  meiosCoracoesPorPonto: 2
+  invincibilityDuration: 1.2
+  blinkInterval: 0.1
+  autoConfigurarLavaECuraNaCena: 1
+  onHealthChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  onPlayerDied:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &9035146487772008783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6285582046365319006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1c2d3e4f5a6478990123456789abc11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HUDBannerTemporario
+  tempoVisivel: 3
+  duracaoSubida: 0.7
+  deslocamentoSubidaY: 260
+  desativarAoFinalizar: 1

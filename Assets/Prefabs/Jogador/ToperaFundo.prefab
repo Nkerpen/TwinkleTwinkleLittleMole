@@ -35,13 +35,14 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6146402232521266160}
   - {fileID: 3233551890923877163}
   - {fileID: 6005370514345459505}
   - {fileID: 9057880193406350715}
+  - {fileID: 437067414327390736}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8410565597083079640
@@ -117,8 +118,8 @@ MonoBehaviour:
   moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   jumpAction: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   moveSpeed: 8
-  jumpForce: 9
-  maxFallSpeed: 9
+  jumpForce: 10
+  maxFallSpeed: 8
   fallGravityMultiplier: 1
   apexVelocityThreshold: 2
   apexGravityMultiplier: 2
@@ -127,6 +128,11 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 2048
+  characterAnimator: {fileID: 5586218888208666038}
+  punchAnimDuration: 0.45
+  landAnimDuration: 0.2
+  congelarNoFinalDaQueda: 1
+  pontoDeLoopFinalDaQueda: 0.75
   canMove: 1
 --- !u!50 &3198931017429612616
 Rigidbody2D:
@@ -189,7 +195,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.15}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -199,7 +205,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 1, y: 2.3}
   m_EdgeRadius: 0
 --- !u!114 &6290150034628276803
 MonoBehaviour:
@@ -216,9 +222,10 @@ MonoBehaviour:
   attackAction: {fileID: 1120369429361536294, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   attackPoint: {fileID: 6005370514345459505}
   attackRadius: 0.2
+  attackCooldown: 0.25
   planoDestePersonagem: 1
   isUnlockedPermanently: 0
-  nativeScene: F-FogoScene
+  nativeScene: F-Fogo2
 --- !u!114 &1446312817777379313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -513,3 +520,86 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3218875570715402996}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1466568904138342718
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3218875570715402996}
+    m_Modifications:
+    - target: {fileID: 1318018512218567470, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318018512218567470, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318018512218567470, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318018512218567470, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.205
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318018512218567470, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.812
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318018512218567470, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318018512218567470, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318018512218567470, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318018512218567470, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318018512218567470, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318018512218567470, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318018512218567470, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318018512218567470, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2360960546509963372, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+      propertyPath: m_Name
+      value: touperaFundoSprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 3627755850200131006, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+--- !u!4 &437067414327390736 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1318018512218567470, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+  m_PrefabInstance: {fileID: 1466568904138342718}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5586218888208666038 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6475174466200374408, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+  m_PrefabInstance: {fileID: 1466568904138342718}
+  m_PrefabAsset: {fileID: 0}
