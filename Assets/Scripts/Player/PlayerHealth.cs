@@ -10,23 +10,23 @@ public class PlayerHealth : MonoBehaviour
 
     [Header("Vida Compartilhada (Frente + Fundo)")]
     [SerializeField, Tooltip("Vida máxima compartilhada entre as duas toupeiras (3 = 3 corações cheios)")]
-    private int maxHealth = 6;
+    private int maxHealth = 3;
 
     [SerializeField, Tooltip("Vida atual compartilhada entre as duas toupeiras")]
-    private int currentHealth = 6;
+    private int currentHealth = 3;
 
     [Header("Conexão com o HUD (HUDVida.cs)")]
     [SerializeField, Tooltip("Arraste o objeto do HUD que tem o script HUDVida (se vazio, busca automaticamente na cena)")]
     private HUDVida hudVida;
 
     [SerializeField, Tooltip("Quantos meios-corações do HUD equivalem a 1 ponto de vida (2 = cada hit tira 1 coração inteiro de 3; 1 = cada hit tira meio coração de 6)")]
-    private int meiosCoracoesPorPonto = 1;
+    private int meiosCoracoesPorPonto = 2;
 
-    [Header("Invencibilidade e Proteção Off-Screen")]
+    [Header("Invencibilidade e Hit Effect (Shader)")]
     [SerializeField, Tooltip("Tempo de invencibilidade (em segundos) após levar um hit")]
     private float invincibilityDuration = 1.2f;
 
-    [SerializeField, Tooltip("Intervalo do pisca-pisca visual durante a invencibilidade")]
+    [SerializeField, Tooltip("Fallback: intervalo do pisca-pisca de transparência APENAS se o personagem ainda não estiver usando o material TTLM_HitEffect2D")]
     private float blinkInterval = 0.1f;
 
     [SerializeField, Tooltip("Impede que a toupeira INATIVA (parada no outro plano longe da câmera) tome dano sozinha fora da tela")]
@@ -44,6 +44,7 @@ public class PlayerHealth : MonoBehaviour
     private bool isDead = false;
     private readonly List<PlayerMovement> registeredPlayers = new List<PlayerMovement>();
     private readonly List<SpriteRenderer> playerRenderers = new List<SpriteRenderer>();
+    private readonly List<PlayerHitEffect> playerHitEffects = new List<PlayerHitEffect>();
 
     public int CurrentHealth => currentHealth;
     public int MaxHealth => maxHealth;
@@ -100,6 +101,7 @@ public class PlayerHealth : MonoBehaviour
         isInvincible = false;
         registeredPlayers.Clear();
         playerRenderers.Clear();
+        playerHitEffects.Clear();
 
         if (hudVida == null || !hudVida.gameObject.scene.IsValid())
         {
@@ -149,6 +151,16 @@ public class PlayerHealth : MonoBehaviour
         }
         receiver.Initialize(this, player);
 
+        // Anexa/registra automaticamente o PlayerHitEffect para usar o Shader de Hit Effect!
+        if (!player.TryGetComponent<PlayerHitEffect>(out var hitEffect))
+        {
+            hitEffect = player.gameObject.AddComponent<PlayerHitEffect>();
+        }
+        if (!playerHitEffects.Contains(hitEffect))
+        {
+            playerHitEffects.Add(hitEffect);
+        }
+
         foreach (var sr in player.GetComponentsInChildren<SpriteRenderer>(true))
         {
             if (sr.enabled && !playerRenderers.Contains(sr))
@@ -162,6 +174,7 @@ public class PlayerHealth : MonoBehaviour
     {
         registeredPlayers.RemoveAll(p => p == null);
         playerRenderers.RemoveAll(sr => sr == null);
+        playerHitEffects.RemoveAll(he => he == null);
 
         PlayerMovement[] players = FindObjectsByType<PlayerMovement>(FindObjectsInactive.Include, FindObjectsSortMode.None);
         foreach (var p in players)
@@ -240,11 +253,31 @@ public class PlayerHealth : MonoBehaviour
             hitPlayer.RespawnAtLastSafePosition();
         }
 
+        // Dispara o Hit Effect via Shader (TTLM_HitEffect2D) em todas as toupeiras que usam o material!
+        bool algumUsouShaderDeHit = DispararHitEffectViaShader();
+
         if (gameObject.activeInHierarchy)
         {
             StopAllCoroutines();
-            StartCoroutine(InvincibilityRoutine());
+            StartCoroutine(InvincibilityRoutine(!algumUsouShaderDeHit));
         }
+    }
+
+    private bool DispararHitEffectViaShader()
+    {
+        bool usouShader = false;
+        for (int i = playerHitEffects.Count - 1; i >= 0; i--)
+        {
+            PlayerHitEffect he = playerHitEffects[i];
+            if (he == null) continue;
+
+            he.TriggerHitFlash();
+            if (he.HasHitEffectShader)
+            {
+                usouShader = true;
+            }
+        }
+        return usouShader;
     }
 
     /// <summary>
@@ -277,21 +310,32 @@ public class PlayerHealth : MonoBehaviour
         SceneManager.LoadScene(currentScene.name);
     }
 
-    private IEnumerator InvincibilityRoutine()
+    private IEnumerator InvincibilityRoutine(bool usarFallbackDeTransparencia)
     {
         isInvincible = true;
-        float elapsed = 0f;
-        bool visible = true;
 
-        while (elapsed < invincibilityDuration)
+        if (usarFallbackDeTransparencia)
         {
-            visible = !visible;
-            SetPlayersAlpha(visible ? 1f : 0.35f);
-            yield return new WaitForSeconds(blinkInterval);
-            elapsed += blinkInterval;
+            // Fallback caso o material TTLM_HitEffect2D ainda não tenha sido colocado no SpriteRenderer
+            float elapsed = 0f;
+            bool visible = true;
+
+            while (elapsed < invincibilityDuration)
+            {
+                visible = !visible;
+                SetPlayersAlpha(visible ? 1f : 0.35f);
+                yield return new WaitForSeconds(blinkInterval);
+                elapsed += blinkInterval;
+            }
+
+            SetPlayersAlpha(1f);
+        }
+        else
+        {
+            // Quando o Shader TTLM_HitEffect2D está ativo, o PlayerHitEffect cuida do flash visual!
+            yield return new WaitForSeconds(invincibilityDuration);
         }
 
-        SetPlayersAlpha(1f);
         isInvincible = false;
     }
 

@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 617719846536231888}
   - component: {fileID: 3924127152062225338}
   m_Layer: 0
-  m_Name: Spot Light 2D
+  m_Name: PunchLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &617719846536231888
 Transform:
   m_ObjectHideFlags: 0
@@ -25,12 +25,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1052142157789382870}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: -2.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3904902116911003963}
+  m_Father: {fileID: 2996117441232623561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3924127152062225338
 MonoBehaviour:
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8207547, g: 0.3913696, b: 0, a: 1}
   m_Intensity: 4.5
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
@@ -72,8 +72,8 @@ MonoBehaviour:
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 1
+  m_PointLightInnerRadius: 1
+  m_PointLightOuterRadius: 1.5
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -142,8 +142,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovementBase
   moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   jumpAction: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  moveSpeed: 8
-  jumpForce: 9
+  moveSpeed: 10
+  jumpForce: 10
   maxFallSpeed: 9
   fallGravityMultiplier: 1
   apexVelocityThreshold: 2
@@ -153,6 +153,11 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 512
+  characterAnimator: {fileID: 0}
+  punchAnimDuration: 0.45
+  landAnimDuration: 0.2
+  congelarNoFinalDaQueda: 1
+  pontoDeLoopFinalDaQueda: 0.75
   canMove: 1
 --- !u!50 &8155545285706138033
 Rigidbody2D:
@@ -215,7 +220,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.13300002, y: -0.7417314}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -225,7 +230,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 2, y: 3.5}
   m_EdgeRadius: 0
 --- !u!114 &9131826498347992555
 MonoBehaviour:
@@ -242,11 +247,14 @@ MonoBehaviour:
   attackAction: {fileID: 1120369429361536294, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   attackPoint: {fileID: 3904902116911003963}
   attackRadius: 0.5
-  planoDestePersonagem: 0
+  attackCooldown: 0.22
   punchLight: {fileID: 0}
-  peakLightIntensity: 4.5
-  lightFadeDuration: 0.2
-  heatRefractionSprite: {fileID: 0}
+  punchLightDuration: 0.22
+  suavizarApagamentoDaLuz: 1
+  inputBufferTime: 0.22
+  activeAttackWindow: 0.28
+  parryRadiusMultiplier: 1.65
+  planoDestePersonagem: 0
   isUnlockedPermanently: 0
   nativeScene: F-FogoScene
 --- !u!114 &2149070100024656396
@@ -305,9 +313,9 @@ MonoBehaviour:
   moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   planoDestePersonagem: 0
   whipPoint: {fileID: 8795021846636293183}
-  whipRange: 6
+  whipRange: 10
   swingForce: 15
-  whipTrailParticles: {fileID: 0}
+  whipTrailParticles: {fileID: 4185154556013357946}
   isUnlockedPermanently: 0
   nativeScene: F-TerraScene
 --- !u!120 &1297699923897701192
@@ -445,7 +453,7 @@ Transform:
   m_GameObject: {fileID: 4371511878759193483}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: -0.325, z: 0}
+  m_LocalPosition: {x: 1, y: -1.5249999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -477,7 +485,7 @@ Transform:
   m_GameObject: {fileID: 5042179926895061588}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: -0.325, z: 0}
+  m_LocalPosition: {x: 1, y: -1.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -508,11 +516,10 @@ Transform:
   m_GameObject: {fileID: 5521039749740904254}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: -0.325, z: 0}
+  m_LocalPosition: {x: 1, y: -1.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 617719846536231888}
+  m_Children: []
   m_Father: {fileID: 3912977319857681671}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6451589216590584188
@@ -540,7 +547,7 @@ Transform:
   m_GameObject: {fileID: 6451589216590584188}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.998, z: 0}
+  m_LocalPosition: {x: -0.1, y: -2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5400,15 +5407,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2619141660738141766, guid: f6b52f4a22eeb9643b6e6d9ff3cedb96, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5625
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2619141660738141766, guid: f6b52f4a22eeb9643b6e6d9ff3cedb96, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5625
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2619141660738141766, guid: f6b52f4a22eeb9643b6e6d9ff3cedb96, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5625
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2619141660738141766, guid: f6b52f4a22eeb9643b6e6d9ff3cedb96, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5464,7 +5471,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2619141660738141766, guid: f6b52f4a22eeb9643b6e6d9ff3cedb96, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 617719846536231888}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6b52f4a22eeb9643b6e6d9ff3cedb96, type: 3}
 --- !u!4 &2996117441232623561 stripped

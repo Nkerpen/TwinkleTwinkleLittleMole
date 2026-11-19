@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class FireTrapProjectile : MonoBehaviour
 {
@@ -6,9 +7,26 @@ public class FireTrapProjectile : MonoBehaviour
     public float lifeTime = 5f;
     public PlanoDeJogo planoDoProjetil;
 
+    [Header("Spot Light 2D (URP 2D)")]
+    [SerializeField, Tooltip("Adiciona automaticamente uma Spot Light 2D (Point) na bola de fogo para iluminar o cenário")]
+    private bool usarSpotLight2D = true;
+
+    [SerializeField, Tooltip("Cor da luz da bola de fogo normal")]
+    private Color corLuzNormal = new Color(1f, 0.45f, 0.1f, 1f);
+
+    [SerializeField, Tooltip("Cor da luz quando o projétil é rebatido (Parry)")]
+    private Color corLuzRefletida = new Color(0.2f, 0.95f, 1f, 1f);
+
+    [SerializeField, Tooltip("Intensidade base da Spot Light 2D")]
+    private float intensidadeLuz = 1.8f;
+
+    [SerializeField, Tooltip("Raio externo base da luz na escala 1.0 (ajustado automaticamente para 0.2 no Fundo)")]
+    private float raioExternoLuz = 2.6f;
+
     private FireTrap ownerTrap;
     private Rigidbody2D rb;
     private SpriteRenderer sr;
+    private Light2D spotLight2D;
     private float directionX;
     private float speed;
     private bool isReflected = false;
@@ -38,7 +56,32 @@ public class FireTrapProjectile : MonoBehaviour
             rb.linearVelocity = new Vector2(directionX * speed, 0f);
         }
 
+        if (usarSpotLight2D)
+        {
+            ConfigurarSpotLight2D(scaleMultiplier);
+        }
+
         Destroy(gameObject, lifeTime);
+    }
+
+    private void ConfigurarSpotLight2D(float scaleMultiplier)
+    {
+        spotLight2D = GetComponentInChildren<Light2D>(true);
+        if (spotLight2D == null)
+        {
+            GameObject lightObj = new GameObject("SpotLight2D_Projetil");
+            lightObj.transform.SetParent(transform, false);
+            lightObj.transform.localPosition = Vector3.zero;
+            spotLight2D = lightObj.AddComponent<Light2D>();
+        }
+
+        // Em URP 2D, "Spot Light 2D" corresponde ao LightType.Point
+        spotLight2D.lightType = Light2D.LightType.Point;
+        spotLight2D.color = corLuzNormal;
+        spotLight2D.intensity = intensidadeLuz;
+        spotLight2D.pointLightInnerRadius = 0.4f * scaleMultiplier;
+        spotLight2D.pointLightOuterRadius = raioExternoLuz * scaleMultiplier;
+        spotLight2D.falloffIntensity = 0.6f;
     }
 
     private void Update()
@@ -68,7 +111,13 @@ public class FireTrapProjectile : MonoBehaviour
 
         if (sr != null)
         {
-            sr.color = new Color(0.2f, 0.95f, 1f, 1f); // Fica azul-ciano brilhante ao ser refletido
+            sr.color = corLuzRefletida; // Fica azul-ciano brilhante ao ser refletido
+        }
+
+        if (spotLight2D != null)
+        {
+            spotLight2D.color = corLuzRefletida;
+            spotLight2D.intensity = intensidadeLuz * 1.35f;
         }
     }
 

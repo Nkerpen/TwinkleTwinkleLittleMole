@@ -8,21 +8,21 @@ public class MainMenuController : MonoBehaviour
 {
     [Header("Cenas (Altere aqui no Inspector na continuação do projeto)")]
     [SerializeField, Tooltip("Cena que abre ao clicar em Novo Jogo (Demo: F-Fogo2)")]
-    public string cenaNovoJogo = "F-Fogo2";
+    private string cenaNovoJogo = "F-Fogo2";
 
     [SerializeField, Tooltip("Cena que abre ao clicar em Continuar (Demo: F-Fogo2)")]
-    public string cenaContinuar = "F-Fogo2";
+    private string cenaContinuar = "F-Fogo2";
 
     [Header("Foco do Controle (EventSystem)")]
     [SerializeField, Tooltip("Arraste o botão 'Novo Jogo' para cá para o controle nunca perder a seleção caso você clique fora com o mouse")]
-    public Button primeiroBotao;
+    private Button primeiroBotao;
 
     [Header("Transição de Tela (Igual ao Portal)")]
     [SerializeField, Tooltip("Duração do Fade Out e do Fade In (em segundos)")]
-    public float fadeDuration = 1f;
+    private float fadeDuration = 1f;
 
     [SerializeField, Tooltip("Cor da cortina de transição")]
-    public Color fadeColor = Color.black;
+    private Color fadeColor = Color.black;
 
     private GameObject ultimoSelecionado;
     private bool isTransitioning = false;
