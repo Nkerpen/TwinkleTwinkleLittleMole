@@ -349,6 +349,17 @@
                 },
                 {
                     "name": "",
+                    "id": "87cec47f-8f5d-4e9d-a5fc-29fc3039a949",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "cbac6039-9c09-46a1-b5f2-4e5124ccb5ed",
                     "path": "<Keyboard>/2",
                     "interactions": "",
@@ -515,7 +526,7 @@
                 {
                     "name": "",
                     "id": "a13ab654-1dcf-4c27-9e7b-204ec380324b",
-                    "path": "<Keyboard>/leftShift",
+                    "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

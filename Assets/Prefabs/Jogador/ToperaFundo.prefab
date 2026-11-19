@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 6256482790446885234}
   - component: {fileID: 307215142333352536}
   - component: {fileID: 6739819556183530507}
+  - component: {fileID: 1866580359748538605}
   m_Layer: 10
   m_Name: ToperaFundo
   m_TagString: Player
@@ -229,7 +230,7 @@ MonoBehaviour:
   moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   planoDestePersonagem: 1
   whipPoint: {fileID: 3233551890923877163}
-  whipRange: 10
+  whipRange: 6
   swingForce: 15
   whipTrailParticles: {fileID: 8369292384731064297}
   isUnlockedPermanently: 0
@@ -344,6 +345,22 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
+--- !u!114 &1866580359748538605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112814163279579431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92956d5f903477d47b7e4cf4fd1375d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHitEffect
+  flashDuration: 0.14
+  quantidadeDePulsos: 2
+  sobrescreverCorHDR: 0
+  corDoFlashHDR: {r: 2.5, g: 2.5, b: 2.5, a: 1}
 --- !u!1 &4034240126820506203
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,8 +420,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3233551890923877163}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}

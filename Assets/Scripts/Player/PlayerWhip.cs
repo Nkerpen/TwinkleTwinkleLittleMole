@@ -63,7 +63,7 @@ public class PlayerWhip : MonoBehaviour
         main.simulationSpace = ParticleSystemSimulationSpace.World;
         main.emitterVelocityMode = ParticleSystemEmitterVelocityMode.Transform;
         main.gravityModifier = 0.4f * scaleMultiplier;
-        main.startSize = new ParticleSystem.MinMaxCurve(0.12f * scaleMultiplier, 0.25f * scaleMultiplier);
+        //main.startSize = new ParticleSystem.MinMaxCurve(0.12f * scaleMultiplier, 0.25f * scaleMultiplier);
         main.startSpeed = new ParticleSystem.MinMaxCurve(0.2f * scaleMultiplier, 0.6f * scaleMultiplier);
 
         // Emissão por Rate over Distance (só emite quando há movimento no balanço)
