@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6002186464618035034}
   - component: {fileID: 1272353771374580098}
   - component: {fileID: 4102900629367096257}
-  - component: {fileID: 3351845163281011177}
+  - component: {fileID: 4790968050262176290}
   m_Layer: 0
   m_Name: Estrelas
   m_TagString: Untagged
@@ -106,11 +106,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   myType: 4
   hubSceneName: TempleScene
-  planoDesteColetavel: 0
-  spriteColoridoAoColetar: {fileID: 0}
   fadeDuration: 1.5
---- !u!61 &3351845163281011177
-BoxCollider2D:
+--- !u!60 &4790968050262176290
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -139,7 +137,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -153,5 +151,10 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.0001, y: 0.0001}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 0.25}
+      - {x: -0.5, y: 0}
+      - {x: 0, y: -0.25}
+      - {x: 0.5, y: 0}
+  m_UseDelaunayMesh: 0
