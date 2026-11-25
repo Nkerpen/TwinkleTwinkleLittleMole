@@ -101,6 +101,7 @@ GameObject:
   - component: {fileID: -2429043640703399649}
   - component: {fileID: 1253125285957424292}
   - component: {fileID: 1297699923897701192}
+  - component: {fileID: 2349490612357053169}
   m_Layer: 8
   m_Name: Topera
   m_TagString: Player
@@ -428,6 +429,22 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
+--- !u!114 &2349490612357053169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2488885335783014915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92956d5f903477d47b7e4cf4fd1375d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHitEffect
+  flashDuration: 0.14
+  quantidadeDePulsos: 2
+  sobrescreverCorHDR: 0
+  corDoFlashHDR: {r: 2.5, g: 2.5, b: 2.5, a: 1}
 --- !u!1 &4371511878759193483
 GameObject:
   m_ObjectHideFlags: 0
