@@ -7,21 +7,25 @@ public class PlayerWhip : MonoBehaviour
 {
     [Header("Input System")]
     [SerializeField] private InputActionReference whipAction;
-    [SerializeField, Tooltip("Mesma ação de andar para embalar o pêndulo")] 
+    [SerializeField, Tooltip("Mesma ação de andar para embalar o pêndulo")]
     private InputActionReference moveAction;
 
     [Header("Identidade")]
     public PlanoDeJogo planoDestePersonagem;
 
     [Header("Configurações do Chicote")]
-    [SerializeField] private Transform whipPoint; 
+    [SerializeField] private Transform whipPoint;
     [SerializeField] private float whipRange = 6f;
     [SerializeField] private float swingForce = 15f;
 
-    [Header("Partículas do Chicote (Rastro Reativo)")]
+    [Header("Partículas do Chicote (Saindo das Mãos/Toupeira)")]
     [Tooltip("Se deixar vazio, procura automaticamente um ParticleSystem filho do WhipPoint")]
     [SerializeField] private ParticleSystem whipTrailParticles;
-    
+    [SerializeField] private float tamanhoMinimoFolha = 0.22f;
+    [SerializeField] private float tamanhoMaximoFolha = 0.42f;
+    [SerializeField] private float raioEmissaoMaos = 0.35f;
+    [SerializeField] private float folhasPorMetro = 12f;
+
     [Header("Progresso")]
     public bool isUnlockedPermanently = false;
     [SerializeField] private string nativeScene = "F-TerraScene";
@@ -30,7 +34,7 @@ public class PlayerWhip : MonoBehaviour
     private Rigidbody2D rb;
     private DistanceJoint2D distanceJoint;
     private LineRenderer lineRenderer;
-    
+
     private bool isSwinging;
     private Transform currentAnchor;
     private float scaleMultiplier = 1f;
@@ -41,8 +45,7 @@ public class PlayerWhip : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         lineRenderer = GetComponent<LineRenderer>();
         lineRenderer.enabled = false;
-        
-        // CÁLCULO PROPORCIONAL
+
         scaleMultiplier = Mathf.Abs(transform.localScale.x);
         swingForce *= scaleMultiplier;
 
@@ -58,25 +61,41 @@ public class PlayerWhip : MonoBehaviour
     {
         if (whipTrailParticles == null) return;
 
+        // Mantém as partículas presas às mãos/corpo (WhipPoint) sem distorção de escala
+        if (whipPoint != null)
+        {
+            whipTrailParticles.transform.SetParent(whipPoint, false);
+            whipTrailParticles.transform.localPosition = Vector3.zero;
+            whipTrailParticles.transform.localRotation = Quaternion.identity;
+            whipTrailParticles.transform.localScale = Vector3.one;
+        }
+
         var main = whipTrailParticles.main;
         main.playOnAwake = false;
         main.simulationSpace = ParticleSystemSimulationSpace.World;
         main.emitterVelocityMode = ParticleSystemEmitterVelocityMode.Transform;
-        main.gravityModifier = 0.4f * scaleMultiplier;
-        main.startSize = new ParticleSystem.MinMaxCurve(0.12f * scaleMultiplier, 0.25f * scaleMultiplier);
-        main.startSpeed = new ParticleSystem.MinMaxCurve(0.2f * scaleMultiplier, 0.6f * scaleMultiplier);
+        // Impede que o Transform.localScale da ToperaFundo encolha os sprites duas vezes
+        main.scalingMode = ParticleSystemScalingMode.Shape;
+        main.gravityModifier = 0.45f * scaleMultiplier;
+        main.startSize = new ParticleSystem.MinMaxCurve(
+            tamanhoMinimoFolha * scaleMultiplier,
+            tamanhoMaximoFolha * scaleMultiplier
+        );
+        main.startSpeed = new ParticleSystem.MinMaxCurve(0.4f * scaleMultiplier, 1.2f * scaleMultiplier);
+        main.startRotation = new ParticleSystem.MinMaxCurve(0f, 360f * Mathf.Deg2Rad);
 
-        // Emissão por Rate over Distance (só emite quando há movimento no balanço)
+        // Emite folhas conforme a toupeira se desloca no balanço
         var emission = whipTrailParticles.emission;
         emission.rateOverTime = 0f;
-        emission.rateOverDistance = 15f / Mathf.Max(scaleMultiplier, 0.2f);
+        emission.rateOverDistance = folhasPorMetro / Mathf.Max(scaleMultiplier, 0.2f);
 
-        // Shape: Edge
+        // Shape: Circle pequeno nas mãos / debaixo da toupeira
         var shape = whipTrailParticles.shape;
         shape.enabled = true;
-        shape.shapeType = ParticleSystemShapeType.SingleSidedEdge;
+        shape.shapeType = ParticleSystemShapeType.Circle;
+        shape.radius = raioEmissaoMaos * scaleMultiplier;
 
-        // Color over Lifetime: Verde-folha para Marrom-terra com Alpha indo até zero
+        // Gradiente verde-folha -> marrom-terra desaparecendo suavemente
         var col = whipTrailParticles.colorOverLifetime;
         col.enabled = true;
         Gradient grad = new Gradient();
@@ -87,7 +106,7 @@ public class PlayerWhip : MonoBehaviour
             },
             new GradientAlphaKey[] {
                 new GradientAlphaKey(1f, 0f),
-                new GradientAlphaKey(0.8f, 0.6f),
+                new GradientAlphaKey(0.85f, 0.6f),
                 new GradientAlphaKey(0f, 1f)
             }
         );
@@ -134,12 +153,11 @@ public class PlayerWhip : MonoBehaviour
     private void AttemptGrapple()
     {
         float facingDirection = Mathf.Sign(transform.localScale.x);
-        float scaledRange = whipRange * Mathf.Abs(transform.localScale.x); 
-        
+        float scaledRange = whipRange * Mathf.Abs(transform.localScale.x);
+
         Vector2 searchCenter = (Vector2)whipPoint.position + new Vector2(facingDirection * scaledRange * 0.5f, scaledRange * 0.5f);
-        
         Collider2D[] hits = Physics2D.OverlapCircleAll(searchCenter, scaledRange);
-        
+
         Transform bestAnchor = null;
         float closestDistance = float.MaxValue;
 
@@ -169,13 +187,13 @@ public class PlayerWhip : MonoBehaviour
     {
         isSwinging = true;
         currentAnchor = anchor;
-        
-        playerMovement.canMove = false; 
+
+        playerMovement.canMove = false;
 
         distanceJoint = gameObject.AddComponent<DistanceJoint2D>();
         distanceJoint.autoConfigureConnectedAnchor = false;
         distanceJoint.connectedAnchor = currentAnchor.position;
-        distanceJoint.anchor = transform.InverseTransformPoint(whipPoint.position); 
+        distanceJoint.anchor = transform.InverseTransformPoint(whipPoint.position);
         distanceJoint.distance = Vector2.Distance(whipPoint.position, currentAnchor.position);
 
         lineRenderer.enabled = true;
@@ -190,8 +208,8 @@ public class PlayerWhip : MonoBehaviour
     {
         isSwinging = false;
         currentAnchor = null;
-        
-        playerMovement.canMove = true; 
+
+        playerMovement.canMove = true;
 
         if (distanceJoint != null)
         {
@@ -210,26 +228,8 @@ public class PlayerWhip : MonoBehaviour
     {
         if (isSwinging && currentAnchor != null)
         {
-            Vector3 startPos = whipPoint.position;
-            Vector3 endPos = currentAnchor.position;
-
-            lineRenderer.SetPosition(0, startPos);
-            lineRenderer.SetPosition(1, endPos);
-
-            // Posiciona e alinha o Shape: Edge exatamente sobre o LineRenderer da corda
-            if (whipTrailParticles != null)
-            {
-                whipTrailParticles.transform.position = (startPos + endPos) * 0.5f;
-                Vector3 dir = endPos - startPos;
-                float length = dir.magnitude;
-                if (length > 0.01f)
-                {
-                    float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-                    whipTrailParticles.transform.rotation = Quaternion.Euler(0f, 0f, angle);
-                    var shape = whipTrailParticles.shape;
-                    shape.radius = (length * 0.5f) / Mathf.Max(Mathf.Abs(whipTrailParticles.transform.lossyScale.x), 0.01f);
-                }
-            }
+            lineRenderer.SetPosition(0, whipPoint.position);
+            lineRenderer.SetPosition(1, currentAnchor.position);
         }
     }
 
@@ -238,11 +238,11 @@ public class PlayerWhip : MonoBehaviour
         if (isSwinging && currentAnchor != null && moveAction != null)
         {
             float horizontalInput = moveAction.action.ReadValue<Vector2>().x;
-            
+
             if (horizontalInput != 0)
             {
                 Vector2 ropeDir = (currentAnchor.position - transform.position).normalized;
-                Vector2 swingDirection = new Vector2(ropeDir.y, -ropeDir.x); 
+                Vector2 swingDirection = new Vector2(ropeDir.y, -ropeDir.x);
 
                 if (horizontalInput < 0 && swingDirection.x > 0) swingDirection *= -1;
                 if (horizontalInput > 0 && swingDirection.x < 0) swingDirection *= -1;
@@ -267,7 +267,7 @@ public class PlayerWhip : MonoBehaviour
             float facingDirection = Mathf.Sign(transform.localScale.x);
             float scaledRange = whipRange * Mathf.Abs(transform.localScale.x);
             Vector2 searchCenter = (Vector2)whipPoint.position + new Vector2(facingDirection * scaledRange * 0.5f, scaledRange * 0.5f);
-            
+
             Gizmos.color = Color.green;
             Gizmos.DrawWireSphere(searchCenter, scaledRange);
         }

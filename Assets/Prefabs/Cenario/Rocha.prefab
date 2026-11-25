@@ -1426,7 +1426,7 @@ ParticleSystem:
         m_NumAlphaKeys: 2
   UVModule:
     serializedVersion: 2
-    enabled: 1
+    enabled: 0
     mode: 1
     timeMode: 0
     fps: 30
@@ -5001,7 +5001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RochaQuebravel
   planoDestaRocha: 1
-  particulasDePedra: {fileID: 0}
+  particulasDePedra: {fileID: 664487654737928829}
 --- !u!61 &1680793879311119651
 BoxCollider2D:
   m_ObjectHideFlags: 0
