@@ -144,7 +144,7 @@ MonoBehaviour:
   moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   jumpAction: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   moveSpeed: 10
-  jumpForce: 10
+  jumpForce: 12
   maxFallSpeed: 9
   fallGravityMultiplier: 1
   apexVelocityThreshold: 2
@@ -154,7 +154,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 512
-  characterAnimator: {fileID: 0}
+  characterAnimator: {fileID: 874023931435209566}
   punchAnimDuration: 0.45
   landAnimDuration: 0.2
   congelarNoFinalDaQueda: 1
@@ -314,9 +314,13 @@ MonoBehaviour:
   moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   planoDestePersonagem: 0
   whipPoint: {fileID: 8795021846636293183}
-  whipRange: 10
+  whipRange: 8
   swingForce: 15
   whipTrailParticles: {fileID: 4185154556013357946}
+  tamanhoMinimoFolha: 0.22
+  tamanhoMaximoFolha: 1
+  raioEmissaoMaos: 0.35
+  folhasPorMetro: 12
   isUnlockedPermanently: 0
   nativeScene: F-TerraScene
 --- !u!120 &1297699923897701192
@@ -5486,6 +5490,10 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6679467607967592409, guid: f6b52f4a22eeb9643b6e6d9ff3cedb96, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3cef12325c72a7c45b7738655162ffc8, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -5494,6 +5502,11 @@ PrefabInstance:
       addedObject: {fileID: 617719846536231888}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6b52f4a22eeb9643b6e6d9ff3cedb96, type: 3}
+--- !u!95 &874023931435209566 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 138626032920836817, guid: f6b52f4a22eeb9643b6e6d9ff3cedb96, type: 3}
+  m_PrefabInstance: {fileID: 994547330029775247}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2996117441232623561 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2619141660738141766, guid: f6b52f4a22eeb9643b6e6d9ff3cedb96, type: 3}

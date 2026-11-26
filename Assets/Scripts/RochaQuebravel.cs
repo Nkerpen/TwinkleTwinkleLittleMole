@@ -18,6 +18,7 @@ public class RochaQuebravel : MonoBehaviour
 
     private SpriteRenderer rockRenderer;
     private Collider2D rockCollider;
+    private bool isBroken = false;
 
     private void Awake()
     {
@@ -29,10 +30,12 @@ public class RochaQuebravel : MonoBehaviour
             particulasDePedra = GetComponentInChildren<ParticleSystem>(true);
         }
 
-        // Garante que o Particle System filho do Rocha.prefab fique parado até a rocha quebrar
         if (particulasDePedra != null)
         {
             var main = particulasDePedra.main;
+            // CRÍTICO: Muda stopAction para None ANTES de chamar Stop(),
+            // caso contrário a Unity destrói o ParticleSystem no frame 0!
+            main.stopAction = ParticleSystemStopAction.None;
             main.playOnAwake = false;
             main.loop = false;
             particulasDePedra.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
@@ -41,23 +44,30 @@ public class RochaQuebravel : MonoBehaviour
 
     public void Break()
     {
+        if (isBroken) return;
+        isBroken = true;
+
         Debug.Log($"A rocha {gameObject.name} ({planoDestaRocha}) foi destruída!");
 
         if (particulasDePedra != null)
         {
-            // 1. Desparenta o Particle System para que o Destroy(gameObject) da rocha não o destrua junto
+            // 1. Garante que está ativo e desparenta antes de destruir a rocha
+            particulasDePedra.gameObject.SetActive(true);
             particulasDePedra.transform.SetParent(null);
+            particulasDePedra.transform.position = transform.position;
             particulasDePedra.transform.rotation = Quaternion.identity;
+            particulasDePedra.transform.localScale = Vector3.one;
 
             float scaleFactor = (planoDestaRocha == PlanoDeJogo.Fundo) ? 0.2f : 1f;
 
-            // 2. Main Module: Gravidade 1.5 e Simulation Space = World
+            // 2. Main Module: agora sim pode ativar StopAction = Destroy
             var main = particulasDePedra.main;
             main.loop = false;
             main.simulationSpace = ParticleSystemSimulationSpace.World;
+            main.scalingMode = ParticleSystemScalingMode.Shape;
             main.gravityModifier = 1.5f * scaleFactor;
             main.startSpeed = new ParticleSystem.MinMaxCurve(3f * scaleFactor, 7f * scaleFactor);
-            main.startSize = new ParticleSystem.MinMaxCurve(0.15f * scaleFactor, 0.3f * scaleFactor);
+            main.startSize = new ParticleSystem.MinMaxCurve(0.2f * scaleFactor, 0.35f * scaleFactor);
             main.stopAction = ParticleSystemStopAction.Destroy;
 
             // 3. Shape Module: Box do tamanho do colisor da rocha
@@ -84,16 +94,22 @@ public class RochaQuebravel : MonoBehaviour
                 collision.collidesWith = mask;
             }
 
-            // 5. Sincroniza Sorting Layer e Sorting Order com o sprite da rocha
+            // 5. Sincroniza Sorting Layer e desenha logo à frente do plano da rocha
             var psRenderer = particulasDePedra.GetComponent<ParticleSystemRenderer>();
             if (rockRenderer != null && psRenderer != null)
             {
                 psRenderer.sortingLayerID = rockRenderer.sortingLayerID;
-                psRenderer.sortingOrder = rockRenderer.sortingOrder;
+                psRenderer.sortingOrder = rockRenderer.sortingOrder + 1;
             }
 
-            particulasDePedra.Play();
+            // 6. Reinicia o relógio interno e dispara o Burst
+            particulasDePedra.Clear(true);
+            particulasDePedra.Play(true);
             Destroy(particulasDePedra.gameObject, 2.5f);
+        }
+        else
+        {
+            Debug.LogWarning($"[RochaQuebravel] '{gameObject.name}' quebrou sem ParticleSystem filho!");
         }
 
         Destroy(gameObject);

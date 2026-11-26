@@ -47,7 +47,7 @@ public class WindGust : MonoBehaviour
 
         float scaleFactor = (planoDesteVento == PlanoDeJogo.Fundo) ? 0.2f : 1f;
 
-        // 1. Mede o tamanho real em unidades de mundo do BoxCollider2D (acompanha qualquer escala do objeto pai!)
+        // 1. Mede o tamanho real em unidades de mundo do BoxCollider2D (acompanha qualquer escala do objeto pai)
         Bounds bounds = windCollider.bounds;
         if (bounds.size.sqrMagnitude < 0.0001f)
         {
@@ -86,7 +86,7 @@ public class WindGust : MonoBehaviour
         windParticles.transform.position = emitterWorldPos;
         windParticles.transform.rotation = Quaternion.identity;
 
-        // 3. Ajusta o Shape: Box exatamente à largura do colisor e altura da faixa base (5-20%)
+        // 3. Ajusta o Shape: Box exatamente à largura do colisor e altura da faixa base
         Vector3 parentLossy = transform.lossyScale;
         float invX = Mathf.Abs(parentLossy.x) > 0.0001f ? 1f / Mathf.Abs(parentLossy.x) : 1f;
         float invY = Mathf.Abs(parentLossy.y) > 0.0001f ? 1f / Mathf.Abs(parentLossy.y) : 1f;
@@ -125,14 +125,13 @@ public class WindGust : MonoBehaviour
         vel.y = new ParticleSystem.MinMaxCurve(particleVel.y);
         vel.z = new ParticleSystem.MinMaxCurve(0f);
 
-        // 6. Turbulência suave (Noise)
         var noise = windParticles.noise;
         noise.enabled = true;
         noise.strength = 0.2f * scaleFactor;
         noise.frequency = 1.5f;
         noise.scrollSpeed = 0.5f;
 
-        // 7. Mantém o Render Mode do seu prefab (ex: None com Trails) e ajusta apenas o Sorting Order
+        // 7. Mantém o Render Mode e ajusta apenas o Sorting Order
         var psRenderer = windParticles.GetComponent<ParticleSystemRenderer>();
         if (psRenderer != null)
         {

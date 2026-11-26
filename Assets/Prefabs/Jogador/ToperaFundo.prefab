@@ -60,7 +60,7 @@ MonoBehaviour:
   moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   jumpAction: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   moveSpeed: 10
-  jumpForce: 10
+  jumpForce: 12
   maxFallSpeed: 10
   fallGravityMultiplier: 1
   apexVelocityThreshold: 2
@@ -70,7 +70,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 2048
-  characterAnimator: {fileID: 0}
+  characterAnimator: {fileID: 2244149161012632027}
   punchAnimDuration: 0.45
   landAnimDuration: 0.2
   congelarNoFinalDaQueda: 1
@@ -233,6 +233,10 @@ MonoBehaviour:
   whipRange: 6
   swingForce: 15
   whipTrailParticles: {fileID: 8369292384731064297}
+  tamanhoMinimoFolha: 0.22
+  tamanhoMaximoFolha: 1
+  raioEmissaoMaos: 0.35
+  folhasPorMetro: 12
   isUnlockedPermanently: 0
   nativeScene: F-TerraScene
 --- !u!120 &6739819556183530507
@@ -5478,6 +5482,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 3627755850200131006, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3cef12325c72a7c45b7738655162ffc8, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -5486,6 +5494,11 @@ PrefabInstance:
       addedObject: {fileID: 2007270840361454786}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+--- !u!95 &2244149161012632027 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6475174466200374408, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
+  m_PrefabInstance: {fileID: 5114014514780280147}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6102988555880408701 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1318018512218567470, guid: 48a730d5136feda4a8c33dfcce590793, type: 3}
